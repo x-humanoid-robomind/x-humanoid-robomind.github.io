@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="description"
+    content="RoboMIND: Establishing a Benchmark for Multi-embodiment Intelligence Normative Data in Robot Manipulation.">
+  <meta name="keywords" content="RoboMIND, Multi-embodiment Intelligence, Robot Manipulation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation</title>
+
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+  <!-- <link href="./static/css/googlecss.css"
+        rel="stylesheet"> -->
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="./static/js/jquerymin351.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <style>
+    .author-block {
+        display: none;
+    }
+
+    .publication-authors:hover .author-block {
+        display: block;
+    }
+</style>
+
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://x-humanoid.com">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More 
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://x-humanoid.com/">
+            X-Humanoid
+          </a>
+          <a class="navbar-item" href="https://github.com/x-humanoid-robomind">
+            Github
+          </a>
+        </div>
+      </div> -->
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">RoboMIND: Benchmark on Multi-embodiment
+              Intelligence Normative Data for Robot Manipulation </h1>
+            <div class="is-size-5 publication-authors">
+                <span class="team-name"><b>RoboMIND Dataset Team <p style="font-size: 70%">(hover to display full author list)</p></b></span>
+                <span class="author-block">Kun Wu<sup>1,∗</sup>, Chengkai Hou<sup>2,3,∗</sup>, Jiaming Liu<sup>2,3,∗</sup>,
+                Zhengping Che<sup>1,∗,†</sup>, Xiaozhu Ju<sup>1,∗,†</sup>,<span class="author-block"></span> Zhuqin Yang<sup>1</sup>, Meng Li<sup>1</sup>
+                , Yinuo Zhao<sup>1</sup>, Zhiyuan Xu<sup>1</sup>, Guang Yang<sup>1</sup>, Zhen Zhao<sup>1</sup>, Guangyu Li<sup>1</sup>, Zhao Jin<sup>1</sup>
+                , Lecheng Wang<sup>1</sup>, Jilei Mao<sup>1</sup>, Xinhua Wang<sup>1</sup>, Shichao Fan<sup>1</sup>, Ning Liu<sup>1</sup>, Pei Ren<sup>1</sup>
+                , Qiang Zhang<sup>1</sup>, Yaoxu Lv<sup>2</sup>, Mengzhen Liu<sup>2,3</sup>, Jingyang He<sup>2,3</sup>, Yulin Luo<sup>2,3</sup>, Zeyu Gao<sup>3</sup>
+                , Chenxuan Li<sup>2</sup>, Chenyang Gu<sup>2,3</sup>, Yankai Fu<sup>2</sup>,<br> Di Wu<sup>2</sup>, Xingyu Wang<sup>2</sup>, Sixiang Chen<sup>2,3</sup>, Zhenyu Wang<sup>2</sup>, Pengju An<sup>2,3</sup>, Siyuan Qian<sup>2,3</sup>,
+                 <br> Shanghang Zhang <sup>2,3
+                    <span class="icon">
+                      <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" focusable="false"
+                        data-prefix="fa" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                          d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                        </path>
+                      </svg>
+                    
+                    </span>
+                  </sup>
+                , Jian Tang<sup>1
+                    <span class="icon">
+                      <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" focusable="false"
+                        data-prefix="fa" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                          d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                        </path>
+                      </svg>
+                    </span>
+                  </sup>
+                </span>
+
+
+                <div class="is-size-6 publication-authors"> 
+                  <span class="author-block"><sup>*</sup>Co-first Authors, <sup>†</sup>Corresponding Authors, 
+                    <sup> <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" focusable="false"
+                      data-prefix="fa" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512" data-fa-i2svg="">
+                      <path fill="currentColor"
+                        d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                      </path>
+                    </svg>
+                    </sup> Project Leaders 
+                  </span>
+                 <br>
+               
+                <div class="is-size-5 publication-authors id=institute">
+                  <sup>1</sup>Beijing Innovation Center of Humanoid Robotics, 
+                    <sup>2</sup>State Key Laboratory of Multimedia Information Processing, School of Computer Science, Peking University, 
+                    <sup>3</sup>Beijing Academy of Artificial Intelligence
+                  
+                </div>
+                 <br>           
+                </div>
+              </div>
+              
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2412.13877" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/2412.13877" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span> -->
+                <!-- Code Link. -->
+                <!-- <span class="link-block">
+                  <a href="https://github.com/x-humanoid-robomind"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+                <!-- Dataset Link. -->
+                <span class="link-block">
+                  <a href="https://zitd5je6f7j.feishu.cn/share/base/form/shrcnOF6Ww4BuRWWtxljfs0aQqh"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/teaser.mp4" type="video/mp4">
+        </video> -->
+        <div class="yush-div-center">
+          <img src="./static/images/roboMIND.png" class="img-responsive">
+        </div>
+
+        <h2 class="subtitle has-text-centered">
+          We introduce <span style="font-weight: bold"> RoboMIND</span>, a benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation, comprising 55k real-world demonstration trajectories across 4 embodiments, 279 diverse tasks and 61 distinct object classes.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <section class="hero is-light is-small id=videos">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-steve">
+            <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/fail_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/fail_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-shiba">
+            <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/fail_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-fullbody">
+            <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/fail_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-blueshirt">
+            <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/fail_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-mask">
+            <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/fail_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-coffee">
+            <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/fail_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-toby">
+            <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/fail_1.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+
+
+  <section class="section" id="single-task-1">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              In this paper, we introduce RoboMIND (Multi-embodiment Intelligence Normative Data for Robot manipulation), featuring 55k real-world demonstration trajectories across 279 diverse tasks involving 61 different object classes. RoboMIND is collected through human teleoperation and encompasses comprehensive robotic-related information, including multi-view RGB-D images, proprioceptive robot state information, end effector details, and linguistic task descriptions. We provide a thorough quantitative and qualitative analysis of RoboMIND across multiple dimensions, offering detailed insights into the diversity of our datasets. In our experiments, we conduct extensive real-world testing with four state-of-the-art imitation learning methods, demonstrating that training with RoboMIND data results in a high manipulation success rate and strong generalization. 
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <!--/ Abstract. -->
+
+      <!-- Hardware Setup. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Hardware Setup</h2>
+          <div class="content has-text-justified">
+            <div class="columns" id="4pic">
+              <div class="column has-text-centered">
+                  <img src="./static/images/Franka.png" class="interpolation-image" alt="" style="display: block; width: 100%; margin-left: auto; margin-right: auto">
+              </div>
+              <div class="column has-text-centered">
+                  <img src="./static/images/Tien Kung.png" class="interpolation-image" alt="" style="display: block; width: 100%; margin-left: auto; margin-right: auto">
+              </div>
+              <div class="column has-text-centered">
+                <img src="./static/images/AgileX.png" class="interpolation-image" alt="" style="display: block; width: 100%; margin-left: auto; margin-right: auto">
+            </div>
+            <div class="column has-text-centered">
+                  <img src="./static/images/UR.png" class="interpolation-image" alt="" style="display: block; width: 100%; margin-left: auto; margin-right: auto">
+              </div>
+          </div>
+
+            <p> For the Franka Emika Panda robots, we use cameras positioned at the top, left, and right viewpoints to record the visual information of the task trajectories. For the AgileX/Tien Kung robots, we use their built-in cameras to record visual information. For UR robots, we use an external top camera. All demonstrations are collected using high-quality human teleoperation and stored on a unified intelligence platform. </p>
+
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <!-- / Hardware Setup. -->
+
+
+      <!-- RoboMIND Data Analysis. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">RoboMIND Data Analysis</h2>
+          <div class="content has-text-justified">
+            <div class="yush-div-center">
+              <img src="./static/images/piechart.png" class="img-responsive">
+            </div>
+
+            <p><b>Dataset Overview</b>. (a) total trajectories categorized by embodiments, (b) trajectory lengths by embodiments, (c) total trajectories grouped by task categories, and (d) total trajectories based on object usage scenarios.</p>
+            <br>
+            <br>
+            <div class="yush-div-center" style="display: flex; justify-content: center;">
+               <img src="./static/images/Distribution.png" class="img-responsive" style="width: 75%"> 
+              </div> 
+            <p> <b>Distribution of objects</b> in RoboMIND,  covering most daily life settings: domestic, industrial, kitchen, office, and retail.</p>
+            <br>
+            <br>
+            <div class="yush-div-center" style="display: flex; justify-content: center;">
+              <img src="./static/images/skill counts.png" class="img-responsive" style="width: 80%">
+            </div>
+              <p> <b>Left</b>: A histogram of <b>skill counts</b> across tasks for four embodiments. AgileX tasks typically involve two or three combined skills, extending the task horizon. Meanwhile, Tien Kung tasks vary in length, with some comprising up to five skills per task. <b>Right</b>: We visualize the AX-PutCarrot task with the AgileX robot, which involves three different skills. </p>
+              <br>
+              <br>
+              <div class="yush-div-center" style="display: flex; justify-content: center;">  
+            <img src="./static/images/Annotation.png" class="img-responsive">
+           </div>
+              <p> <b>Language Description Annotation</b>. We provide refined linguistic annotations for 10,000 successful robot motion trajectories.   </p>
+              <br>
+              <br>
+            <div class="yush-div-center" style="display: flex; justify-content: center;">     
+              <img src="./static/images/Visualization.png" class="img-responsive">
+            </div>
+              <p> <b>Visualization of failed data collection cases</b>. We present two examples of failure from Franka and AgileX. In the FR-PlacePlateInPlateRack task (second row), the Franka arm fails to align with the slot, causing the plate to slip due to operator interference. In the AX-PutCarrot task (fourth row), the AgileX gripper unexpectedly opens, dropping the carrot. These failure cases were filtered out during quality inspection to maintain dataset quality. </p>
+          </div>
+        </div>
+      </div>
+      <!-- / RoboMIND Data Analysis. -->
+  </section>
+
+  <section class="section" id="demo">
+    <div class="container is-max-desktop">
+      <!-- Experiment  -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Experiments</h2>
+      <!-- Experiment  -->
+      <p> We conduct comprehensive experiments employing four popular imitation learning methods, including ACT,
+        BAKU, RDT-1B and OpenVLA on selected RoboMIND tasks to assess their performance and limitations.
+      </p>
+      <br>
+
+      <div id="single-task">
+        <!-- Performance on Single Tasks.. -->
+         <br>
+        <h3 class="title is-4">Success Examples of ACT on Single Tasks</h3> 
+        <!-- <p> <b>Single Task Results</b>. ACT achieves an average success rate of 30.7% (Franka), 34.0% (Tien Kung), 55.3% (AgileX) and 38.0% (UR-5e).
+        </p> -->
+        <div class="content has-text-justified">
+            <div class="columns">
+              <div class="column has-text-centered">
+                  <p style="font-size: 125%"><b>FR-PlacePearBowl</b></p>
+                  <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                      <source src="./static/videos/compressed_FR-PlacePearBowl.MP4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="column has-text-centered">
+                  <p style="font-size: 125%"><b>FR-SideCloseDrawer</b></p>
+                  <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                      <source src="./static/videos/compressed_FR-SideCloseDrawer.MP4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="column has-text-centered">
+                  <p style="font-size: 125%"><b>FR-PlaceBluePink</b></p>
+                  <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                      <source src="./static/videos/FR-PlaceBluePink.mp4" type="video/mp4">
+                  </video>
+              </div>
+          </div>
+          <div class="columns">
+              <div class="column has-text-centered">
+                  <p style="font-size: 125%"><b>TK-OpenTrashBin</b></p>
+                  <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                      <source src="./static/videos/TK-OpenTrashBin.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="column has-text-centered">
+                  <p style="font-size: 125%"><b>TK-CloseTrashBin</b></p>
+                  <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                      <source src="./static/videos/TK-CloseTrashBin.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="column has-text-centered">
+                  <p style="font-size: 125%"><b>TK-OpenDrawerLowerCabinet</b></p>
+                  <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                      <source src="./static/videos/TK-OpenDrawerLowerCabinet.mp4" type="video/mp4">
+                  </video>
+              </div>
+          </div>
+          <div class="columns">
+            <div class="column has-text-centered">
+                <p style="font-size: 125%"><b>AX-AppleYellowPlate</b></p>
+                <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                    <source src="./static/videos/AX-AppleYellowPlate.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column has-text-centered">
+                <p style="font-size: 125%"><b>AX-CarrotGreenPlate</b></p>
+                <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                    <source src="./static/videos/AX-CarrotGreenPlate.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column has-text-centered">
+                <p style="font-size: 125%"><b>AX-UnpackBowl</b></p>
+                <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                    <source src="./static/videos/AX-UnpackBowl.mp4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+        <div class="columns">
+          <div class="column has-text-centered">
+              <p style="font-size: 125%"><b>UR-CloseTopWhiteDrawer</b></p>
+              <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                  <source src="./static/videos/UR-CloseTopWhiteDrawer.mp4" type="video/mp4">
+              </video>
+          </div>
+          <div class="column has-text-centered">
+              <p style="font-size: 125%"><b>UR-PickRoundBread</b></p>
+              <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                  <source src="./static/videos/UR-PickRoundBread.mp4" type="video/mp4">
+              </video>
+          </div>
+          <div class="column has-text-centered">
+              <p style="font-size: 125%"><b>AX-PackPlate</b></p>
+              <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                  <source src="./static/videos/AX-PackPlate.mp4" type="video/mp4">
+              </video>
+          </div>
+         </div>
+          <div class="columns is-centered">
+          </div>
+          <br>
+        </div>
+      </div>
+      <br>
+      <div id="multitask">
+        <!-- Performance on Multi-Tasks. -->
+        <h3 class="title is-4">Success Examples of RTD-1B on Multi-task Setting</h3>
+        <div class="content has-text-justified">
+          <div class="columns">
+            <div class="column has-text-centered">
+                <p style="font-size: 125%"><b>AX-AppleBluePlate</b></p>
+                <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                    <source src="./static/videos/AX-AppleBluePlate.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column has-text-centered">
+                <p style="font-size: 125%"><b>AX-PackBowl</b></p>
+                <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                    <source src="./static/videos/AX-PackBowl.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column has-text-centered">
+                <p style="font-size: 125%"><b>AX-TakePotato</b></p>
+                <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                    <source src="./static/videos/AX-TakePotato.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="columns is-centered">
+        </div>
+        <br>
+        
+        
+        <h3 class="title is-4">Success Examples of OpenVLA on Multi-task Setting</h3>
+        <div class="content has-text-justified">
+        <div class="columns">
+            <div class="column has-text-centered">
+                <p style="font-size: 125%"><b>FR-OpenCapLid</b></p>
+                <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                    <source src="./static/videos/FR-OpenCapLid.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column has-text-centered">
+                <p style="font-size: 125%"><b>FR-PickStrawberryInBowl</b></p>
+                <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                    <source src="./static/videos/FR-PickStrawberryInBowl.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column has-text-centered">
+                <p style="font-size: 125%"><b>FR-SlideCloseDrawer</b></p>
+                <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
+                    <source src="./static/videos/compressed_FR-SideCloseDrawer.MP4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+          <div class="columns is-centered">
+          </div>
+          <br>
+          <p>
+          For more details on data analysis and experiment results, please refer to our <a href="https://arxiv.org/abs/2412.13877">paper</a>.
+          </p>          
+        </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{wu2024robomindbenchmarkmultiembodimentintelligence,
+        title={RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation},
+        author={Kun Wu and Chengkai Hou and Jiaming Liu and Zhengping Che and Xiaozhu Ju and Zhuqin Yang and Meng Li and Yinuo Zhao and Zhiyuan Xu and Guang Yang and Zhen Zhao and Guangyu Li and Zhao Jin and Lecheng Wang and Jilei Mao and Xinhua Wang and Shichao Fan and Ning Liu and Pei Ren and Qiang Zhang and Yaoxu Lyu and Mengzhen Liu and Jingyang He and Yulin Luo and Zeyu Gao and Chenxuan Li and Chenyang Gu and Yankai Fu and Di Wu and Xingyu Wang and Sixiang Chen and Zhenyu Wang and Pengju An and Siyuan Qian and Shanghang Zhang and Jian Tang},
+        journal={arXiv preprint arXiv:2412.13877},
+        year={2024}
+      }</code></pre>
+    </div>
+    <br>
+  </section>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://arxiv.org/abs/2412.13877">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <!-- <a class="icon-link" href="https://x-humanoid-robomind.github.io/" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a> -->
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content has-text-centered">
+            <p>
+              The website template was borrowed from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a>
+              and <a href="https://eureka-research.github.io/">Eureka</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
