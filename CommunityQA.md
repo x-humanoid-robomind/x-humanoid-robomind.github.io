@@ -1,6 +1,6 @@
 # RoboMIND Community QA
 
-English | [中文](./Community QA.zh.md)
+English | [中文](./CommunityQA.zh.md)
 
 [Project page](https://x-humanoid-robomind.github.io/) | [Paper](https://arxiv.org/abs/2412.13877) | [issues](https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io) | [Dataset](http://open.flopsera.com/flopsera-open/data-details/RoboMIND)
 
