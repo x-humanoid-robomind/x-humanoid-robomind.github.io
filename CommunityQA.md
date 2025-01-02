@@ -2,7 +2,7 @@
 
 English | [中文](./CommunityQA.zh.md)
 
-[Project page](https://x-humanoid-robomind.github.io/) | [Paper](https://arxiv.org/abs/2412.13877) | [issues](https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io) | [Dataset](http://open.flopsera.com/flopsera-open/data-details/RoboMIND)
+[Project page](https://x-humanoid-robomind.github.io/) | [Paper](https://arxiv.org/abs/2412.13877) | [Dataset](http://open.flopsera.com/flopsera-open/data-details/RoboMIND)
 
 ### Q1: Flopsera Platform Registration Process?
 **A:** The registration process for the Flopsera platform involves the following steps: Agree to the "Data Usage Agreement" → Scan the WeChat QR code → Fill in the correct email address and phone number linked to WeChat → Obtain and enter the mobile verification code → Submit to complete registration.
