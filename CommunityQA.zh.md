@@ -2,7 +2,7 @@
 
 [English](./CommunityQA.md) | 中文
 
-[项目页面](https://x-humanoid-robomind.github.io/) | [论文](https://arxiv.org/abs/2412.13877) | [issues](https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io) | [数据平台](http://open.flopsera.com/flopsera-open/data-details/RoboMIND)
+[项目页面](https://x-humanoid-robomind.github.io/) | [论文](https://arxiv.org/abs/2412.13877) | [数据平台](http://open.flopsera.com/flopsera-open/data-details/RoboMIND)
 
 ### Q1：Flopsera 平台注册流程？
 **A：** Flopsera 平台注册流程：点击同意《数据使用协议》→用微信扫码→填写正确的邮箱地址和与微信绑定的手机号→获取并填入手机验证码→提交完成注册。
