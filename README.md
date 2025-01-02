@@ -77,6 +77,8 @@ For the specific data paths, please refer to [franka_3rgb_2cam_paths.md](./stati
 ## 📊 Example of Data Usage 📊
 
 Please refer to [Quick_Start.ipynb](./static/quick_start.ipynb).
+We provide a simple Franka sample trajectory along with the code for reading the dataset [read_h5.py](./static/read_h5.py) and [pick_apple_into_drawer_h5.zip](https://drive.google.com/file/d/1EC26fwhftw-9h_HJ5ohqxf4kcEJe_ZzH/view?usp=sharing).
+
 
 ## 📝 Citation 📝
 If you find RoboMIND helpful in your research, please consider citing:
