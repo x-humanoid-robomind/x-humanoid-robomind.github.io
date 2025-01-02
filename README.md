@@ -66,7 +66,7 @@ Below is a partial directory structure example showing two training trajectories
 |-- h5_ur_1rgb
 ```
 
-## HDF5 File Format
+## 🗃️ HDF5 File Format 🗃️
 
 Please refer to [all_robot_h5_info.md](./static/all_robot_h5_info.md).
 
