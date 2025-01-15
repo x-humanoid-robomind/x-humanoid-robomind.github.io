@@ -74,6 +74,10 @@ Due to equipment maintenance, 675 trajectories in the h5_franka_3rgb folder only
 
 For the specific data paths, please refer to [franka_3rgb_2cam_paths.md](./static/franka_3rgb_2cam_paths.md).
 
+## Task Language Instructions
+
+We have provided corresponding language instructions for each task [RoboMIND_instr.csv](./static/RoboMIND_v1_1_instr.csv)。
+
 ## 📊 Example of Data Usage 📊
 
 Please refer to [Quick_Start.ipynb](./static/quick_start.ipynb).
