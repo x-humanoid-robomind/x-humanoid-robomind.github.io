@@ -73,6 +73,9 @@ RoboMIND数据集汇集了多种机器人平台的操作数据，包括31,005条
 
 我们提供了一个简单 franka sample轨迹以及数据集读取的代码 [read_h5.py](./static/read_h5.py) 与 [pick_apple_into_drawer_h5.zip](https://drive.google.com/file/d/1EC26fwhftw-9h_HJ5ohqxf4kcEJe_ZzH/view?usp=sharing)。
 
+## 任务语言指令
+
+我们为每个任务提供了对应的语言指令，见[RoboMIND_instr.csv](./static/RoboMIND_v1_1_instr.csv)。
 
 
 ## 📝 引用 📝
