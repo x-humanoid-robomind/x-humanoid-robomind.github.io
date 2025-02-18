@@ -240,11 +240,13 @@ arm (7d): [base link, ..., end_effector link]
 
 end_effector (12d): [left hand (6d), right hand (6d)]
 
-hand (6d): [little finger, ring finger, middle finger, index finger, thumb0, thumb1]
+hand (6d): [little finger, ring finger, middle finger, index finger, thumb0 for bending, thumb1 for rotation]
 
 joint_position (14d): [left arm (7d), right arm (7d)]
 
 arm (7d): [base link, ..., end_effector link]
+
+For more detail of the Insipre Dexterous hand, please refer to [the dexterous hands instructions](https://en.inspire-robots.com/wp-content/uploads/2024/02/INSPIRE-ROBOTS-THE-DEXTEROUS-HANDS-INSTRUCTIONS.pdf).
 
     Found HDF5 file: ./h5_tienkung_xsens_1rgb/battery_insertion_with_pullout/success_episodes/train/2024-09-19-10-20-11/data/trajectory.hdf5
 

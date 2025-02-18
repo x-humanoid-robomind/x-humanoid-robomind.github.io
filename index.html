@@ -77,9 +77,9 @@
                 <span class="team-name"><b>RoboMIND Team <p style="font-size: 70%">(hover to display full author list)</p></b></span>
                 <span class="author-block">Kun Wu<sup>1,∗</sup>, Chengkai Hou<sup>2,3,∗</sup>, Jiaming Liu<sup>2,3,∗</sup>,
                 Zhengping Che<sup>1,∗,†</sup>, Xiaozhu Ju<sup>1,∗,†</sup>,<span class="author-block"></span> Zhuqin Yang<sup>1</sup>, Meng Li<sup>1</sup>
-                , Yinuo Zhao<sup>1</sup>, Zhiyuan Xu<sup>1</sup>, Guang Yang<sup>1</sup>, Zhen Zhao<sup>1</sup>, Guangyu Li<sup>1</sup>, Zhao Jin<sup>1</sup>
-                , Lecheng Wang<sup>1</sup>, Jilei Mao<sup>1</sup>, Xinhua Wang<sup>1</sup>, Shichao Fan<sup>1</sup>, Ning Liu<sup>1</sup>, Pei Ren<sup>1</sup>
-                , Qiang Zhang<sup>1</sup>, Yaoxu Lv<sup>2</sup>, Mengzhen Liu<sup>2,3</sup>, Jingyang He<sup>2,3</sup>, Yulin Luo<sup>2,3</sup>, Zeyu Gao<sup>3</sup>
+                , Yinuo Zhao<sup>1</sup>, Zhiyuan Xu<sup>1</sup>, Guang Yang<sup>1</sup>, Shichao Fan<sup>1</sup>, Xinhua Wang<sup>1</sup>, Fei Liao<sup>1</sup>, Zhen Zhao<sup>1</sup>, Guangyu Li<sup>1</sup>, Zhao Jin<sup>1</sup>
+                , Lecheng Wang<sup>1</sup>, Jilei Mao<sup>1</sup>, Ning Liu<sup>1</sup>, Pei Ren<sup>1</sup>
+                , Qiang Zhang<sup>1</sup>, Yaoxu Lyu<sup>2</sup>, Mengzhen Liu<sup>2,3</sup>, Jingyang He<sup>2,3</sup>, Yulin Luo<sup>2,3</sup>, Zeyu Gao<sup>3</sup>
                 , Chenxuan Li<sup>2</sup>, Chenyang Gu<sup>2,3</sup>, Yankai Fu<sup>2</sup>,<br> Di Wu<sup>2</sup>, Xingyu Wang<sup>2</sup>, Sixiang Chen<sup>2,3</sup>, Zhenyu Wang<sup>2</sup>, Pengju An<sup>2,3</sup>, Siyuan Qian<sup>2,3</sup>,
                  <br> Shanghang Zhang <sup>2,3
                     <span class="icon">
@@ -171,6 +171,22 @@
                     </span>
                     <span>Data</span>
                   </a>
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-database"></i>
+                      </span>
+                      <span>Huggingface</span>
+                    </a>
+                  <span class="link-block">
+                    <a href="https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Github</span>
+                    </a>
               </div>
             </div>
           </div>
@@ -186,11 +202,11 @@
           <source src="./static/videos/teaser.mp4" type="video/mp4">
         </video> -->
         <div class="yush-div-center">
-          <img src="./static/images/roboMIND.png" class="img-responsive">
+          <img src="./static/images/roboMIND_new.png" class="img-responsive">
         </div>
 
         <h2 class="subtitle has-text-centered">
-          We introduce <span style="font-weight: bold"> RoboMIND</span>, a benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation, comprising 55k real-world demonstration trajectories across 4 embodiments, 279 diverse tasks and 61 distinct object classes.
+          We introduce <span style="font-weight: bold"> RoboMIND</span>, a benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation, comprising 107k real-world demonstration trajectories across 4 embodiments, 479 diverse tasks and 96 distinct object classes.
         </h2>
       </div>
     </div>
@@ -204,7 +220,37 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              In this paper, we introduce RoboMIND (Multi-embodiment Intelligence Normative Data for Robot manipulation), featuring 55k real-world demonstration trajectories across 279 diverse tasks involving 61 different object classes. RoboMIND is collected through human teleoperation and encompasses comprehensive robotic-related information, including multi-view RGB-D images, proprioceptive robot state information, end effector details, and linguistic task descriptions. We provide a thorough quantitative and qualitative analysis of RoboMIND across multiple dimensions, offering detailed insights into the diversity of our datasets. In our experiments, we conduct extensive real-world testing with four state-of-the-art imitation learning methods, demonstrating that training with RoboMIND data results in a high manipulation success rate and strong generalization. 
+              Developing robust and general-purpose manipulation policies is a key goal in robotics. To achieve effective
+              generalization, it is essential to construct comprehensive datasets
+              that encompass a large number of demonstration trajectories
+              and diverse tasks. While existing works have focused on assembling various
+              individual robot datasets, there is still a lack of a unified data collection standard and insufficient high-quality data across diverse
+              tasks, scenarios, and robot types. In this paper, we introduce
+              RoboMIND (Multi-embodiment Intelligence Normative Data for
+              Robot Manipulation), a dataset containing <span style="font-weight: bold"> 107k </span> demonstration
+              trajectories across <span style="font-weight: bold"> 479 </span> diverse tasks involving <span style="font-weight: bold"> 96 </span> object classes.
+              RoboMIND is collected through human teleoperation and encompasses comprehensive robotic-related information, including
+              multi-view observations, proprioceptive robot state information,
+              and linguistic task descriptions. To ensure data consistency and
+              reliability for imitation learning, RoboMIND is built on a unified
+              data collection platform and a standardized protocol, covering
+              four distinct robotic embodiments: the Franka Emika Panda,
+              the UR5e, the AgileX dual-arm robot, and a humanoid robot
+              with dual dexterous hands. Our dataset also includes 5k real-
+              world failure demonstrations, each accompanied by detailed
+              causes, enabling failure reflection and correction during policy
+              learning. Additionally, we created a digital twin environment
+              in the Isaac Sim simulator, replicating the real-world tasks
+              and assets, which facilitates the low-cost collection of additional
+              training data and enables efficient evaluation. To demonstrate
+              the quality and diversity of our dataset, we conducted extensive
+              experiments using various imitation learning methods for single-task settings and state-of-the-art Vision-Language-Action (VLA)
+              models for multi-task scenarios. By leveraging RoboMIND, the
+              VLA models achieved high manipulation success rates and
+              demonstrated strong generalization capabilities. To the best of
+              our knowledge, RoboMIND is the largest multi-embodiment
+              teleoperation dataset collected on a unified platform, providing
+              large-scale and high-quality robotic training data. 
             </p>
 
           </div>
@@ -214,7 +260,7 @@
       <br>
       <!--/ Abstract. -->
 
-     <div class="columns is-centered">
+     <!-- <div class="columns is-centered">
         <div class="column is-full-width">
           <video id="teaser" autoplay muted loop playsinline height="100%" controls>
             <source src="./static/videos/teaser.mp4" type="video/mp4">
@@ -222,7 +268,7 @@
           <br>
           <br>
         </div>
-      </div>
+      </div> -->
 
       <!-- Hardware Setup. -->
       <div class="columns is-centered">
@@ -244,7 +290,7 @@
               </div>
           </div>
 
-            <p> For the Franka Emika Panda robots, we use cameras positioned at the top, left, and right viewpoints to record the visual information of the task trajectories. For the AgileX/Tien Kung robots, we use their built-in cameras to record visual information. For UR robots, we use an external top camera. All demonstrations are collected using high-quality human teleoperation and stored on a unified intelligence platform. </p>
+            <p> Here are some examples of the hardware setup for data collection, which is also the hardware setup we used to establish our real-world experiments. For the Franka Emika Panda robots, we use cameras positioned at the top, left, and right viewpoints to record the visual information of the task trajectories. For the AgileX/Tien Kung robots, we use their built-in cameras to record visual information. For UR robots, we use an external top camera. All demonstrations are collected using high-quality human teleoperation and stored on a unified intelligence platform. </p>
 
           </div>
         </div>
@@ -253,35 +299,34 @@
       <br>
       <!-- / Hardware Setup. -->
 
-
       <!-- RoboMIND Data Analysis. -->
       <div class="columns is-centered">
         <div class="column is-full-width">
           <h2 class="title is-3">RoboMIND Data Analysis</h2>
           <div class="content has-text-justified">
             <div class="yush-div-center">
-              <img src="./static/images/piechart.png" class="img-responsive">
+              <img src="./static/images/piechart_new.png" class="img-responsive">
             </div>
 
-            <p><b>Dataset Overview</b>. (a) total trajectories categorized by embodiments, (b) trajectory lengths by embodiments, (c) total trajectories grouped by task categories, and (d) total trajectories based on object usage scenarios.</p>
+            <p><b>Dataset Overview</b>. (a) the total trajectory numbers categorized by different types of robots, (b) average trajectory lengths (frames) categorized by different types of robots, (c) trajectory ratio of different task categories (Artic. M.: Articulated Manipulations; Coord. M.: Coordination Manipulations; Basic M.: Basic Manipulations; Obj. Int.: Multiple Object Interactions; Precision M.: Precision Manipulations; Scene U.: Scene Understanding), and (d) trajectory ratio of different scenarios.</p>
             <br>
             <br>
             <div class="yush-div-center" style="display: flex; justify-content: center;">
-               <img src="./static/images/Distribution.png" class="img-responsive" style="width: 75%"> 
+               <img src="./static/images/Distribution_new.png" class="img-responsive" style="width: 99%"> 
               </div> 
-            <p> <b>Distribution of objects</b> in RoboMIND,  covering most daily life settings: domestic, industrial, kitchen, office, and retail.</p>
+            <p> <b>Distribution of objects</b> in RoboMIND, categorized as domestic, industrial, kitchen, office, and retail.</p>
             <br>
             <br>
             <div class="yush-div-center" style="display: flex; justify-content: center;">
-              <img src="./static/images/skill counts.png" class="img-responsive" style="width: 80%">
+              <img src="./static/images/skill_counts_new.png" class="img-responsive" style="width: 95%">
             </div>
-              <p> <b>Left</b>: A histogram of <b>skill counts</b> across tasks for four embodiments. AgileX tasks typically involve two or three combined skills, extending the task horizon. Meanwhile, Tien Kung tasks vary in length, with some comprising up to five skills per task. <b>Right</b>: We visualize the AX-PutCarrot task with the AgileX robot, which involves three different skills. </p>
+              <p> <b>Left</b>: <b>Skill number</b> distribution histogram across tasks for each embodiment. We observe that over 70% of the Franka tasks involve only a single skill, while over 75% of the Tien Kung and AgileX tasks involve two or more skills, indicating that these dual-arm tasks are mostly long-horizon tasks. <b>Right</b>: We visualize the AX-PutCarrot task with the AgileX robot, which involves three different skills. </p>
               <br>
               <br>
               <div class="yush-div-center" style="display: flex; justify-content: center;">  
             <img src="./static/images/Annotation.png" class="img-responsive">
            </div>
-              <p> <b>Language Description Annotation</b>. We provide refined linguistic annotations for 10,000 successful robot motion trajectories.   </p>
+              <p> <b>Language Description Annotation</b>. We provide refined linguistic annotations for 10,000 successful robot motion trajectories. The video of the robotic arm placing the apple in the drawer is divided into six segments using Gemini. The language descriptions provided for each segment were initially generated by Gemini and subsequently refined through manual revision.  </p>
               <br>
               <br>
             <div class="yush-div-center" style="display: flex; justify-content: center;">     
@@ -301,8 +346,8 @@
         <div class="column is-full-width">
           <h2 class="title is-3">Experiments</h2>
       <!-- Experiment  -->
-      <p> We conduct comprehensive experiments employing four popular imitation learning methods, including ACT,
-        BAKU, RDT-1B and OpenVLA on selected RoboMIND tasks to assess their performance and limitations.
+      <p> We conduct comprehensive experiments employing four popular imitation learning methods, including ACT, Diffusion Policy,
+        BAKU, RDT-1B, Crossformer and OpenVLA on selected RoboMIND tasks to assess their performance and limitations.
       </p>
       <br>
 
@@ -335,19 +380,19 @@
           </div>
           <div class="columns">
               <div class="column has-text-centered">
-                  <p style="font-size: 125%"><b>TK-OpenTrashBin</b></p>
+                  <p style="font-size: 125%"><b>HR-OpenTrashBin</b></p>
                   <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
                       <source src="./static/videos/TK-OpenTrashBin.mp4" type="video/mp4">
                   </video>
               </div>
               <div class="column has-text-centered">
-                  <p style="font-size: 125%"><b>TK-CloseTrashBin</b></p>
+                  <p style="font-size: 125%"><b>HR-CloseTrashBin</b></p>
                   <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
                       <source src="./static/videos/TK-CloseTrashBin.mp4" type="video/mp4">
                   </video>
               </div>
               <div class="column has-text-centered">
-                  <p style="font-size: 125%"><b>TK-OpenDrawerLowerCabinet</b></p>
+                  <p style="font-size: 125%"><b>HR-OpenDrawerLowerCabinet</b></p>
                   <video poster="" id="" autoplay="" controls="" muted="" loop="" height="100%" playbackrate="2.0" style="border-radius: 5px;">
                       <source src="./static/videos/TK-OpenDrawerLowerCabinet.mp4" type="video/mp4">
                   </video>
@@ -467,9 +512,9 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{wu2024robomindbenchmarkmultiembodimentintelligence,
-        title={RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation},
-        author={Kun Wu and Chengkai Hou and Jiaming Liu and Zhengping Che and Xiaozhu Ju and Zhuqin Yang and Meng Li and Yinuo Zhao and Zhiyuan Xu and Guang Yang and Zhen Zhao and Guangyu Li and Zhao Jin and Lecheng Wang and Jilei Mao and Xinhua Wang and Shichao Fan and Ning Liu and Pei Ren and Qiang Zhang and Yaoxu Lyu and Mengzhen Liu and Jingyang He and Yulin Luo and Zeyu Gao and Chenxuan Li and Chenyang Gu and Yankai Fu and Di Wu and Xingyu Wang and Sixiang Chen and Zhenyu Wang and Pengju An and Siyuan Qian and Shanghang Zhang and Jian Tang},
+      <pre><code>@article{wu2024robomind,
+        title={Robomind: Benchmark on multi-embodiment intelligence normative data for robot manipulation},
+        author={Wu, Kun and Hou, Chengkai and Liu, Jiaming and Che, Zhengping and Ju, Xiaozhu and Yang, Zhuqin and Li, Meng and Zhao, Yinuo and Xu, Zhiyuan and Yang, Guang and others},
         journal={arXiv preprint arXiv:2412.13877},
         year={2024}
       }</code></pre>

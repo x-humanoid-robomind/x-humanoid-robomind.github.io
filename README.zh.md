@@ -7,23 +7,23 @@
 
 [English](./README.md) | 中文
 ## 💾 数据分布 💾
-<img src="./static/images/piechart.png" border=0 width=100%>
+<img src="./static/images/piechart_new.png" border=0 width=100%>
 
 ### 🤖 机器人平台构成 🤖
-我们推出了 RoboMIND（机器人操作的多构型智能规范数据集和基准），该数据集包含了在279种不同任务中涉及61类独特物体的5.5万个真实世界演示轨迹。
-RoboMIND数据集汇集了多种机器人平台的操作数据，包括31,005条Franka Emika Panda单臂机器人轨迹、9,686条"天工"人形机器人轨迹、8,030条AgileX Cobot Magic V2.0双臂机器人轨迹、以及6,911条UR-5e单臂机器人轨迹数据。
+我们推出了 RoboMIND（机器人操作的多构型智能规范数据集和基准），该数据集包含了在479种不同任务中涉及96类独特物体的10.7万条真实世界演示轨迹。
+RoboMIND数据集汇集了多种机器人平台的操作数据，包括52,926条Franka Emika Panda单臂机器人轨迹、19,152条"天工"人形机器人轨迹、10,629条AgileX Cobot Magic V2.0双臂机器人轨迹、以及25,170条UR-5e单臂机器人轨迹数据。
 通过涵盖广泛的任务类型和多种物体类别，RoboMIND 为研究人员和开发者提供了一个宝贵的资源，以推动机器人学习和自动化技术的发展。此数据集不仅数量庞大，而且质量上乘，确保了其在实际应用中的有效性和可靠性。
 
 ### 🔎 轨迹时长分布 🔎
 从轨迹长度来看，不同机器人平台呈现出独特的分布特征。Franka和UR机器人的任务通常具有较短的轨迹，时间步数少于200步，这类数据特别适合用于训练基础操作技能。相比之下，"天工"和AgileX机器人的任务轨迹普遍较长，超过500个时间步，更适合用于训练长时间跨度的任务和复杂技能组合。
 
 ### 🚀 任务类型划分 🚀
-基于自然语言描述，并考虑物品大小、使用场景和操作技能等因素，我们将数据集中的任务分为基础技能、精准操作、场景理解、柜体操作和协作任务五大类。除了基础操作任务外，数据集还包含了大量复杂任务，为训练通用机器人策略提供了丰富的数据支持。
+基于自然语言描述，并考虑物品大小、使用场景和操作技能等因素，我们将数据集中的任务分为铰链物体操作、双臂协作操作、基础技能、精准操作、场景理解共六大类。除了基础操作任务外，数据集还包含了大量复杂任务，为训练通用机器人策略提供了丰富的数据支持。
 
 ### 💪 物品多样性 💪
-整个数据集包含了61种不同的物品类别，具体如下所示。可以看出，在厨房场景中，数据集不仅包含了常见的食物，如草莓、鸡蛋、香蕉和梨子等，也包括了复杂的可调节物体，如烤箱和面包机。在家庭场景中，数据集既包括了刚性物体，如网球，也包括了可变形物体，如玩具。办公和工业场景则包含了需要精确控制的小物体，如电池和齿轮。这样多样化的物体种类不仅增加了数据集的复杂性，也有助于训练能够在各种环境下执行操作的通用操控策略。
+整个数据集包含了96种不同的物品类别，具体如下所示。可以看出，在厨房场景中，数据集不仅包含了常见的食物，如草莓、鸡蛋、香蕉和梨子等，也包括了复杂的可调节物体，如烤箱和面包机。在家庭场景中，数据集既包括了刚性物体，如网球，也包括了可变形物体，如玩具。办公和工业场景则包含了需要精确控制的小物体，如电池和齿轮。这样多样化的物体种类不仅增加了数据集的复杂性，也有助于训练能够在各种环境下执行操作的通用操控策略。
 
-<img src="./static/images/Distribution.png" border=20 width=80%>
+<img src="./static/images/Distribution_new.png" border=5 width=95%>
 
 
 
@@ -75,20 +75,35 @@ RoboMIND数据集汇集了多种机器人平台的操作数据，包括31,005条
 
 ## 任务语言指令
 
-我们为每个任务提供了对应的语言指令，见[RoboMIND_instr.csv](./static/RoboMIND_v1_1_instr.csv)。
+我们为每个任务提供了对应的语言指令，见[RoboMIND_instr.csv](./static/RoboMIND_v1_2_instr.csv)。
 
+## 📖 版本更新 📖
+
+### 版本 1.1 & 1.2
+
+相较于版本1.0，我们进一步扩充了数据集，包含107K条轨迹和469项任务，涵盖了96种不同物体。
+
+在版本1.1的基础上，我们新增了Upright_Cup的10项任务数据，其中包括 1个来自真实世界的任务数据和9个来自数字孪生环境的任务数据。这10个任务数据的目标均为翻转马克杯，但涉及不同的环境设置，例如马克杯的摆放位置范围、桌面纹理以及马克杯外观等。
+
+对于更多不同构型的H5文件格式，请参考[all_robot_h5_info_v1.2.md](./static/all_robot_h5_info_v1.2.md).
+
+### 版本 1.0
+
+初始版本的 RoboMIND 数据集包含55K条轨迹和279项任务，涉及69种不同物体。
 
 ## 📝 引用 📝
 如果您发现 RoboMIND 对您的研究有帮助，请考虑引用：
 ```
-@article{wu2024robomindbenchmarkmultiembodimentintelligence,
-        title={RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation},
-        author={Kun Wu and Chengkai Hou and Jiaming Liu and Zhengping Che and Xiaozhu Ju and Zhuqin Yang and Meng Li and Yinuo Zhao and Zhiyuan Xu and Guang Yang and Zhen Zhao and Guangyu Li and Zhao Jin and Lecheng Wang and Jilei Mao and Xinhua Wang and Shichao Fan and Ning Liu and Pei Ren and Qiang Zhang and Yaoxu Lyu and Mengzhen Liu and Jingyang He and Yulin Luo and Zeyu Gao and Chenxuan Li and Chenyang Gu and Yankai Fu and Di Wu and Xingyu Wang and Sixiang Chen and Zhenyu Wang and Pengju An and Siyuan Qian and Shanghang Zhang and Jian Tang},
-        journal={arXiv preprint arXiv:2412.13877},
-        year={2024}
-      }
+@article{wu2024robomind,
+  title={Robomind: Benchmark on multi-embodiment intelligence normative data for robot manipulation},
+  author={Wu, Kun and Hou, Chengkai and Liu, Jiaming and Che, Zhengping and Ju, Xiaozhu and Yang, Zhuqin and Li, Meng and Zhao, Yinuo and Xu, Zhiyuan and Yang, Guang and others},
+  journal={arXiv preprint arXiv:2412.13877},
+  year={2024}
+}
 ```
 
+## 📁 FAQ 📁
+数据集常见使用问题解答，请参考 [FAQ.md](./static/FAQ.md)。
 
 ## 🗨️ 参与讨论 🗨️
 如果您对 RoboMIND 感兴趣，欢迎加入微信群，参与讨论。

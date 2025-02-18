@@ -1,0 +1,480 @@
+,task,instruction
+0,10_packplate,"pick up the plate 1 on the right,put plate 1 in the plate rack,pick up the plate 3 on the left,put plate 2 in the plate rack"
+1,10_packplate_2,"pick up the plate 1 on the right,put plate 1 in the plate rack,pick up the plate 3 on the left,put plate 2 in the plate rack"
+2,11_brushcup,"pick up the cup brush,pick up the cup,insert the brush into the cup,clean the cup,put the cup brush back,put the cup back to the fixed position on the table"
+3,11_brushcup_2,"pick up the cup brush,pick up the cup,insert the brush into the cup,clean the cup,put the cup brush back,put the cup back to the fixed position on the table"
+4,12_packcup,"pick up cup 1,put cup 1 in the cup rack,pick up cup 2,put cup 2 in the cup rack"
+5,13_packbowl,"pick up blue bowl 1,put blue bowl 1 on green bowl,pick up blue bowl 2,put blue bowl 2 on top of the stacked bowls,place the stacked bowls to the right side"
+6,14_steamcorn,"pick up the corn,open the lid,put the corn in the pot,close the lid"
+7,15_steamegg,"pick up the egg,open the lid,put the egg in the pot,close the lid"
+8,15_steamegg_2,"pick up the egg,open the lid,put the egg in the pot,close the lid"
+9,16_steampotato,"pick up the potato,open the lid,put the potato in the pot,close the lid"
+10,16_steampotato_2,"pick up the potato,open the lid,put the potato in the pot,close the lid"
+11,17_packtable,Help me put the vegetables on the table into the basket
+12,18_makebread,"pick up a slice of bread from the rack,put the bread on the toaster,press the button"
+13,18_makebread_2,"pick up a slice of bread from the rack,put the bread on the toaster,press the button"
+14,19_takebread,"take the bread from the toaster,put the bread on the plate,put the plate on the table"
+15,19_takebread_2,"take the bread from the toaster,put the bread on the plate,put the plate on the table"
+16,1_potatooven,"take the corn from the table,turn on the oven ,put the corn in,turn off the oven"
+17,1_potatooven_2,"take the corn from the table,turn on the oven ,put the corn in,turn off the oven"
+18,20_takecorn,"take the corn out from the steamer,put the corn on the plate,close the lid"
+19,20_takecorn_2,"take the corn out from the steamer,put the corn on the plate,close the lid"
+20,21_takeegg,"take the egg out from the steamer,put the egg on the plate,close the lid"
+21,22_takepotato,"take the potato out from the steamer,put the potato on the plate,close the lid"
+22,26_cleanplate,"pick up the plate,pick up the cloth,clean the plate with the cloth"
+23,27_carrotgreenplate,"take the green plate from the plate rack,put the plate on the table,take the carrot from the table,put the carrot in the plate"
+24,28_packtable_2,"pick up the basket,pick up the corn from the table,pick up the potato from the table,pick up the cucumber from the table,put all items into the basket"
+25,29_steampumpkin,"pick up the pumpkin,open the lid,put the pumpkin in the pot,close the lid"
+26,2_cornoven,"take the corn from the table,turn on the oven,put the corn in,turn off the oven"
+27,30_takepumpkin,"take the pumpkin out from the steamer,put the pumpkin in the blue plate,close the lid"
+28,31_unpackbowl,"pick up the green bowl on the top,put the green bowl on the left,pick up the red bowl in the middle,put the red bowl on the right"
+29,32_unpackcup,"pick up the cup on the top,put the cup on the left,pick up the cup in the middle,put the cup on the right"
+30,35_putcarrot,putcarrot
+31,36_putpepper,putpepper
+32,37_putegg,putegg
+33,38_putcorn,pick up corn from basket and place on desk
+34,39_puttomato,puttomato
+35,3_eggplantOven,"take the eggplant from the table,turn on the oven,put the eggplant in,turn off the oven"
+36,3_eggplantoven_2,"take the eggplant from the table,turn on the oven,put the eggplant in,turn off the oven"
+37,40_putavocado,putavocado
+38,41_putplum,putplum
+39,42_putkiwifruite,"pick up the wifruite,  put it on the bowl, pick up the plate, put it on desk"
+40,43_packplate,"pick up the white plate,  put it on the blue plate,  put it on desk"
+41,44_putbluebowlongreenplate,"pick up the blue bowl,  put it on the green plate,  put it on desk"
+42,45_putgreenbowlonblueplate,Place the green bowl on the blue plate
+43,46_putredbowlonwhiteplate,Place the red bowl on the white plate
+44,48_putpotatogreenplatefromsteam_2,"the right arm pick the green plate and place it on desk, then the left arm uncap open the steamer lid, the right arm pick the potato and place it on the plate, then the right arm cap close the steamer lid"
+45,4_potatobowloven_2,"take the potato from the table,put the potato in the blue bowl,turn on the oven,put the bowl in the oven,turn off the oven"
+46,50_pourtea,Pour the drink into the cup
+47,51_breadoven,"the left arm flap open the oven, the right arm pick bread and place it into oven, the left arm flap close the oven"
+48,52_holdercup,"the left arm pick the top cup and place it on cupholder, the right arm pick up the mid cup and place it on cupholder, last the left arm pick the bottom cup and place it on cupholder."
+49,53_stackcup,"the left arm pick up the left cup on cup holder and place it on desk, then the right arm insert the right cup into the first cup, and then the left arm insert the mid cup into the first cup"
+50,54_placecup,"right arm lift cup from the cupboard, then place it on the right of the bowl"
+51,55_pumpkinbowloven,Place pumpkin in the steamer
+52,56_placeplate,Place the plate
+53,57_potatolittleoven,Place potatoes in a small steamer
+54,58_pumpkinlittleoven,Place pumpkin in a small steamer
+55,59_steamedbreadlittleoven,Put the buns in a small steamer
+56,5_eggoven_2,eggoven
+57,6_applebowloven,"take the apple from the table,put the apple in the blue bowl,turn on the oven,put the bowl in the oven,turn off the oven"
+58,6_applebowloven_2,"take the apple from the table,put the apple in the blue bowl,turn on the oven,put the bowl in the oven,turn off the oven"
+59,7_applegreenplate_2,"take the green plate from the plate rack,put the plate on the table,take the apple from the table,put the apple in the plate"
+60,8_appleblueplate_2,"take the blue plate from the plate rack,put the plate on the table,take the apple from the table,put the apple in the plate"
+61,9_appleyellowplate_2,"take the yellow plate from the plate rack,put the plate on the table,take the apple from the table,put the apple in the plate"
+62,bread_in_basket,Put bread into the basket
+63,bread_on_table,bread on the table
+64,2024_09_20_close_cabinet,close cabinet
+65,2024_09_20_close_chest,close chest
+66,2024_09_20_close_the_box,close the box
+67,2024_09_20_open_cabinet,open cabinet
+68,2024_09_20_open_chest,open chest
+69,2024_09_20_open_the_box,open the box
+70,2024_09_20_pick_fruit_and_bread,pick furit and bread
+71,241021_close_trash_bin_1,Close the trash can by pressing down from the back.
+72,241021_insert_marker_1,Put the marker into the pen holder.
+73,241021_open_trash_bin_1,Press the trash can to open it.
+74,241021_remove_marker_1,Take the marker out of the pen holder and place it to the left of the pen holder.
+75,241022_lamp_off_1,Press the desk lamp switch to turn off the lamp.
+76,241022_lamp_on_1,Press the desk lamp switch to turn on the lamp.
+77,241022_side_pull_close_drawer_1,Close the upper drawer from the right side.
+78,241022_side_pull_open_drawer_1,Pull open the upper drawer from the left side.
+79,241023_pick_pear_from_bowl_1,Remove the pear from the pink bowl and place it to the right of the bowl.
+80,241023_pick_pear_from_bowl_2,Remove the pear from the pink bowl and place it to the right of the bowl.
+81,241023_place_pear_in_bowl_1,Place the pear in the pink bowl.
+82,241023_place_pear_in_bowl_2,Place the pear in the pink bowl.
+83,blue_cub_on_pink,put blue cube on pink cube
+84,cap_close_dustbin,cap close the trash can
+85,close_cap_lid,Close the pot lid.
+86,close_cap_tool_box,close tool case
+87,close_cap_trash_can,close the trash can
+88,close_cap_trash_can_1,close the trash can
+89,close_cap_trash_can_2,close trash can
+90,close_drawer,close drawer
+91,close_trash,close trash
+92,open_cap_lid,Open the pot lid and place it below the center of the table.
+93,open_cap_tool_box,open tool case
+94,open_cap_trash_can,open the trash can
+95,open_cap_trash_can_1,open the trash can
+96,open_cap_trash_can_2,open trash can
+97,open_drawer,Pull open the drawer
+98,open_the_drawer,open the drawer
+99,open_trash,open trash
+100,pick_apple_into_chest,pick apple into chest
+101,pick_bread_desk,put  bread on desk
+102,pick_bread_into_plate,put bread into plate
+103,pick_drawer_tool,pick drawer tool
+104,pick_plate_from_plate_rack,pick plate from plate rack
+105,pick_up_strawberry_from_bowl,pick up strawberry from bowl
+106,pick_up_strawberry_in_bowl,pick up strawberry in bowl
+107,piled_on_stack_blue_block_on_pink_block,putthe blue cube up on the purple cube
+108,piled_on_yellow_block_on_purple_block,piled the yellow cube up on the purple cube
+109,place_in_block,place in the cube
+110,place_in_block_1,place in cube
+111,place_in_block_in_plate_1,put the cube in the basket
+112,place_in_block_on_table,put the cube up on the table
+113,place_in_block_tennis_ball,place in cube tennis
+114,place_in_bread_in_basket,put the bread in the basket
+115,place_in_bread_in_basket_1,put the bread in the basket
+116,place_in_bread_in_bread_machine,put the bread in the toaster
+117,place_in_bread_in_plate,put the bread on a plate
+118,place_in_bread_on_plate_1,put the bread on a plate
+119,place_in_bread_on_plate_2,put the bread on a plate
+120,place_in_bread_on_table,put the bread on the table
+121,place_in_bread_on_table_1,put the bread on the table
+122,place_in_bread_on_table_2,put the bread on the table
+123,place_in_cylinder,place in cylinder
+124,place_in_fruit,place in fruit
+125,place_in_fruit_bread,place in fruit bread
+126,place_in_fruit_in_basket,put the fruit in the basket
+127,place_in_fruit_in_fruit_basket,put the fruit in the basket
+128,place_in_fruit_on_table,put the fruit on the table
+129,place_in_pick_up_and_throw_away,grab it up and put it in the trash
+130,place_in_pick_up_and_throw_away_1,grab it up and put it in the trash
+131,place_in_purple_block_in_plate,put the purple cube on a plate
+132,place_in_purple_block_on_table,put the purple cube up on the table
+133,place_in_rectangular_prism,place in cuboid
+134,place_in_shape,place in shape
+135,place_in_take_bread_and_put_in_plate,put the bread and put it into the plate
+136,place_in_toy,put in the toy
+137,place_in_trash,place in trash
+138,place_in_yellow_block_on_table,put the yellow cube up on the table
+139,place_plate_in_plate_rack,place plate in plate rack
+140,place_trash,place trash
+141,pull_across_pull_in_basket,pull across the basket
+142,push_across_push_away_basket,push away from the basket
+143,rotate_close_cabinet,otate close the cabinet
+144,rotate_open_cabinet,rotate open the cabinet
+145,slide_close_cabinet,slide close wooden cabinet
+146,slide_close_drawer,slide close drawer close the drawer
+147,slide_close_drawer_1,slide close the drawer
+148,slide_close_drawer_1_1,slide close the drawer
+149,slide_open_cabinet,slide open wooden cabinet
+150,slide_open_drawer,slide open the drawer
+151,slide_open_drawer_1,slide open the drawer
+152,stick_target_blue_on_the_pink_obejct,stick target blue on the pink obejct
+153,twist_knob_start_bread_machine,twist knob start the bread machine
+154,open_and_close_01,"Grab the oven door handle with one arm, and open the oven door with one arm"
+155,open_and_close_03,Pull the drawer handle with one arm to open the drawer
+156,open_and_close_04,Pull the drawer handle with one arm to open the drawer
+157,open_and_close_05,Pull the drawer handle with one arm to open the drawer
+158,pick_and_place_01,"Pick up everything from the table with one arm, and put everything on the plate (bowl) with one arm"
+159,pick_and_place_02,"Pick up everything from the plate (bowl) with one arm, and put everything on the table with one arm"
+160,pick_and_place_03,"Pick up everything from the table with one arm, and put everything in the basket with one arm"
+161,pick_and_place_04,"Pick up everything from the basket with one arm, and put everything on the table with one arm"
+162,pick_and_place_05,"Pick up the blue block with one arm, and put the blue block on the pink block with one arm"
+163,pick_and_place_06,"Pick up the blue block with one arm, and put the blue block on the table with one arm"
+164,clean_table_2_241211,"clean table, pick up anything on the table and put in the dustbin with right arm, place on the tray with left arm"
+165,clean_table_3_241210,"clean table, pick up anything on the table and put in the dustbin with right arm, place on the tray with left arm"
+166,clean_table_3_241211,"clean table, pick up anything on the table and put in the dustbin with right arm, place on the tray with left arm"
+167,close_the_drawer_under_the_combination_cabinet,Close the drawer under the combination cabinet
+168,close_trash_bin,Close trash bin
+169,left_hand_place_marker_in_pen_holder,Left hand places marker in pen holder
+170,lift_pot_lid_and_place_it_to_the_right_of_the_pot,Lift the pot lid and place it to the right of the pot.
+171,open_the_drawer_under_the_combination_cabinet,Open the drawer under the combination cabinet
+172,open_trash_bin,Open trash bin 
+173,pick_up_tennis_ball_and_place_it_in_box,Pick up the tennis ball and place it in the box.
+174,place_bread_plate_1128,"pick up bread, place on the plate"
+175,place_bread_plate_241202,"pick up bread, place on the plate"
+176,place_bread_plate_241203,"pick up bread, place on the plate"
+177,place_bread_plate_241204_pro5,"pick up bread, place on the plate"
+178,place_bread_plate_241205_pro3,"pick up bread, place on the plate"
+179,place_bread_table_1128,"pick up bread, place on the plate"
+180,place_paper_cup_dustbin_241212,pick up paper cup place in dustbin
+181,place_plate_table_241211,pick plate from rack and place on table
+182,place_plate_table_241211_12,pick plate from rack and place on table
+183,place_plate_table_241212,pick plate from rack and place on table
+184,place_yellow_banana_on_plastic_plate,Place yellow banana on plastic plate
+185,press_down_toaster,Press down toaster
+186,put_the_potato_in_the_blue_pot,put the potato in the blue pot
+187,put_the_water_cup_in_front_of_the_bread_machine,put the water cup in front of the bread machine
+188,rotate_green_pot_handle,Rotate green pot handle
+189,upright_white_cup,Upright white cup
+190,battery_insertion_with_pullout,"put the plug near the board,insert it into the board,press the button,pull the plug out"
+191,brick_piled_then_press_thrice,"pick up the brick,pile it on top of brick,press brick,pick up the brick,pile it on top of brick,press brick"
+192,cylinder_pick_box_place_close,"pick up the cylinder from the cube,place it in the box,flap close box"
+193,gear_place,"pick up the big nut,place it into the box,pick up the small nut,place it into the box"
+194,nut_place,"pick up the nut,place it into the box,pick up the nut,place it into the box"
+195,pick_shelf_insert_machine_press_switch_place_plate,"pick up the break from the shelf,insert it into mochine,press the switch,place the break in the plate"
+196,place_button,"pick up the button,place it on the desk,press the button,press the button"
+197,place_button_then_press,"pick up the button,place it on the desk,press the button,press the button"
+198,plate_push,push plate across desktop
+199,plug_extract_from,pull the plug out and thorw away
+200,plug_insertion,"pick up the plug,place it near the board,insert it into the board,press the button"
+201,plug_insertion_v2,"press the white button,pick up the black plug,place it near the board,insert it into the board"
+202,plug_pullout,"pull the plug out of the board,throw away the plug"
+203,plug_pullout_then_press,"pull the plug out,throw it away,press the button"
+204,pour_bread_then_place,"pick up the cup,pour liquid into bread,place the cup on the desk"
+205,push_bewak_pick_machine_place_plate,"push plate across desktop,pick up the break from the machine,place the break in the plate"
+206,push_break_pick_shelf_insert_machine_press_switch_place_plate,"push plate across desktop,pick up the break from the shelf,insert it into mochine,press the switch,place the break in the plate"
+207,seal_stamping,"fetch the seal,press it twice on the table,place it back to the orignal position"
+208,switch_manipulation,"pick up the switch,place it on the plate,pick up the switch,place it on the plate,press the switch button,press the switch button"
+209,throw_battery,"fetch the battery,place it into the box,close the lid of the box"
+210,throw_battery_twice,"pick up the battery,place it into the box"
+211,tool_liftn_box_place,"lift tool from toolbox,place it in box,lift tool from toolbox,place it in box"
+212,wipe_panel,"pick the rag up,wipe the panel,place it on the desk"
+213,bread_in_basket_1,place the bread in the basket
+214,bread_in_basket_old,place the bread in the basket
+215,bread_on_table,bread on the table
+216,close_top_drawer,slide close the top drawer
+217,close_top_white_drawer,slide close the top white drawer
+218,close_trash_can,cap close the trash Can
+219,cover_pot_lid,cap close the pot lid
+220,green_pepper_in_basket,place the green peppers in a basket
+221,green_pepper_in_basket_1,place the green pepper in a basket
+222,green_pepper_on_table,place the green pepper in a basket
+223,open_pot_lid,uncap open the lid 
+224,open_top_drawer,slide open the top drawer
+225,open_top_white_drawer,slide open the top white drawer
+226,open_trash_can,Open trash can 
+227,pick_up_banana,pick up the banana
+228,pick_up_bread,pick up the bread
+229,pick_up_bread_slice,pick up the bread slice
+230,pick_up_can,pick up the cans
+231,pick_up_donut,pick up the donuts
+232,pick_up_egg,pick up the egg
+233,pick_up_green_onion,pick up the green onion
+234,pick_up_green_pepper,pick up the green chilies
+235,pick_up_long_bread,pick up the long bread
+236,pick_up_mangosteen,pick up mangosteen
+237,pick_up_paper_ball,pick up the paper ball
+238,pick_up_pear,pick up the pear
+239,pick_up_plastic_bottle,pick up the plastic bottle
+240,pick_up_pot_lid,uncap open the pot lid
+241,pick_up_red_pepper,pick up the red pepper
+242,pick_up_round_bread,pick up the round bread
+243,pick_up_round_bread_1,pick up the bread
+244,pick_up_square_bread,pick up the square bread
+245,pick_up_toast,pick up the toast
+246,pick_up_triangle_bread,pick up the triangle bread
+247,pick_up_yellow_pepper,pick up the yellow pepper
+248,put_banana_in_top_drawer,place the banana in the top drawer
+249,put_bread_in_pot,place the bread in that pot
+250,put_bread_slice_in_pot,place the bread slice in that pot
+251,put_bread_slice_in_top_white_drawer,place the bread slice in the upper white drawer
+252,put_can_in_trash_can,place the cans in the trash can
+253,put_donut_in_pot,place the donuts in that pot
+254,put_donut_in_top_white_drawer,place the donuts in the upper white drawer
+255,put_egg_in_pot,place the egg in that pot
+256,put_egg_in_top_white_drawer,place the egg in the upper white drawer
+257,put_green_onion_in_pot,place the green onion in the pot
+258,put_green_pepper_in_pot,place the green chilies in that pot
+259,put_green_pepper_in_top_white_drawer,place the green pepper in the upper white drawer
+260,put_long_bread_in_pot,place the long bread in that pot
+261,put_long_bread_in_top_white_drawer,place the long bread in the upper white drawer
+262,put_long_bread_in_trash_can,place the long bread in the trash can
+263,put_mangosteen_in_top_white_drawer,place the mangosteen in the upper white drawer
+264,put_paper_ball_in_trash_can,place the paper ball in the trash
+265,put_pear_in_top_white_drawer,place the pear in the upper white drawer
+266,put_plastic_bottle_in_trash_can,place plastic bottle in the trash can
+267,put_pot_lid_on_table,place the lid on the table
+268,put_red_pepper_in_pot,place the red pepper in that pot
+269,put_red_pepper_in_top_white_drawer,place the red pepper in the upper white drawer
+270,put_round_bread_in_pot,place the round bread in that pot
+271,put_round_bread_in_top_white_drawer,place the round bread in the upper white drawer
+272,put_round_bread_in_trash_can,place the round bread  in the trash can
+273,put_square_bread_in_top_white_drawer,place the square bread in the upper white drawer
+274,put_square_bread_in_trash_can,place the square bread in the trash can
+275,put_toast_in_pot,put the toast in that pot
+276,put_toast_in_top_white_drawer,place the toast in the upper white drawer
+277,put_triangle_bread_in_pot,place the triangle bread in that pan
+278,put_triangle_bread_in_top_white_drawer,place the triangle bread in the upper white drawer
+279,put_yellow_pepper_in_pot,place the yellow pepper in that pot
+280,put_yellow_pepper_in_top_drawer,place the yellow pepper in the top drawer
+281,put_yellow_pepper_in_top_white_drawer,place the yellow pepper in the upper white drawer
+282,red_pepper_in_basket,place the red peppers in a basket
+283,red_pepper_on_table,place the red pepper on the table
+284,triangle_bread_in_basket,place a triangular bread in the basket
+285,triangle_bread_in_basket_1,place a triangular bread in the basket
+286,triangle_bread_on_table,place a triangular bread on the table
+287,yellow_pepper_in_basket,place the yellow pepper in a basket
+288,yellow_pepper_in_basket_1,place the yellow pepper in a basket
+289,yellow_pepper_on_table,place the yellow pepper on the table
+290,20_takecorn_2,"take the corn out from the steamer,put the corn on the plate,close the lid"
+291,28_packtable_2,"pick up the basket,pick up the corn from the table,pick up the potato from the table,pick up the cucumber from the table,put all items into the basket"
+292,33_putlemon,"take the lemon from the basket,put the lemon in the plate,hand out the plate"
+293,39_puttomato,puttomato
+294,3_eggplantoven,"take the eggplant from the table,turn on the oven,put the eggplant in,turn off the oven"
+295,40_putavocado,putavocado
+296,41_putplum,putplum
+297,42_putkiwifruite,"pick up the wifruite,  put it on the bowl, pick up the plate, put it on desk"
+298,43_packplate,"pick up the white plate,  put it on the blue plate,  put it on desk"
+299,44_putbluebowlongreenplate,"pick up the blue bowl,  put it on the green plate,  put it on desk"
+300,4_potatobowloven,"take the potato from the table,put the potato in the blue bowl,turn on the oven,put the bowl in the oven,turn off the oven"
+301,5_eggoven_2,eggoven
+302,6_applebowloven_2,"take the apple from the table,put the apple in the blue bowl,turn on the oven,put the bowl in the oven,turn off the oven"
+303,7_applegreenplate,"take the green plate from the plate rack,put the plate on the table,take the apple from the table,put the apple in the plate"
+304,8_appleblueplate,"take the blue plate from the plate rack,put the plate on the table,take the apple from the table,put the apple in the plate"
+305,9_appleyellowplate,"take the yellow plate from the plate rack,put the plate on the table,take the apple from the table,put the apple in the plate"
+306,apples_placed_on_a_ceramic_plate,Apples placed on a ceramic plate
+307,bananas_placed_on_a_ceramic_plate,Bananas placed on a ceramic plate
+308,bread_is_placed_on_a_ceramic_plate,Bread is placed on a ceramic plate
+309,chili_peppers_are_placed_on_a_ceramic_plate,Chili peppers are placed on a ceramic plate
+310,chili_peppers_are_placed_on_the_right_side_of_a_plastic_tray,Chili peppers are placed on the right side of a plastic tray
+311,close_garbage_bin,Close garbage bin 
+312,close_lid,Close lid 
+313,cucumber_placed_on_a_ceramic_plate,Cucumber placed on a ceramic plate
+314,flip_marco_cup,Flip Marco Cup 
+315,mobile_marco_cup,Mobile Marco Cup 
+316,open_lid,Open lid 
+317,place_marker,Place marker 
+318,put_potatoes_on_a_ceramic_plate,Put potatoes on a ceramic plate
+319,put_the_bread_on_the_table,Put the bread on the table
+320,put_the_cucumber_on_the_left_side_of_the_bowl,Put the cucumber on the left side of the bowl
+321,put_the_red_apple_in_the_bowl,Put the red apple in the bowl
+322,put_the_steamed_buns_on_a_ceramic_plate,Put the steamed buns on a ceramic plate
+323,red_apple_placed_in_the_center_of_the_desktop,Red apple placed in the center of the desktop
+324,side_opening_drawer,Side opening drawer 
+325,side_pull_drawer,Side pull drawer 
+326,strawberries_on_a_ceramic_plate,Strawberries on a ceramic plate
+327,take_marker_pen,Take marker pen 
+328,turn_off_lamp,Turn off lamp 
+329,turn_on_desk_lamp,Turn on desk lamp 
+330,yellow_bananas_placed_on_a_plastic_tray,Yellow bananas placed on a plastic tray
+331,yellow_square_placed_on_ceramic_plate,Yellow square placed on ceramic plate
+332,both_pour_water,pour water with both arm
+333,left_place_gray_plate_from_low_rack_on_left_of_table,pick gray plate from plate low rack and place it on table with left arm
+334,left_place_gray_plate_on_lower_rack,pick gray plate from table and place it on plate lower rack with left arm
+335,left_push_plate_to_right_of_table,push gray plate to right table with left arm
+336,right_slide_close_drawer,slide close drawer with right arm
+337,right_slide_open_drawer,slide open drawer with right arm
+338,open_and_close_07,Push the drawer handle with one arm to close the drawer
+339,open_and_close_09,Push the drawer handle with one arm to close the drawer
+340,pick_and_place_09,Take strawberry from the bowl
+341,pick_and_place_10,Put the marker into the pen holder.
+342,pick_and_place_11,Take the marker out of the pen holder and place it to the left of the pen holder.
+343,pick_and_place_14,Place the pear in the bowl.
+344,pick_and_place_18,Mobile Marco Cup
+345,pick_and_place_19,Mobile tennis ball
+346,pick_and_place_23,pick and place 23
+347,pick_and_place_30,Place the left cup onto the right cup
+348,pick_and_place_31,Place the right cup onto the left cup
+349,pick_and_place_01_tienkung,pick and place 01
+350,pick_and_place_02_tienkung,pick and place 02
+351,pick_and_place_05_tienkung,pick up cup and place in cup with left hand
+352,pick_and_place_06_tienkung,pick up cup and place in cup with right hand
+353,close_cabinet_drawer,close cabinet drawer
+354,left_had_place_the_cup_on_the_left_side_of_the_plate,left hand place the cup on the left side of the plate
+355,left_had_put_red_apple_in_plate,left had put red apple in plate
+356,left_hand_lift_pot_lid_and_place_it_to_the_left_of_the_pot, left hand lift pot lid and place it to the left of the pot
+357,left_hand_pick_up_tennis_ball_and_place_it_in_box, left hand pick up tennis ball and place it in box
+358,left_hand_place_the_yellow_square_on_the_pink_plate,left hand place the yellow square on the pink plate
+359,left_hand_put_the_brown_hippopotamus_in_the_blue_box,left hand put the brown hippopotamus in the blue box
+360,left_hand_put_the_pear_in_the_bowl,left hand put the pear in the bowl 
+361,left_hand_put_the_red_chili_pepper_on_the_plate,left hand put the red chili pepper on the plate
+362,left_hand_put_the_white_car_in_the_blue_box,left hand put the white car in the blue box
+363,left_hand_put_the_white_doll_in_the_blue_box,left hand put the white doll in the blue box
+364,open_the_lid_with_left_hand_and_place_it_on_the_left_side_of_the_pot,open the lid with left hand and place it on the left side of the pot
+365,put_the_orange_into_the_box_with_left_hand,put the oranges into the box with left hand
+366,put_the_pear_in_right_hand_on_the_plate,put the pear in right hand on the plate
+367,right_hand_pick_cup_in_the_box,right hand pick cup in the box
+368,right_hand_put_red_pepper_on_the_plate,right hand put red pepper on the plate 
+369,right_hand_put_starfruit_on_the_plate,right hand put starfruit on the plate 
+370,right_hand_put_yellow_pepper_on_the_plate,right hand put pepper on the plate 
+371,the_lemon_in_the_right_hand_is_placed_in_the_trash_can,the lemon in the right hand is placed in the trash can
+372,clean_table,clean table; pick rubbish on the table and place in the dustbin
+373,pick_up_foil_plate_place_in_dustbin,pick up foil plate and place in dustbin
+374,pick_up_paper_ball_place_in_dustbin,pick up paper ball place in dustbin
+375,pick_up_paper_cup_place_in_dustbin,pick up paper cup place in dustbin
+376,pick_cup_pour_cup_place,pick cup pour cup place
+377,pick_pipe_place_plate_twice,pick pipe place plate twice
+378,push_cup_pick_cup_insert_cup,push cup pick cup insert cup
+379,green_pepper_on_plate,place the green pepper on the plate
+380,green_pepper_on_the_table,place the green pepper on the table
+381,insert_the_flowers_from_the_vase_1025,insert the flowers into the vase
+382,insert_the_flowers_from_the_vase_1028,insert the flowers into the vase
+383,insert_the_flowers_from_the_vase_1029,insert the flowers into the vase
+384,insert_the_flowers_from_the_vase_1030,insert the flowers from the vase
+385,insert_the_flowers_from_the_vase_1031,insert the flowers into the vase
+386,insert_the_flowers_from_the_vase_1101,insert the flowers into the vase
+387,insert_the_flowers_from_the_vase_1126,insert the flowers from the vase
+388,pick_up_green_pepper_from_plate,pick up the green pepper from the plate
+389,pick_up_green_pepper_from_table,pick up the green pepper from the table
+390,pick_up_red_pepper_from_plate,pick up the red pepper from the plate
+391,pick_up_red_pepper_from_table,pike up the red pepper from the table
+392,pick_up_the_cucumber_from_the_basket_1125,pick up the cucumber from the basket
+393,pick_up_the_cucumber_from_the_table_1125,pick up the cucumber from the table
+394,pick_up_the_flowers_from_the_table_1025,pick up the flowers from the table
+395,pick_up_the_flowers_from_the_table_1028,pick up the flowers from the table
+396,pick_up_the_flowers_from_the_table_1029,pick up the flowers from the table
+397,pick_up_the_flowers_from_the_table_1030,pick up the flowers from the table
+398,pick_up_the_flowers_from_the_table_1031,pick up the flowers from the table
+399,pick_up_the_flowers_from_the_table_1101,pick up the flowers from the table
+400,pick_up_the_flowers_from_the_table_1126,pick up the flowers from the table
+401,pick_up_the_flowers_from_the_vase_1025,pick up the flowers from the vase
+402,pick_up_the_flowers_from_the_vase_1028,pick up the flowers from the vase
+403,pick_up_the_flowers_from_the_vase_1029,pick up the flowers from the vase
+404,pick_up_the_flowers_from_the_vase_1030,pick up the flowers from the vase
+405,pick_up_the_flowers_from_the_vase_1031,pick up the flowers from the vase
+406,pick_up_the_flowers_from_the_vase_1101,pick up the flowers from the vase
+407,pick_up_the_flowers_from_the_vase_1126,pick up the flowers from the vase
+408,pick_up_the_green_vegetable_from_the_basket_1121,pick up the green vegetable from the basket
+409,pick_up_the_green_vegetable_from_the_table_1121,pick up the green vegetable from the table
+410,pick_up_the_mango_from_the_table_1104,pick up the mango from the table
+411,pick_up_the_mango_from_the_table_1120,pick up the mango from the table
+412,pick_up_the_mangoes_from_the_basket_1104,pick up the mango from the basket
+413,pick_up_the_mangoes_from_the_basket_1120,pick up the mango from the basket
+414,pick_up_the_oranges_from_the_basket_1119,pick up the orange from the basket
+415,pick_up_the_oranges_from_the_table_1119,pick up the orange from the table
+416,pick_up_the_sweet_potato_from_the_basket_1122,pick up the sweet potato from the basket
+417,pick_up_the_sweet_potato_from_the_table_1122,pick up the sweet potato from the table
+418,pick_up_the_yellow_peppers_from_the_basket_1101,pick up the yellow pepper from the basket
+419,pick_up_the_yellow_peppers_from_the_table_1101,pick up the yellow pepper from the table
+420,pick_up_yellow_pepper_from_plate,pick up the yellow pepper from the plate
+421,pick_up_yellow_pepper_from_plate_copy_1734079773826,pick up the yellow pepper from the plate
+422,pick_up_yellow_pepper_from_table,pick up the yellow pepper from the table
+423,pick_up_yellow_pepper_from_table_copy_1734079574938,pick up the yellow pepper from the table
+424,pickupthebananafromtheplate,pick up the banana from the plate
+425,pickupthebananafromthetable,pick up the banana from the table
+426,place_the_cucumber_on_the_table_1125,place the cucumber on the table
+427,place_the_flowers_on_the_table_1025,place the flowers on the table
+428,place_the_flowers_on_the_table_1028,place the flowers on the table
+429,place_the_flowers_on_the_table_1029,place the flowers on the table
+430,place_the_flowers_on_the_table_1030,place the flowers on the table
+431,place_the_flowers_on_the_table_1031,place the flowers on the table
+432,place_the_flowers_on_the_table_1101,place the flowers on the table
+433,place_the_flowers_on_the_table_1126,place the flowers on the table
+434,place_the_green_vegetable_on_the_table_1121,place the green vegetable on the table
+435,place_the_mango_on_the_table_1104,place the mango on the table
+436,place_the_mango_on_the_table_1120,place the mango on the table
+437,place_the_oranges_on_the_table_1119,place the orange on the table
+438,place_the_sweet_potato_on_the_table_1122,place the sweet potato on the table
+439,placebananaonaplate,place bananas on a plate
+440,put_the_cucumber_in_the_basket_1125,place the cucumber in the basket
+441,put_the_garbage_in_the_trash_can_1105,place the trash in the trash can
+442,put_the_garbage_in_the_trash_can_1106,place the trash in the trash can
+443,put_the_garbage_in_the_trash_can_1107,place the trash in the trash can
+444,put_the_garbage_in_the_trash_can_1111,place the trash in the trash can
+445,put_the_garbage_in_the_trash_can_1112,place the trash in the trash can
+446,put_the_garbage_in_the_trash_can_1113,place the trash in the trash can
+447,put_the_garbage_in_the_trash_can_1114,place the trash in the trash can
+448,put_the_garbage_in_the_trash_can_1118,place the trash in the trash can
+449,put_the_green_vegetable_in_the_basket_1121,place the green vegetable in the basket
+450,put_the_mango_in_the_basket_1104,place the mango in the basket
+451,put_the_mango_in_the_basket_1120,place the mango in the basket
+452,put_the_oranges_in_the_basket_1119,place the orange in the basket
+453,put_the_sweet_potato_in_the_basket_1122,place the sweet potato in the basket
+454,putthebananaonthetable,place the banana in the table
+455,red_pepper_in_table,place the red pepper on the table
+456,red_pepper_on_plate,place the red pepper on the plate
+457,uncap_open_the_trash_can_1104,uncap open the trash can
+458,uncap_open_the_trash_can_1105,uncap open the trash can
+459,uncap_open_the_trash_can_1106,uncap open the trash can
+460,uncap_open_the_trash_can_1107,uncap open the trash can
+461,uncap_open_the_trash_can_1108,uncap open the trash can
+462,uncap_open_the_trash_can_1111,uncap open the trash can
+463,uncap_open_the_trash_can_1112,uncap open the trash can
+464,uncap_open_the_trash_can_1113,uncap open the trash can
+465,uncap_open_the_trash_can_1114,uncap open the trash can
+466,uncap_open_the_trash_can_1118,uncap open the trash can
+467,yellow_pepper_on_plate,place the yellow pepper on the plate
+468,yellow_pepper_on_plate_copy_1734079761061,place the yellow pepper on the plate
+469,241223_upright_cup,upright the cup
+470,408-place_upright_mug_on_the_left_middle,place upright mug on the left middle
+471,409-place_upright_mug_on_the_right_middle,place upright mug on the right middle
+472,410-place_upright_mug_on_randomly_textured_table,place_upright_mug_on_randomly_textured_table
+473,411-place_upright_mug_with_one_other,place_upright_mug_with_one_other
+474,412-place_upright_mug_with_three_others,place_upright_mug_with_three_others
+475,413-place_upright_mug_with_five_others,place_upright_mug_with_five_others
+476,414-place_upright_mug_with_ten_others,place_upright_mug_with_ten_others
+477,415-place_upright_new_style_mug,place_upright_new_style_mug
+478,benchmark_sim_07,place upright mug on the middle middle

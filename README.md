@@ -8,12 +8,12 @@
 
 English | [中文](./README.zh.md)
 ## 💾 Overview of RoboMIND 💾
-<img src="./static/images/piechart.png" border=0 width=100%>
+<img src="./static/images/piechart_new.png" border=0 width=100%>
 
 ### 🤖 Composition of RoboMIND 🤖
-We present RoboMIND (Multi-embodiment Intelligence Normative Dataset and Benchmark for Robot Manipulation), a comprehensive dataset featuring 55k real-world demonstration trajectories spanning 279 distinct tasks and involving 61 unique object classes.
+We present RoboMIND (Multi-embodiment Intelligence Normative Dataset and Benchmark for Robot Manipulation), a comprehensive dataset featuring 107k real-world demonstration trajectories spanning 479 distinct tasks and involving 96 unique object classes.
 
-The RoboMIND dataset integrates teleoperation data from multiple robotic embodiments, comprising 31,005 trajectories from the Franka Emika Panda single-arm robot, 9,686 trajectories from the Tien Kung humanoid robot, 8,030 trajectories from the AgileX Cobot Magic V2.0 dual-arm robot, and 6,911 trajectories from the UR-5e single-arm robot.
+The RoboMIND dataset integrates teleoperation data from multiple robotic embodiments, comprising 52,926 trajectories from the Franka Emika Panda single-arm robot, 19,152 trajectories from the Tien Kung humanoid robot, 10,629 trajectories from the AgileX Cobot Magic V2.0 dual-arm robot, and 25,170 trajectories from the UR-5e single-arm robot.
 
 RoboMIND provides researchers and developers with an invaluable resource for advancing robotic learning and automation technologies by encompassing a broad spectrum of task types and diverse object categories. This dataset stands out for its substantial scale and exceptional quality, ensuring its effectiveness and reliability in practical applications.
 
@@ -22,16 +22,15 @@ Different robotic embodiments exhibit distinct trajectory length distributions. 
 
 
 ### 🚀 Task Categories 🚀
-Based on natural language descriptions and considering factors such as object size, usage scenarios, and operational skills, we classify the dataset tasks into five major categories: 1) Articulated Manipulations (Artic. M.).  2) Coordination Manipulations (Coord. M.).  3) Basic Manipulations (Basic M.). 4) Precision Manipulations (Precision M.). 5) Scene Understanding (Scene U.)
+Based on natural language descriptions and considering factors such as object size, usage scenarios, and operational skills, we classify the dataset tasks into six major categories: 1) Articulated Manipulations (Artic. M.).  2) Coordination Manipulations (Coord. M.).  3) Basic Manipulations (Basic M.). 4) Multiple Object Interactions (Obj. Int.). 5) Precision Manipulations (Precision M.). 6) Scene Understanding (Scene U.)
 Beyond basic manipulations, the dataset includes numerous complex tasks, providing rich data support for training generalized robotic policies.
 
 
 ### 💪 Diversity of Objects 💪
-The dataset encompasses 61 distinct object categories. In kitchen scenarios, it includes common foods like strawberries, eggs, bananas, and pears, as well as complex adjustable appliances such as ovens and bread makers. In household settings, the dataset features both rigid objects like tennis balls and deformable objects like toys. Office and industrial scenarios include small objects requiring precise control, such as batteries and gears. This diverse object range enhances dataset complexity and supports training versatile manipulation policies applicable across various environments.
+The dataset encompasses 96 distinct object categories. In kitchen scenarios, it includes common foods like strawberries, eggs, bananas, and pears, as well as complex adjustable appliances such as ovens and bread makers. In domestic settings, the dataset features both rigid objects like tennis balls and deformable objects like toys. Office and industrial scenarios include small objects requiring precise control, such as batteries and gears. This diverse object range enhances dataset complexity and supports training versatile manipulation policies applicable across various environments.
 
 
-
-<img src="./static/images/Distribution.png" border=20 width=80%>
+<img src="./static/images/Distribution_new.png" border=5 width=95%>
 
 
 ## 📁 Data Description 📁
@@ -74,9 +73,9 @@ Due to equipment maintenance, 675 trajectories in the h5_franka_3rgb folder only
 
 For the specific data paths, please refer to [franka_3rgb_2cam_paths.md](./static/franka_3rgb_2cam_paths.md).
 
-## Task Language Instructions
+## 🧰 Task Language Instructions 🧰 
 
-We have provided corresponding language instructions for each task [RoboMIND_instr.csv](./static/RoboMIND_v1_1_instr.csv)。
+We have provided corresponding language instructions for each task [RoboMIND_instr.csv](./static/RoboMIND_v1_2_instr.csv)。
 
 ## 📊 Example of Data Usage 📊
 
@@ -84,17 +83,30 @@ Please refer to [Quick_Start.ipynb](./static/quick_start.ipynb).
 
 We provide a simple Franka sample trajectory along with the code for reading the dataset [read_h5.py](./static/read_h5.py) and [pick_apple_into_drawer_h5.zip](https://drive.google.com/file/d/1EC26fwhftw-9h_HJ5ohqxf4kcEJe_ZzH/view?usp=sharing).
 
+## 📖 Version Update 📖
+
+### Version 1.1 & 1.2
+
+Compared to Version 1.0, we further expanded the dataset, which now includes 107K trajectories, 479 tasks, and covers 96 different object classes.
+
+In version 1.2, we added 10 tasks of Upright_Cup data to Version 1.1, including 1 real-world task and 9 tasks from the digital twin environment. The goal of these 10 tasks is to flip a mug, but they involve different environmental settings, such as the range of mug placement, table textures, and mug appearances.
+
+For more HDF5 file formats, please refer to [all_robot_h5_info_v1.2.md](./static/all_robot_h5_info_v1.2.md).
+
+### Version 1.0
+
+The initial version of RoboMIND contains 55K trajectories, and 279 tasks, and involves 69 different object classes.
 
 ## 📝 Citation 📝
 If you find RoboMIND helpful in your research, please consider citing:
 
 ```
-@article{wu2024robomindbenchmarkmultiembodimentintelligence,
-        title={RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation},
-        author={Kun Wu and Chengkai Hou and Jiaming Liu and Zhengping Che and Xiaozhu Ju and Zhuqin Yang and Meng Li and Yinuo Zhao and Zhiyuan Xu and Guang Yang and Zhen Zhao and Guangyu Li and Zhao Jin and Lecheng Wang and Jilei Mao and Xinhua Wang and Shichao Fan and Ning Liu and Pei Ren and Qiang Zhang and Yaoxu Lyu and Mengzhen Liu and Jingyang He and Yulin Luo and Zeyu Gao and Chenxuan Li and Chenyang Gu and Yankai Fu and Di Wu and Xingyu Wang and Sixiang Chen and Zhenyu Wang and Pengju An and Siyuan Qian and Shanghang Zhang and Jian Tang},
-        journal={arXiv preprint arXiv:2412.13877},
-        year={2024}
-      }
+@article{wu2024robomind,
+  title={Robomind: Benchmark on multi-embodiment intelligence normative data for robot manipulation},
+  author={Wu, Kun and Hou, Chengkai and Liu, Jiaming and Che, Zhengping and Ju, Xiaozhu and Yang, Zhuqin and Li, Meng and Zhao, Yinuo and Xu, Zhiyuan and Yang, Guang and others},
+  journal={arXiv preprint arXiv:2412.13877},
+  year={2024}
+}
 ```
 
 
