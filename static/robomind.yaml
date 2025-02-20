@@ -1,0 +1,47 @@
+domain_dict: {
+  h5_franka_3rgb: {
+    robot_infor: {
+        camera_names: ['camera_top', 'camera_left', 'camera_right'],
+        qpos_arm_key: 'puppet',
+        action_arm_key: 'puppet',
+        controls: ['joint_position'],
+        bgr2rgb: True
+    }
+  },
+  h5_ur_1rgb: {
+    robot_infor: {
+        camera_names: ['camera_top'],
+        qpos_arm_key: 'puppet',
+        action_arm_key: 'puppet',
+        controls: ['joint_position'],
+        bgr2rgb: True
+    }
+  },
+  h5_agilex_3rgb: {
+    robot_infor: {
+        camera_names: ['camera_front', 'camera_left_wrist', 'camera_right_wrist'],
+        qpos_arm_key: 'puppet',
+        action_arm_key: 'master',
+        controls: ['joint_position_left', 'joint_position_right'],
+        bgr2rgb: False
+    }
+  },
+  h5_tienkung_gello_1rgb: {
+    robot_infor: {
+        camera_names: ['camera_top'],
+        qpos_arm_key: 'puppet',
+        action_arm_key: 'master',
+        controls: ['joint_position'],
+        bgr2rgb: False
+    }
+  },
+  h5_tienkung_xsens_1rgb: {
+    robot_infor: {
+        camera_names: ['camera_top'],
+        qpos_arm_key: 'puppet',
+        action_arm_key: 'puppet',
+        controls: ['end_effector', 'joint_position'],
+        bgr2rgb: False  
+    }
+  }
+}
