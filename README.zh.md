@@ -107,7 +107,7 @@ RoboMIND数据集汇集了多种机器人平台的操作数据，包括52,926条
 
 
 ## 📁 FAQ 📁
-数据集常见使用问题解答，请参考 [FAQ.md]([FAQ.md](https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io/issues/2))。
+数据集常见使用问题解答，请参考 [FAQ.md](https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io/issues/2))。
 
 
 
