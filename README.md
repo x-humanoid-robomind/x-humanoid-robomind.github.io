@@ -108,7 +108,8 @@ If you find RoboMIND helpful in your research, please consider citing:
   year={2024}
 }
 ```
-
+## Reference Document ##
+For the input and output when training the model, please refer to [robomind.yaml](./static/robomind.yaml).
 
 ## 🗨️ Discussions 🗨️
 If you're interested in RoboMIND, welcome to join our WeChat group for discussions.
