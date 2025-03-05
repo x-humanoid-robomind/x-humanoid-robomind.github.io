@@ -1,0 +1,4800 @@
+[
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1016_161244/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0023.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0030.jpg",
+                    "end_frame": "camera_top_0096.jpg"
+                },
+                {
+                    "step_description": "move bread towards the basket",
+                    "start_frame": "camera_top_0104.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                },
+                {
+                    "step_description": "put bread on the basket",
+                    "start_frame": "camera_top_0133.jpg",
+                    "end_frame": "camera_top_0170.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0178.jpg",
+                    "end_frame": "camera_top_0214.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_144943/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the braided bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0052.jpg"
+                },
+                {
+                    "step_description": "grasp the braided bread",
+                    "start_frame": "camera_top_0059.jpg",
+                    "end_frame": "camera_top_0104.jpg"
+                },
+                {
+                    "step_description": "move braided bread towards the basket",
+                    "start_frame": "camera_top_0111.jpg",
+                    "end_frame": "camera_top_0117.jpg"
+                },
+                {
+                    "step_description": "put braided bread on the basket",
+                    "start_frame": "camera_top_0124.jpg",
+                    "end_frame": "camera_top_0137.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0143.jpg",
+                    "end_frame": "camera_top_0188.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_143350/data",
+        "response": {
+            "task_summary": "pick up bread from a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0048.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0053.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "move bread towards the table",
+                    "start_frame": "camera_top_0111.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                },
+                {
+                    "step_description": "move away from the table",
+                    "start_frame": "camera_top_0132.jpg",
+                    "end_frame": "camera_top_0152.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_165055/data",
+        "response": {
+            "task_summary": "picking up bread from a basket and placing it on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0030.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0037.jpg",
+                    "end_frame": "camera_top_0089.jpg"
+                },
+                {
+                    "step_description": "move bread towards the table",
+                    "start_frame": "camera_top_0096.jpg",
+                    "end_frame": "camera_top_0111.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0118.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                },
+                {
+                    "step_description": "move away from the table",
+                    "start_frame": "camera_top_0125.jpg",
+                    "end_frame": "camera_top_0213.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_153509/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0026.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0030.jpg",
+                    "end_frame": "camera_top_0074.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0078.jpg",
+                    "end_frame": "camera_top_0089.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0093.jpg",
+                    "end_frame": "camera_top_0107.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1018_183147/data",
+        "response": {
+            "task_summary": "place the bread on the gray table",
+            "steps": [
+                {
+                    "step_description": "move towards the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0017.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0023.jpg",
+                    "end_frame": "camera_top_0089.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the table",
+                    "start_frame": "camera_top_0094.jpg",
+                    "end_frame": "camera_top_0111.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0116.jpg",
+                    "end_frame": "camera_top_0160.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_160242/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0012.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0015.jpg",
+                    "end_frame": "camera_top_0044.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0047.jpg",
+                    "end_frame": "camera_top_0056.jpg"
+                },
+                {
+                    "step_description": "move away from the croissant ",
+                    "start_frame": "camera_top_0059.jpg",
+                    "end_frame": "camera_top_0085.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_140506/data",
+        "response": {
+            "task_summary": "placing a round bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the round bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0016.jpg"
+                },
+                {
+                    "step_description": "pick up the round bread",
+                    "start_frame": "camera_top_0022.jpg",
+                    "end_frame": "camera_top_0070.jpg"
+                },
+                {
+                    "step_description": "move the round bread towards the basket",
+                    "start_frame": "camera_top_0075.jpg",
+                    "end_frame": "camera_top_0101.jpg"
+                },
+                {
+                    "step_description": "move away from the round bread ",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0154.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_111747/data",
+        "response": {
+            "task_summary": "Pick up the bread from the basket and place it on the table",
+            "steps": [
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0167.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the table",
+                    "start_frame": "camera_top_0178.jpg",
+                    "end_frame": "camera_top_0188.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0198.jpg",
+                    "end_frame": "camera_top_0302.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_170352/data",
+        "response": {
+            "task_summary": "placing a piece of bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0047.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0053.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0111.jpg",
+                    "end_frame": "camera_top_0122.jpg"
+                },
+                {
+                    "step_description": "place the bread into the basket",
+                    "start_frame": "camera_top_0128.jpg",
+                    "end_frame": "camera_top_0145.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0151.jpg",
+                    "end_frame": "camera_top_0168.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_162442/data",
+        "response": {
+            "task_summary": "picking up a piece of bread from a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0010.jpg"
+                },
+                {
+                    "step_description": "grab the bread from the basket",
+                    "start_frame": "camera_top_0015.jpg",
+                    "end_frame": "camera_top_0069.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0073.jpg",
+                    "end_frame": "camera_top_0107.jpg"
+                },
+                {
+                    "step_description": "move away from the table",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0141.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1016_150153/data",
+        "response": {
+            "task_summary": "put the longer bread into the basket",
+            "steps": [
+                {
+                    "step_description": "move towards longer bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0027.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0034.jpg",
+                    "end_frame": "camera_top_0100.jpg"
+                },
+                {
+                    "step_description": "move the bread away from the basket",
+                    "start_frame": "camera_top_0106.jpg",
+                    "end_frame": "camera_top_0113.jpg"
+                },
+                {
+                    "step_description": "put the bread into the basket",
+                    "start_frame": "camera_top_0120.jpg",
+                    "end_frame": "camera_top_0146.jpg"
+                },
+                {
+                    "step_description": "move away from above the bread",
+                    "start_frame": "camera_top_0153.jpg",
+                    "end_frame": "camera_top_0192.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_170126/data",
+        "response": {
+            "task_summary": "put the round bread into the basket",
+            "steps": [
+                {
+                    "step_description": "move towards the circular bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0023.jpg"
+                },
+                {
+                    "step_description": "grab this bread",
+                    "start_frame": "camera_top_0028.jpg",
+                    "end_frame": "camera_top_0068.jpg"
+                },
+                {
+                    "step_description": "move the bread away from the basket",
+                    "start_frame": "camera_top_0073.jpg",
+                    "end_frame": "camera_top_0084.jpg"
+                },
+                {
+                    "step_description": "put the bread into the basket",
+                    "start_frame": "camera_top_0090.jpg",
+                    "end_frame": "camera_top_0101.jpg"
+                },
+                {
+                    "step_description": "move away from above the bread",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0162.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_134232/data",
+        "response": {
+            "task_summary": "move the round bread from the basket to the table",
+            "steps": [
+                {
+                    "step_description": "move towards the circular bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0039.jpg"
+                },
+                {
+                    "step_description": "grab this bread",
+                    "start_frame": "camera_top_0044.jpg",
+                    "end_frame": "camera_top_0092.jpg"
+                },
+                {
+                    "step_description": "move the bread onto the table",
+                    "start_frame": "camera_top_0096.jpg",
+                    "end_frame": "camera_top_0111.jpg"
+                },
+                {
+                    "step_description": "place the bread on the table",
+                    "start_frame": "camera_top_0116.jpg",
+                    "end_frame": "camera_top_0125.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0130.jpg",
+                    "end_frame": "camera_top_0139.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_142547/data",
+        "response": {
+            "task_summary": "move the bread from the basket to the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0024.jpg"
+                },
+                {
+                    "step_description": "grab this bread",
+                    "start_frame": "camera_top_0030.jpg",
+                    "end_frame": "camera_top_0083.jpg"
+                },
+                {
+                    "step_description": "move the bread onto the table",
+                    "start_frame": "camera_top_0089.jpg",
+                    "end_frame": "camera_top_0101.jpg"
+                },
+                {
+                    "step_description": "place the bread on the table",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0113.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0118.jpg",
+                    "end_frame": "camera_top_0171.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_184519/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the round bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0065.jpg"
+                },
+                {
+                    "step_description": "grab the round bread",
+                    "start_frame": "camera_top_0072.jpg",
+                    "end_frame": "camera_top_0144.jpg"
+                },
+                {
+                    "step_description": "move the round bread towards the basket",
+                    "start_frame": "camera_top_0151.jpg",
+                    "end_frame": "camera_top_0180.jpg"
+                },
+                {
+                    "step_description": "move away from the round bread ",
+                    "start_frame": "camera_top_0187.jpg",
+                    "end_frame": "camera_top_0208.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1018_111715/data",
+        "response": {
+            "task_summary": "Take the long bread out of the basket and put it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the long bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0055.jpg"
+                },
+                {
+                    "step_description": "grab the long bread",
+                    "start_frame": "camera_top_0060.jpg",
+                    "end_frame": "camera_top_0100.jpg"
+                },
+                {
+                    "step_description": "move the long bread towards the table",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0115.jpg"
+                },
+                {
+                    "step_description": "move away from the long bread",
+                    "start_frame": "camera_top_0120.jpg",
+                    "end_frame": "camera_top_0144.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_150750/data",
+        "response": {
+            "task_summary": "put the bread into the brown woven basket",
+            "steps": [
+                {
+                    "step_description": "move towards bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0037.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0042.jpg",
+                    "end_frame": "camera_top_0099.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the brown woven basket",
+                    "start_frame": "camera_top_0104.jpg",
+                    "end_frame": "camera_top_0125.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0130.jpg",
+                    "end_frame": "camera_top_0150.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_163200/data",
+        "response": {
+            "task_summary": "take the bread out of the brown woven basket and place it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0038.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0044.jpg",
+                    "end_frame": "camera_top_0099.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the desktop",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                },
+                {
+                    "step_description": "Place the bread on the table",
+                    "start_frame": "camera_top_0124.jpg",
+                    "end_frame": "camera_top_0142.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0149.jpg",
+                    "end_frame": "camera_top_0179.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1016_171956/data",
+        "response": {
+            "task_summary": "placing small bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0107.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0113.jpg",
+                    "end_frame": "camera_top_0150.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0157.jpg",
+                    "end_frame": "camera_top_0181.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_102937/data",
+        "response": {
+            "task_summary": "placing small bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0129.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0135.jpg",
+                    "end_frame": "camera_top_0161.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0167.jpg",
+                    "end_frame": "camera_top_0186.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_153028/data",
+        "response": {
+            "task_summary": "placing small bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0124.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0131.jpg",
+                    "end_frame": "camera_top_0154.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0162.jpg",
+                    "end_frame": "camera_top_0223.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_164127/data",
+        "response": {
+            "task_summary": "placing small bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0076.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0080.jpg",
+                    "end_frame": "camera_top_0096.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0101.jpg",
+                    "end_frame": "camera_top_0121.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_104345/data",
+        "response": {
+            "task_summary": "placing big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0144.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0152.jpg",
+                    "end_frame": "camera_top_0176.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0184.jpg",
+                    "end_frame": "camera_top_0231.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_141227/data",
+        "response": {
+            "task_summary": "placing small bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0081.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0086.jpg",
+                    "end_frame": "camera_top_0099.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0104.jpg",
+                    "end_frame": "camera_top_0130.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_181145/data",
+        "response": {
+            "task_summary": "placing big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0072.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0077.jpg",
+                    "end_frame": "camera_top_0108.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0113.jpg",
+                    "end_frame": "camera_top_0130.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_105138/data",
+        "response": {
+            "task_summary": "placing small bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0147.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0154.jpg",
+                    "end_frame": "camera_top_0183.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0191.jpg",
+                    "end_frame": "camera_top_0212.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_174718/data",
+        "response": {
+            "task_summary": "placing small bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0087.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0092.jpg",
+                    "end_frame": "camera_top_0123.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0128.jpg",
+                    "end_frame": "camera_top_0148.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_155815/data",
+        "response": {
+            "task_summary": "placing big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0120.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0127.jpg",
+                    "end_frame": "camera_top_0155.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0162.jpg",
+                    "end_frame": "camera_top_0204.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_104928/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0107.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0122.jpg"
+                },
+                {
+                    "step_description": "move away from croissant",
+                    "start_frame": "camera_top_0127.jpg",
+                    "end_frame": "camera_top_0141.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_163724/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0086.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0091.jpg",
+                    "end_frame": "camera_top_0104.jpg"
+                },
+                {
+                    "step_description": "move away from bread roll",
+                    "start_frame": "camera_top_0109.jpg",
+                    "end_frame": "camera_top_0131.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_104830/data",
+        "response": {
+            "task_summary": "placing the big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0170.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0178.jpg",
+                    "end_frame": "camera_top_0201.jpg"
+                },
+                {
+                    "step_description": "move away from the big bread",
+                    "start_frame": "camera_top_0209.jpg",
+                    "end_frame": "camera_top_0224.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_135138/data",
+        "response": {
+            "task_summary": "placing the big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0083.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0088.jpg",
+                    "end_frame": "camera_top_0112.jpg"
+                },
+                {
+                    "step_description": "move away from the big bread",
+                    "start_frame": "camera_top_0118.jpg",
+                    "end_frame": "camera_top_0170.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_182926/data",
+        "response": {
+            "task_summary": "picking up a croissant and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "grip the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0120.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the table",
+                    "start_frame": "camera_top_0126.jpg",
+                    "end_frame": "camera_top_0150.jpg"
+                },
+                {
+                    "step_description": "move away from the croissant",
+                    "start_frame": "camera_top_0156.jpg",
+                    "end_frame": "camera_top_0173.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1016_183834/data",
+        "response": {
+            "task_summary": "placing a round bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the round bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0079.jpg"
+                },
+                {
+                    "step_description": "move the round bread towards the basket",
+                    "start_frame": "camera_top_0083.jpg",
+                    "end_frame": "camera_top_0100.jpg"
+                },
+                {
+                    "step_description": "release the round bread ",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_151738/data",
+        "response": {
+            "task_summary": "placing a round bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the round bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0067.jpg"
+                },
+                {
+                    "step_description": "move the round bread towards the basket",
+                    "start_frame": "camera_top_0071.jpg",
+                    "end_frame": "camera_top_0093.jpg"
+                },
+                {
+                    "step_description": "move away from the round bread",
+                    "start_frame": "camera_top_0098.jpg",
+                    "end_frame": "camera_top_0128.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_181010/data",
+        "response": {
+            "task_summary": "placing cylindrical bread on a table",
+            "steps": [
+                {
+                    "step_description": "grab the cylindrical bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0094.jpg"
+                },
+                {
+                    "step_description": "move the cylindrical bread towards the table",
+                    "start_frame": "camera_top_0094.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                },
+                {
+                    "step_description": "move away from the cylindrical bread",
+                    "start_frame": "camera_top_0123.jpg",
+                    "end_frame": "camera_top_0142.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1015_144106/data",
+        "response": {
+            "task_summary": "placing bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0056.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0065.jpg",
+                    "end_frame": "camera_top_0158.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0167.jpg",
+                    "end_frame": "camera_top_0213.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0222.jpg",
+                    "end_frame": "camera_top_0268.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1015_144647/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0036.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0042.jpg",
+                    "end_frame": "camera_top_0113.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0118.jpg",
+                    "end_frame": "camera_top_0136.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0142.jpg",
+                    "end_frame": "camera_top_0171.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1015_170139/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0037.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0045.jpg",
+                    "end_frame": "camera_top_0125.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0133.jpg",
+                    "end_frame": "camera_top_0147.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0155.jpg",
+                    "end_frame": "camera_top_0213.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1015_181222/data",
+        "response": {
+            "task_summary": "placing bread stick into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread stick",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0021.jpg"
+                },
+                {
+                    "step_description": "grab the bread stick",
+                    "start_frame": "camera_top_0026.jpg",
+                    "end_frame": "camera_top_0073.jpg"
+                },
+                {
+                    "step_description": "move the bread stick towards the basket",
+                    "start_frame": "camera_top_0078.jpg",
+                    "end_frame": "camera_top_0109.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0114.jpg",
+                    "end_frame": "camera_top_0150.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_142054/data",
+        "response": {
+            "task_summary": "placing big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0046.jpg"
+                },
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0052.jpg",
+                    "end_frame": "camera_top_0111.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0117.jpg",
+                    "end_frame": "camera_top_0137.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0143.jpg",
+                    "end_frame": "camera_top_0188.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_183340/data",
+        "response": {
+            "task_summary": "placing big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0049.jpg"
+                },
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0056.jpg",
+                    "end_frame": "camera_top_0133.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0140.jpg",
+                    "end_frame": "camera_top_0161.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0168.jpg",
+                    "end_frame": "camera_top_0202.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_145706/data",
+        "response": {
+            "task_summary": "placing small bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0213.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0222.jpg",
+                    "end_frame": "camera_top_0232.jpg"
+                },
+                {
+                    "step_description": "put the small bread on the basket",
+                    "start_frame": "camera_top_0241.jpg",
+                    "end_frame": "camera_top_0241.jpg"
+                },
+                {
+                    "step_description": "move away from basket",
+                    "start_frame": "camera_top_0250.jpg",
+                    "end_frame": "camera_top_0268.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_141305/data",
+        "response": {
+            "task_summary": "placing bread stick on a table",
+            "steps": [
+                {
+                    "step_description": "move towards bread stick",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0082.jpg"
+                },
+                {
+                    "step_description": "grab bread stick",
+                    "start_frame": "camera_top_0091.jpg",
+                    "end_frame": "camera_top_0163.jpg"
+                },
+                {
+                    "step_description": "move the bread stick towards the basket",
+                    "start_frame": "camera_top_0172.jpg",
+                    "end_frame": "camera_top_0199.jpg"
+                },
+                {
+                    "step_description": "put the bread stick on the table",
+                    "start_frame": "camera_top_0208.jpg",
+                    "end_frame": "camera_top_0217.jpg"
+                },
+                {
+                    "step_description": "move away from bread stick",
+                    "start_frame": "camera_top_0226.jpg",
+                    "end_frame": "camera_top_0262.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_155732/data",
+        "response": {
+            "task_summary": "placing croissant on a table",
+            "steps": [
+                {
+                    "step_description": "move towards croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0050.jpg"
+                },
+                {
+                    "step_description": "grab croissant",
+                    "start_frame": "camera_top_0056.jpg",
+                    "end_frame": "camera_top_0111.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0116.jpg",
+                    "end_frame": "camera_top_0122.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the table",
+                    "start_frame": "camera_top_0127.jpg",
+                    "end_frame": "camera_top_0138.jpg"
+                },
+                {
+                    "step_description": "move away from croissant",
+                    "start_frame": "camera_top_0144.jpg",
+                    "end_frame": "camera_top_0160.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_115027/data",
+        "response": {
+            "task_summary": "placing croissant on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread basket",
+                    "start_frame": "camera_top_0001.jpg",
+                    "end_frame": "camera_top_0079.jpg"
+                },
+                {
+                    "step_description": "move towards croissant",
+                    "start_frame": "camera_top_0088.jpg",
+                    "end_frame": "camera_top_0158.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0166.jpg",
+                    "end_frame": "camera_top_0192.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the table",
+                    "start_frame": "camera_top_0201.jpg",
+                    "end_frame": "camera_top_0210.jpg"
+                },
+                {
+                    "step_description": "move away from croissant",
+                    "start_frame": "camera_top_0219.jpg",
+                    "end_frame": "camera_top_0253.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_171929/data",
+        "response": {
+            "task_summary": "placing small bread on a table",
+            "steps": [
+                {
+                    "step_description": "grab small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0089.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0095.jpg",
+                    "end_frame": "camera_top_0123.jpg"
+                },
+                {
+                    "step_description": "put the small bread on the table",
+                    "start_frame": "camera_top_0128.jpg",
+                    "end_frame": "camera_top_0128.jpg"
+                },
+                {
+                    "step_description": "move away from small bread",
+                    "start_frame": "camera_top_0134.jpg",
+                    "end_frame": "camera_top_0161.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_174536/data",
+        "response": {
+            "task_summary": "placing croissant on a table",
+            "steps": [
+                {
+                    "step_description": "grab croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0099.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0129.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the table",
+                    "start_frame": "camera_top_0136.jpg",
+                    "end_frame": "camera_top_0154.jpg"
+                },
+                {
+                    "step_description": "move away from croissant",
+                    "start_frame": "camera_top_0160.jpg",
+                    "end_frame": "camera_top_0178.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1018_113152/data",
+        "response": {
+            "task_summary": "placing croissant on a table",
+            "steps": [
+                {
+                    "step_description": "grab croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0095.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0100.jpg",
+                    "end_frame": "camera_top_0117.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the table",
+                    "start_frame": "camera_top_0123.jpg",
+                    "end_frame": "camera_top_0139.jpg"
+                },
+                {
+                    "step_description": "move away from croissant",
+                    "start_frame": "camera_top_0145.jpg",
+                    "end_frame": "camera_top_0161.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_103609/data",
+        "response": {
+            "task_summary": "placing croissant on a table",
+            "steps": [
+                {
+                    "step_description": "grab croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0057.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0061.jpg",
+                    "end_frame": "camera_top_0074.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the table",
+                    "start_frame": "camera_top_0079.jpg",
+                    "end_frame": "camera_top_0096.jpg"
+                },
+                {
+                    "step_description": "move away from croissant",
+                    "start_frame": "camera_top_0100.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_142142/data",
+        "response": {
+            "task_summary": "placing small bread on a table",
+            "steps": [
+                {
+                    "step_description": "move towards small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0063.jpg"
+                },
+                {
+                    "step_description": "grab small bread",
+                    "start_frame": "camera_top_0068.jpg",
+                    "end_frame": "camera_top_0102.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0108.jpg",
+                    "end_frame": "camera_top_0119.jpg"
+                },
+                {
+                    "step_description": "put the small bread on the tabl",
+                    "start_frame": "camera_top_0125.jpg",
+                    "end_frame": "camera_top_0131.jpg"
+                },
+                {
+                    "step_description": "move away from small bread",
+                    "start_frame": "camera_top_0136.jpg",
+                    "end_frame": "camera_top_0164.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_103027/data",
+        "response": {
+            "task_summary": "placing small bread on a table",
+            "steps": [
+                {
+                    "step_description": "move away from small bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0030.jpg"
+                },
+                {
+                    "step_description": "grab small bread",
+                    "start_frame": "camera_top_0037.jpg",
+                    "end_frame": "camera_top_0102.jpg"
+                },
+                {
+                    "step_description": "move the small bread towards the basket",
+                    "start_frame": "camera_top_0110.jpg",
+                    "end_frame": "camera_top_0117.jpg"
+                },
+                {
+                    "step_description": "put the small bread on the tabl",
+                    "start_frame": "camera_top_0124.jpg",
+                    "end_frame": "camera_top_0146.jpg"
+                },
+                {
+                    "step_description": "move away from small bread",
+                    "start_frame": "camera_top_0153.jpg",
+                    "end_frame": "camera_top_0211.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_152336/data",
+        "response": {
+            "task_summary": "placing croissant on a table",
+            "steps": [
+                {
+                    "step_description": "grab croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0070.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0077.jpg",
+                    "end_frame": "camera_top_0089.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the table",
+                    "start_frame": "camera_top_0096.jpg",
+                    "end_frame": "camera_top_0108.jpg"
+                },
+                {
+                    "step_description": "move away from croissant",
+                    "start_frame": "camera_top_0115.jpg",
+                    "end_frame": "camera_top_0184.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1023_103038/data",
+        "response": {
+            "task_summary": "placing croissant on a table",
+            "steps": [
+                {
+                    "step_description": "move towards croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0028.jpg"
+                },
+                {
+                    "step_description": "grab croissant",
+                    "start_frame": "camera_top_0035.jpg",
+                    "end_frame": "camera_top_0098.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0112.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the table",
+                    "start_frame": "camera_top_0119.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                },
+                {
+                    "step_description": "move away from croissant",
+                    "start_frame": "camera_top_0133.jpg",
+                    "end_frame": "camera_top_0203.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1016_152642/data",
+        "response": {
+            "task_summary": "placing bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0084.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0088.jpg",
+                    "end_frame": "camera_top_0092.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0096.jpg",
+                    "end_frame": "camera_top_0104.jpg"
+                },
+                {
+                    "step_description": "move away from bread roll",
+                    "start_frame": "camera_top_0108.jpg",
+                    "end_frame": "camera_top_0116.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_144000/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0044.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0051.jpg",
+                    "end_frame": "camera_top_0109.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0116.jpg",
+                    "end_frame": "camera_top_0131.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0138.jpg",
+                    "end_frame": "camera_top_0138.jpg"
+                },
+                {
+                    "step_description": "move away from bread roll",
+                    "start_frame": "camera_top_0145.jpg",
+                    "end_frame": "camera_top_0210.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_153649/data",
+        "response": {
+            "task_summary": "placing a big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the big bread",
+                    "start_frame": "camera_top_0001.jpg",
+                    "end_frame": "camera_top_0044.jpg"
+                },
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0053.jpg",
+                    "end_frame": "camera_top_0115.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0124.jpg",
+                    "end_frame": "camera_top_0132.jpg"
+                },
+                {
+                    "step_description": "put the big bread into the basket",
+                    "start_frame": "camera_top_0141.jpg",
+                    "end_frame": "camera_top_0168.jpg"
+                },
+                {
+                    "step_description": "move away from the big bread",
+                    "start_frame": "camera_top_0176.jpg",
+                    "end_frame": "camera_top_0255.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_114348/data",
+        "response": {
+            "task_summary": "placing bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0091.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0096.jpg",
+                    "end_frame": "camera_top_0110.jpg"
+                },
+                {
+                    "step_description": "move away from bread roll",
+                    "start_frame": "camera_top_0115.jpg",
+                    "end_frame": "camera_top_0138.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_182200/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0055.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0059.jpg",
+                    "end_frame": "camera_top_0064.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0068.jpg",
+                    "end_frame": "camera_top_0068.jpg"
+                },
+                {
+                    "step_description": "move away from bread roll",
+                    "start_frame": "camera_top_0072.jpg",
+                    "end_frame": "camera_top_0122.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_105729/data",
+        "response": {
+            "task_summary": "placing bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0062.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0066.jpg",
+                    "end_frame": "camera_top_0069.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0073.jpg",
+                    "end_frame": "camera_top_0081.jpg"
+                },
+                {
+                    "step_description": "move away from bread roll",
+                    "start_frame": "camera_top_0085.jpg",
+                    "end_frame": "camera_top_0111.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_172138/data",
+        "response": {
+            "task_summary": "placing the big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0087.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0094.jpg",
+                    "end_frame": "camera_top_0101.jpg"
+                },
+                {
+                    "step_description": "put the big bread  into the basket",
+                    "start_frame": "camera_top_0108.jpg",
+                    "end_frame": "camera_top_0115.jpg"
+                },
+                {
+                    "step_description": "move away from the big bread",
+                    "start_frame": "camera_top_0122.jpg",
+                    "end_frame": "camera_top_0208.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_171741/data",
+        "response": {
+            "task_summary": "placing the big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0096.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0102.jpg",
+                    "end_frame": "camera_top_0108.jpg"
+                },
+                {
+                    "step_description": "put the big bread  into the basket",
+                    "start_frame": "camera_top_0115.jpg",
+                    "end_frame": "camera_top_0121.jpg"
+                },
+                {
+                    "step_description": "move away from the big bread",
+                    "start_frame": "camera_top_0127.jpg",
+                    "end_frame": "camera_top_0184.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_143214/data",
+        "response": {
+            "task_summary": "placing bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0091.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0098.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                },
+                {
+                    "step_description": "move away from bread roll",
+                    "start_frame": "camera_top_0133.jpg",
+                    "end_frame": "camera_top_0202.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_175929/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0020.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0023.jpg",
+                    "end_frame": "camera_top_0045.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0048.jpg",
+                    "end_frame": "camera_top_0054.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0058.jpg",
+                    "end_frame": "camera_top_0064.jpg"
+                },
+                {
+                    "step_description": "move away from bread roll",
+                    "start_frame": "camera_top_0067.jpg",
+                    "end_frame": "camera_top_0077.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_183357/data",
+        "response": {
+            "task_summary": "placing the big bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0074.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the basket",
+                    "start_frame": "camera_top_0079.jpg",
+                    "end_frame": "camera_top_0090.jpg"
+                },
+                {
+                    "step_description": "put the big bread  into the basket",
+                    "start_frame": "camera_top_0095.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "move away from the big bread",
+                    "start_frame": "camera_top_0111.jpg",
+                    "end_frame": "camera_top_0152.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_133742/data",
+        "response": {
+            "task_summary": "place the bread stick on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread stick",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0037.jpg"
+                },
+                {
+                    "step_description": "grab the bread stick",
+                    "start_frame": "camera_top_0041.jpg",
+                    "end_frame": "camera_top_0092.jpg"
+                },
+                {
+                    "step_description": "move the bread stick towards the table",
+                    "start_frame": "camera_top_0096.jpg",
+                    "end_frame": "camera_top_0101.jpg"
+                },
+                {
+                    "step_description": "put the bread stick on the table",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0119.jpg"
+                },
+                {
+                    "step_description": "move away from the bread stick",
+                    "start_frame": "camera_top_0123.jpg",
+                    "end_frame": "camera_top_0132.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_171858/data",
+        "response": {
+            "task_summary": "pick up a piece of croissant from a basket and place it next to another piece of bread on a table",
+            "steps": [
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0147.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the table",
+                    "start_frame": "camera_top_0157.jpg",
+                    "end_frame": "camera_top_0166.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the table",
+                    "start_frame": "camera_top_0176.jpg",
+                    "end_frame": "camera_top_0205.jpg"
+                },
+                {
+                    "step_description": "move away from the croissant",
+                    "start_frame": "camera_top_0215.jpg",
+                    "end_frame": "camera_top_0283.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_143849/data",
+        "response": {
+            "task_summary": "picking up a croissant and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0061.jpg"
+                },
+                {
+                    "step_description": "grip the croissant",
+                    "start_frame": "camera_top_0068.jpg",
+                    "end_frame": "camera_top_0136.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the table",
+                    "start_frame": "camera_top_0144.jpg",
+                    "end_frame": "camera_top_0159.jpg"
+                },
+                {
+                    "step_description": "move away from the croissant",
+                    "start_frame": "camera_top_0167.jpg",
+                    "end_frame": "camera_top_0219.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_144406/data",
+        "response": {
+            "task_summary": "picking up a croissant and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "grip the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0120.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the table",
+                    "start_frame": "camera_top_0127.jpg",
+                    "end_frame": "camera_top_0133.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the table",
+                    "start_frame": "camera_top_0139.jpg",
+                    "end_frame": "camera_top_0146.jpg"
+                },
+                {
+                    "step_description": "move away from the croissant",
+                    "start_frame": "camera_top_0152.jpg",
+                    "end_frame": "camera_top_0183.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1018_151851/data",
+        "response": {
+            "task_summary": "picking up a croissant and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0034.jpg"
+                },
+                {
+                    "step_description": "grip the croissant",
+                    "start_frame": "camera_top_0039.jpg",
+                    "end_frame": "camera_top_0100.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the table",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0127.jpg"
+                },
+                {
+                    "step_description": "move away from the croissant",
+                    "start_frame": "camera_top_0133.jpg",
+                    "end_frame": "camera_top_0160.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_135911/data",
+        "response": {
+            "task_summary": "taking bread roll out of a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0039.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0045.jpg",
+                    "end_frame": "camera_top_0090.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the table",
+                    "start_frame": "camera_top_0097.jpg",
+                    "end_frame": "camera_top_0097.jpg"
+                },
+                {
+                    "step_description": "place the bread roll on the table",
+                    "start_frame": "camera_top_0103.jpg",
+                    "end_frame": "camera_top_0122.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0129.jpg",
+                    "end_frame": "camera_top_0186.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_182814/data",
+        "response": {
+            "task_summary": "taking bread roll from a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0106.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the table",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0124.jpg",
+                    "end_frame": "camera_top_0129.jpg"
+                },
+                {
+                    "step_description": "move away from bread roll",
+                    "start_frame": "camera_top_0135.jpg",
+                    "end_frame": "camera_top_0170.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_155003/data",
+        "response": {
+            "task_summary": "placing the big bread on the table",
+            "steps": [
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0082.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the table",
+                    "start_frame": "camera_top_0088.jpg",
+                    "end_frame": "camera_top_0093.jpg"
+                },
+                {
+                    "step_description": "place the big bread on the table",
+                    "start_frame": "camera_top_0099.jpg",
+                    "end_frame": "camera_top_0104.jpg"
+                },
+                {
+                    "step_description": "move away from the big bread",
+                    "start_frame": "camera_top_0109.jpg",
+                    "end_frame": "camera_top_0158.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1023_140544/data",
+        "response": {
+            "task_summary": "placing the big bread on a table",
+            "steps": [
+                {
+                    "step_description": "grab the big bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0089.jpg"
+                },
+                {
+                    "step_description": "move the big bread towards the table",
+                    "start_frame": "camera_top_0096.jpg",
+                    "end_frame": "camera_top_0096.jpg"
+                },
+                {
+                    "step_description": "place the big bread on the table",
+                    "start_frame": "camera_top_0103.jpg",
+                    "end_frame": "camera_top_0117.jpg"
+                },
+                {
+                    "step_description": "move away from the big bread",
+                    "start_frame": "camera_top_0123.jpg",
+                    "end_frame": "camera_top_0198.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1015_103328/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0030.jpg"
+                },
+                {
+                    "step_description": "pick up the bread roll",
+                    "start_frame": "camera_top_0036.jpg",
+                    "end_frame": "camera_top_0090.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0096.jpg",
+                    "end_frame": "camera_top_0132.jpg"
+                },
+                {
+                    "step_description": "drop the bread roll into the basket",
+                    "start_frame": "camera_top_0138.jpg",
+                    "end_frame": "camera_top_0138.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0144.jpg",
+                    "end_frame": "camera_top_0173.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_113031/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0015.jpg"
+                },
+                {
+                    "step_description": "grasp the bread",
+                    "start_frame": "camera_top_0019.jpg",
+                    "end_frame": "camera_top_0071.jpg"
+                },
+                {
+                    "step_description": "move the bread  towards the basket",
+                    "start_frame": "camera_top_0076.jpg",
+                    "end_frame": "camera_top_0090.jpg"
+                },
+                {
+                    "step_description": "place the bread into the basket",
+                    "start_frame": "camera_top_0095.jpg",
+                    "end_frame": "camera_top_0104.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0109.jpg",
+                    "end_frame": "camera_top_0137.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_104622/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0026.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0031.jpg",
+                    "end_frame": "camera_top_0082.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0087.jpg",
+                    "end_frame": "camera_top_0102.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0147.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_142725/data",
+        "response": {
+            "task_summary": "placing a croissant in a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0065.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0072.jpg",
+                    "end_frame": "camera_top_0137.jpg"
+                },
+                {
+                    "step_description": "move the croissant over the basket",
+                    "start_frame": "camera_top_0144.jpg",
+                    "end_frame": "camera_top_0173.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0180.jpg",
+                    "end_frame": "camera_top_0208.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_164756/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0010.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0015.jpg",
+                    "end_frame": "camera_top_0103.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0108.jpg",
+                    "end_frame": "camera_top_0123.jpg"
+                },
+                {
+                    "step_description": "put the croissant  into the basket",
+                    "start_frame": "camera_top_0128.jpg",
+                    "end_frame": "camera_top_0128.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0133.jpg",
+                    "end_frame": "camera_top_0142.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_102959/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0024.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0029.jpg",
+                    "end_frame": "camera_top_0098.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0104.jpg",
+                    "end_frame": "camera_top_0116.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0121.jpg",
+                    "end_frame": "camera_top_0167.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_140322/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0033.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0038.jpg",
+                    "end_frame": "camera_top_0098.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0103.jpg",
+                    "end_frame": "camera_top_0108.jpg"
+                },
+                {
+                    "step_description": "put the croissant into the table",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0117.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0122.jpg",
+                    "end_frame": "camera_top_0135.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_145751/data",
+        "response": {
+            "task_summary": "placing a croissant in a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0037.jpg"
+                },
+                {
+                    "step_description": "pick up the croissant",
+                    "start_frame": "camera_top_0042.jpg",
+                    "end_frame": "camera_top_0100.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0116.jpg"
+                },
+                {
+                    "step_description": "place the croissant in the basket",
+                    "start_frame": "camera_top_0121.jpg",
+                    "end_frame": "camera_top_0121.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0126.jpg",
+                    "end_frame": "camera_top_0152.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_174409/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0063.jpg"
+                },
+                {
+                    "step_description": "pick up the croissant",
+                    "start_frame": "camera_top_0070.jpg",
+                    "end_frame": "camera_top_0140.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0147.jpg",
+                    "end_frame": "camera_top_0154.jpg"
+                },
+                {
+                    "step_description": "place the croissant into the basket",
+                    "start_frame": "camera_top_0161.jpg",
+                    "end_frame": "camera_top_0175.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0182.jpg",
+                    "end_frame": "camera_top_0203.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_181510/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0013.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0017.jpg",
+                    "end_frame": "camera_top_0071.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0075.jpg",
+                    "end_frame": "camera_top_0079.jpg"
+                },
+                {
+                    "step_description": "place the croissant in the basket",
+                    "start_frame": "camera_top_0083.jpg",
+                    "end_frame": "camera_top_0087.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0092.jpg",
+                    "end_frame": "camera_top_0120.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_133719/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0021.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0026.jpg",
+                    "end_frame": "camera_top_0057.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0063.jpg",
+                    "end_frame": "camera_top_0099.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0104.jpg",
+                    "end_frame": "camera_top_0150.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_152905/data",
+        "response": {
+            "task_summary": "placing a piece of bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0029.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0035.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0111.jpg",
+                    "end_frame": "camera_top_0122.jpg"
+                },
+                {
+                    "step_description": "place the bread in the basket",
+                    "start_frame": "camera_top_0128.jpg",
+                    "end_frame": "camera_top_0145.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0151.jpg",
+                    "end_frame": "camera_top_0168.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_165222/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0080.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0087.jpg",
+                    "end_frame": "camera_top_0140.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0147.jpg",
+                    "end_frame": "camera_top_0160.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0167.jpg",
+                    "end_frame": "camera_top_0193.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_180150/data",
+        "response": {
+            "task_summary": "placing a croissant in a basket containing a loaf of bread",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0030.jpg"
+                },
+                {
+                    "step_description": "grasp the croissant",
+                    "start_frame": "camera_top_0035.jpg",
+                    "end_frame": "camera_top_0084.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0089.jpg",
+                    "end_frame": "camera_top_0098.jpg"
+                },
+                {
+                    "step_description": "place the croissant in the basket",
+                    "start_frame": "camera_top_0103.jpg",
+                    "end_frame": "camera_top_0113.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0118.jpg",
+                    "end_frame": "camera_top_0142.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_180253/data",
+        "response": {
+            "task_summary": "moving bread from a basket to the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0046.jpg"
+                },
+                {
+                    "step_description": "grab a piece of bread from the basket",
+                    "start_frame": "camera_top_0053.jpg",
+                    "end_frame": "camera_top_0144.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0152.jpg",
+                    "end_frame": "camera_top_0174.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0182.jpg",
+                    "end_frame": "camera_top_0219.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_171838/data",
+        "response": {
+            "task_summary": "taking bread out of a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0035.jpg"
+                },
+                {
+                    "step_description": "grab a piece of bread",
+                    "start_frame": "camera_top_0041.jpg",
+                    "end_frame": "camera_top_0130.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0137.jpg",
+                    "end_frame": "camera_top_0158.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0164.jpg",
+                    "end_frame": "camera_top_0198.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_142503/data",
+        "response": {
+            "task_summary": "taking bread from a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0026.jpg"
+                },
+                {
+                    "step_description": "grasp the bread",
+                    "start_frame": "camera_top_0033.jpg",
+                    "end_frame": "camera_top_0103.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0110.jpg",
+                    "end_frame": "camera_top_0110.jpg"
+                },
+                {
+                    "step_description": "place the bread on the table",
+                    "start_frame": "camera_top_0116.jpg",
+                    "end_frame": "camera_top_0129.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0135.jpg",
+                    "end_frame": "camera_top_0186.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_171838/data",
+        "response": {
+            "task_summary": "picking up a piece of bread from a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0131.jpg"
+                },
+                {
+                    "step_description": "grab a piece of bread from the basket",
+                    "start_frame": "camera_top_0141.jpg",
+                    "end_frame": "camera_top_0215.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0225.jpg",
+                    "end_frame": "camera_top_0243.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0253.jpg",
+                    "end_frame": "camera_top_0253.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0262.jpg",
+                    "end_frame": "camera_top_0271.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1018_111725/data",
+        "response": {
+            "task_summary": "moving bread from a basket to the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0016.jpg"
+                },
+                {
+                    "step_description": "grab a piece of bread from the basket",
+                    "start_frame": "camera_top_0021.jpg",
+                    "end_frame": "camera_top_0084.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0089.jpg",
+                    "end_frame": "camera_top_0099.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0110.jpg",
+                    "end_frame": "camera_top_0151.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_110015/data",
+        "response": {
+            "task_summary": "moving bread from a basket to the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0013.jpg"
+                },
+                {
+                    "step_description": "grab a piece of bread from the basket",
+                    "start_frame": "camera_top_0017.jpg",
+                    "end_frame": "camera_top_0064.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0068.jpg",
+                    "end_frame": "camera_top_0072.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0076.jpg",
+                    "end_frame": "camera_top_0097.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0101.jpg",
+                    "end_frame": "camera_top_0122.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_140232/data",
+        "response": {
+            "task_summary": "taking bread from a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0018.jpg"
+                },
+                {
+                    "step_description": "pick up the bread from the basket",
+                    "start_frame": "camera_top_0024.jpg",
+                    "end_frame": "camera_top_0094.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0100.jpg",
+                    "end_frame": "camera_top_0106.jpg"
+                },
+                {
+                    "step_description": "place the bread on the table",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0124.jpg",
+                    "end_frame": "camera_top_0170.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_150031/data",
+        "response": {
+            "task_summary": "placing bread on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0020.jpg"
+                },
+                {
+                    "step_description": "pick up the bread",
+                    "start_frame": "camera_top_0025.jpg",
+                    "end_frame": "camera_top_0058.jpg"
+                },
+                {
+                    "step_description": "move the bread over the table",
+                    "start_frame": "camera_top_0063.jpg",
+                    "end_frame": "camera_top_0068.jpg"
+                },
+                {
+                    "step_description": "place the bread on the table",
+                    "start_frame": "camera_top_0073.jpg",
+                    "end_frame": "camera_top_0078.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0083.jpg",
+                    "end_frame": "camera_top_0140.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_182234/data",
+        "response": {
+            "task_summary": "placing a piece of bread on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread basket",
+                    "start_frame": "camera_top_0001.jpg",
+                    "end_frame": "camera_top_0018.jpg"
+                },
+                {
+                    "step_description": "pick up a piece of bread from the basket",
+                    "start_frame": "camera_top_0022.jpg",
+                    "end_frame": "camera_top_0086.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the table",
+                    "start_frame": "camera_top_0090.jpg",
+                    "end_frame": "camera_top_0099.jpg"
+                },
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0103.jpg",
+                    "end_frame": "camera_top_0124.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_103620/data",
+        "response": {
+            "task_summary": "placing bread on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0020.jpg"
+                },
+                {
+                    "step_description": "grab a piece of bread from the basket",
+                    "start_frame": "camera_top_0026.jpg",
+                    "end_frame": "camera_top_0110.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0116.jpg",
+                    "end_frame": "camera_top_0129.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0135.jpg",
+                    "end_frame": "camera_top_0135.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0142.jpg",
+                    "end_frame": "camera_top_0186.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_141306/data",
+        "response": {
+            "task_summary": "taking bread from a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0012.jpg"
+                },
+                {
+                    "step_description": "grab a piece of bread from the basket",
+                    "start_frame": "camera_top_0018.jpg",
+                    "end_frame": "camera_top_0089.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0095.jpg",
+                    "end_frame": "camera_top_0101.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0119.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0125.jpg",
+                    "end_frame": "camera_top_0172.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_170003/data",
+        "response": {
+            "task_summary": "removing bread from a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0012.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0018.jpg",
+                    "end_frame": "camera_top_0087.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0093.jpg",
+                    "end_frame": "camera_top_0111.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0116.jpg",
+                    "end_frame": "camera_top_0168.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1023_112305/data",
+        "response": {
+            "task_summary": "moving bread from a basket to the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0038.jpg"
+                },
+                {
+                    "step_description": "grab the bread from the basket",
+                    "start_frame": "camera_top_0043.jpg",
+                    "end_frame": "camera_top_0107.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the empty space on the table",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0117.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0123.jpg",
+                    "end_frame": "camera_top_0128.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0133.jpg",
+                    "end_frame": "camera_top_0154.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1014_152314/data",
+        "response": {
+            "task_summary": "Put the bread on the far right in the basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread on the right side",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0097.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0109.jpg",
+                    "end_frame": "camera_top_0254.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0266.jpg",
+                    "end_frame": "camera_top_0302.jpg"
+                },
+                {
+                    "step_description": "put the  bread on the basket",
+                    "start_frame": "camera_top_0314.jpg",
+                    "end_frame": "camera_top_0314.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0326.jpg",
+                    "end_frame": "camera_top_0350.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1015_165343/data",
+        "response": {
+            "task_summary": "placing a piece of bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread on the table",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0046.jpg"
+                },
+                {
+                    "step_description": "grasp the bread",
+                    "start_frame": "camera_top_0051.jpg",
+                    "end_frame": "camera_top_0088.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0092.jpg",
+                    "end_frame": "camera_top_0106.jpg"
+                },
+                {
+                    "step_description": "put the bread on the basket",
+                    "start_frame": "camera_top_0111.jpg",
+                    "end_frame": "camera_top_0120.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0124.jpg",
+                    "end_frame": "camera_top_0133.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1015_172324/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll on the table",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0056.jpg"
+                },
+                {
+                    "step_description": "grasp the bread roll",
+                    "start_frame": "camera_top_0062.jpg",
+                    "end_frame": "camera_top_0112.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0118.jpg",
+                    "end_frame": "camera_top_0155.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0161.jpg",
+                    "end_frame": "camera_top_0161.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0167.jpg",
+                    "end_frame": "camera_top_0179.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1016_161951/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0015.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0023.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "move the grasped roll towards the basket",
+                    "start_frame": "camera_top_0113.jpg",
+                    "end_frame": "camera_top_0128.jpg"
+                },
+                {
+                    "step_description": "put the bread roll on the basket",
+                    "start_frame": "camera_top_0135.jpg",
+                    "end_frame": "camera_top_0165.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0173.jpg",
+                    "end_frame": "camera_top_0217.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1016_172407/data",
+        "response": {
+            "task_summary": "placing a piece of bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0042.jpg"
+                },
+                {
+                    "step_description": "grab to the bread roll",
+                    "start_frame": "camera_top_0047.jpg",
+                    "end_frame": "camera_top_0106.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0135.jpg"
+                },
+                {
+                    "step_description": "put the bread roll on the basket",
+                    "start_frame": "camera_top_0141.jpg",
+                    "end_frame": "camera_top_0159.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0165.jpg",
+                    "end_frame": "camera_top_0170.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_113233/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0035.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0042.jpg",
+                    "end_frame": "camera_top_0139.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0146.jpg",
+                    "end_frame": "camera_top_0153.jpg"
+                },
+                {
+                    "step_description": "put the bread roll on the basket",
+                    "start_frame": "camera_top_0160.jpg",
+                    "end_frame": "camera_top_0181.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0188.jpg",
+                    "end_frame": "camera_top_0201.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_144954/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread on the table",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0038.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0043.jpg",
+                    "end_frame": "camera_top_0102.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                },
+                {
+                    "step_description": "place the bread in the basket",
+                    "start_frame": "camera_top_0123.jpg",
+                    "end_frame": "camera_top_0139.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_top_0145.jpg",
+                    "end_frame": "camera_top_0155.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1017_183038/data",
+        "response": {
+            "task_summary": "placing a piece of bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread on the table",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0033.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0037.jpg",
+                    "end_frame": "camera_top_0084.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0088.jpg",
+                    "end_frame": "camera_top_0102.jpg"
+                },
+                {
+                    "step_description": "place the bread in the basket",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0116.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0121.jpg",
+                    "end_frame": "camera_top_0134.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_103527/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread on the table",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0036.jpg"
+                },
+                {
+                    "step_description": "grasp the bread",
+                    "start_frame": "camera_top_0042.jpg",
+                    "end_frame": "camera_top_0078.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0084.jpg",
+                    "end_frame": "camera_top_0102.jpg"
+                },
+                {
+                    "step_description": "put the bread on the basket",
+                    "start_frame": "camera_top_0108.jpg",
+                    "end_frame": "camera_top_0120.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0126.jpg",
+                    "end_frame": "camera_top_0173.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_170907/data",
+        "response": {
+            "task_summary": "placing a piece of bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0034.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0040.jpg",
+                    "end_frame": "camera_top_0074.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0079.jpg",
+                    "end_frame": "camera_top_0102.jpg"
+                },
+                {
+                    "step_description": "put the bread roll on the basket",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0124.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0130.jpg",
+                    "end_frame": "camera_top_0163.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_105129/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0037.jpg"
+                },
+                {
+                    "step_description": "grasp the bread roll",
+                    "start_frame": "camera_top_0041.jpg",
+                    "end_frame": "camera_top_0064.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0069.jpg",
+                    "end_frame": "camera_top_0092.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0096.jpg",
+                    "end_frame": "camera_top_0101.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0132.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_152909/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0055.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0062.jpg",
+                    "end_frame": "camera_top_0116.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0123.jpg",
+                    "end_frame": "camera_top_0141.jpg"
+                },
+                {
+                    "step_description": "put the bread roll into the basket",
+                    "start_frame": "camera_top_0147.jpg",
+                    "end_frame": "camera_top_0159.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0000.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_180005/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0044.jpg"
+                },
+                {
+                    "step_description": "grasp the bread roll",
+                    "start_frame": "camera_top_0049.jpg",
+                    "end_frame": "camera_top_0092.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0097.jpg",
+                    "end_frame": "camera_top_0121.jpg"
+                },
+                {
+                    "step_description": "put the bread roll on the basket",
+                    "start_frame": "camera_top_0126.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0131.jpg",
+                    "end_frame": "camera_top_0140.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_111545/data",
+        "response": {
+            "task_summary": "placing a croissant into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0026.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0031.jpg",
+                    "end_frame": "camera_top_0072.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0078.jpg",
+                    "end_frame": "camera_top_0114.jpg"
+                },
+                {
+                    "step_description": "put the croissant into the basket",
+                    "start_frame": "camera_top_0119.jpg",
+                    "end_frame": "camera_top_0129.jpg"
+                },
+                {
+                    "step_description": "move away from the croissant",
+                    "start_frame": "camera_top_0134.jpg",
+                    "end_frame": "camera_top_0149.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_161504/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the croissant",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0030.jpg"
+                },
+                {
+                    "step_description": "grab the croissant",
+                    "start_frame": "camera_top_0035.jpg",
+                    "end_frame": "camera_top_0095.jpg"
+                },
+                {
+                    "step_description": "move the croissant towards the basket",
+                    "start_frame": "camera_top_0100.jpg",
+                    "end_frame": "camera_top_0115.jpg"
+                },
+                {
+                    "step_description": "put the croissant on the basket",
+                    "start_frame": "camera_top_0120.jpg",
+                    "end_frame": "camera_top_0125.jpg"
+                },
+                {
+                    "step_description": "move away from the croissant",
+                    "start_frame": "camera_top_0110.jpg",
+                    "end_frame": "camera_top_0145.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_183727/data",
+        "response": {
+            "task_summary": "placing bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0021.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0025.jpg",
+                    "end_frame": "camera_top_0061.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0065.jpg",
+                    "end_frame": "camera_top_0077.jpg"
+                },
+                {
+                    "step_description": "put the bread roll on the basket",
+                    "start_frame": "camera_top_0081.jpg",
+                    "end_frame": "camera_top_0089.jpg"
+                },
+                {
+                    "step_description": "move away from the bread ",
+                    "start_frame": "camera_top_0093.jpg",
+                    "end_frame": "camera_top_0117.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1014_163101/data",
+        "response": {
+            "task_summary": "removing bread from a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0036.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0043.jpg",
+                    "end_frame": "camera_top_0121.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0128.jpg",
+                    "end_frame": "camera_top_0156.jpg"
+                },
+                {
+                    "step_description": "place the bread on the table",
+                    "start_frame": "camera_top_0163.jpg",
+                    "end_frame": "camera_top_0170.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0177.jpg",
+                    "end_frame": "camera_top_0205.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1014_165230/data",
+        "response": {
+            "task_summary": "picking up a piece of bread from a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0044.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0049.jpg",
+                    "end_frame": "camera_top_0112.jpg"
+                },
+                {
+                    "step_description": "move a piece of bread towards the table",
+                    "start_frame": "camera_top_0117.jpg",
+                    "end_frame": "camera_top_0137.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0141.jpg",
+                    "end_frame": "camera_top_0141.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_100930/data",
+        "response": {
+            "task_summary": "moving bread from a basket to a table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread on the right side",
+                    "start_frame": "camera_top_0001.jpg",
+                    "end_frame": "camera_top_0045.jpg"
+                },
+                {
+                    "step_description": "grab the bread on the right side",
+                    "start_frame": "camera_top_0049.jpg",
+                    "end_frame": "camera_top_0082.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the table",
+                    "start_frame": "camera_top_0086.jpg",
+                    "end_frame": "camera_top_0098.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0102.jpg",
+                    "end_frame": "camera_top_0106.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0110.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_104618/data",
+        "response": {
+            "task_summary": "placing a loaf of bread on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread on the right side",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0040.jpg"
+                },
+                {
+                    "step_description": "grab the bread on the right side",
+                    "start_frame": "camera_top_0049.jpg",
+                    "end_frame": "camera_top_0177.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the table",
+                    "start_frame": "camera_top_0187.jpg",
+                    "end_frame": "camera_top_0216.jpg"
+                },
+                {
+                    "step_description": "place the bread on the table",
+                    "start_frame": "camera_top_0226.jpg",
+                    "end_frame": "camera_top_0236.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0245.jpg",
+                    "end_frame": "camera_top_0284.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_143139/data",
+        "response": {
+            "task_summary": "picking up bread from a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread on the left side",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0046.jpg"
+                },
+                {
+                    "step_description": "grab the bread on the left side",
+                    "start_frame": "camera_top_0050.jpg",
+                    "end_frame": "camera_top_0100.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the table",
+                    "start_frame": "camera_top_0104.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0122.jpg",
+                    "end_frame": "camera_top_0131.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_144155/data",
+        "response": {
+            "task_summary": "placing bread on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0125.jpg"
+                },
+                {
+                    "step_description": "grab a piece of bread from the basket",
+                    "start_frame": "camera_top_0133.jpg",
+                    "end_frame": "camera_top_0155.jpg"
+                },
+                {
+                    "step_description": "move bread towards the table",
+                    "start_frame": "camera_top_0162.jpg",
+                    "end_frame": "camera_top_0169.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0177.jpg",
+                    "end_frame": "camera_top_0191.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0199.jpg",
+                    "end_frame": "camera_top_0213.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_163758/data",
+        "response": {
+            "task_summary": "taking a bread roll from a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll in the basket",
+                    "start_frame": "camera_top_0001.jpg",
+                    "end_frame": "camera_top_0074.jpg"
+                },
+                {
+                    "step_description": "grasp the bread roll",
+                    "start_frame": "camera_top_0082.jpg",
+                    "end_frame": "camera_top_0163.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0171.jpg",
+                    "end_frame": "camera_top_0180.jpg"
+                },
+                {
+                    "step_description": "place the bread roll on the table",
+                    "start_frame": "camera_top_0188.jpg",
+                    "end_frame": "camera_top_0204.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0212.jpg",
+                    "end_frame": "camera_top_0236.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_180800/data",
+        "response": {
+            "task_summary": "taking bread roll out of a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0021.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0026.jpg",
+                    "end_frame": "camera_top_0078.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the basket",
+                    "start_frame": "camera_top_0083.jpg",
+                    "end_frame": "camera_top_0094.jpg"
+                },
+                {
+                    "step_description": "put the bread roll on the table",
+                    "start_frame": "camera_top_0099.jpg",
+                    "end_frame": "camera_top_0114.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0119.jpg",
+                    "end_frame": "camera_top_0150.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_182028/data",
+        "response": {
+            "task_summary": "picking up a bread roll from a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0040.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll from the basket",
+                    "start_frame": "camera_top_0046.jpg",
+                    "end_frame": "camera_top_0085.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the table",
+                    "start_frame": "camera_top_0091.jpg",
+                    "end_frame": "camera_top_0097.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0102.jpg",
+                    "end_frame": "camera_top_0119.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0125.jpg",
+                    "end_frame": "camera_top_0164.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1018_180825/data",
+        "response": {
+            "task_summary": "taking bread roll from a basket and placing it on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0039.jpg"
+                },
+                {
+                    "step_description": "grab a piece of bread roll from the basket",
+                    "start_frame": "camera_top_0044.jpg",
+                    "end_frame": "camera_top_0097.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the table",
+                    "start_frame": "camera_top_0102.jpg",
+                    "end_frame": "camera_top_0116.jpg"
+                },
+                {
+                    "step_description": "place the bread roll on the table",
+                    "start_frame": "camera_top_0121.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0131.jpg",
+                    "end_frame": "camera_top_0140.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_140857/data",
+        "response": {
+            "task_summary": "placing a muffin on a table",
+            "steps": [
+                {
+                    "step_description": "move the muffin in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0034.jpg"
+                },
+                {
+                    "step_description": "grab the muffin from the basket",
+                    "start_frame": "camera_top_0039.jpg",
+                    "end_frame": "camera_top_0092.jpg"
+                },
+                {
+                    "step_description": "move the muffin towards the table",
+                    "start_frame": "camera_top_0097.jpg",
+                    "end_frame": "camera_top_0102.jpg"
+                },
+                {
+                    "step_description": "put the muffin on the table",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0121.jpg"
+                },
+                {
+                    "step_description": "move away  from the muffin",
+                    "start_frame": "camera_top_0126.jpg",
+                    "end_frame": "camera_top_0140.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_162021/data",
+        "response": {
+            "task_summary": "placing a bread roll on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0036.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0041.jpg",
+                    "end_frame": "camera_top_0086.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the table",
+                    "start_frame": "camera_top_0091.jpg",
+                    "end_frame": "camera_top_0101.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0106.jpg",
+                    "end_frame": "camera_top_0116.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0121.jpg",
+                    "end_frame": "camera_top_0146.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_105207/data",
+        "response": {
+            "task_summary": "placing a bread roll on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0054.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll from the basket",
+                    "start_frame": "camera_top_0060.jpg",
+                    "end_frame": "camera_top_0103.jpg"
+                },
+                {
+                    "step_description": "move bread roll towards the table",
+                    "start_frame": "camera_top_0108.jpg",
+                    "end_frame": "camera_top_0124.jpg"
+                },
+                {
+                    "step_description": "put the bread roll on the table",
+                    "start_frame": "camera_top_0130.jpg",
+                    "end_frame": "camera_top_0140.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0146.jpg",
+                    "end_frame": "camera_top_0156.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_153705/data",
+        "response": {
+            "task_summary": "taking bread out of a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0031.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0037.jpg",
+                    "end_frame": "camera_top_0098.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the table",
+                    "start_frame": "camera_top_0104.jpg",
+                    "end_frame": "camera_top_0110.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0116.jpg",
+                    "end_frame": "camera_top_0129.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0135.jpg",
+                    "end_frame": "camera_top_0177.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1023_133543/data",
+        "response": {
+            "task_summary": "placing a bread roll on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0033.jpg"
+                },
+                {
+                    "step_description": "grab the bread roll",
+                    "start_frame": "camera_top_0039.jpg",
+                    "end_frame": "camera_top_0072.jpg"
+                },
+                {
+                    "step_description": "move the bread roll towards the table",
+                    "start_frame": "camera_top_0077.jpg",
+                    "end_frame": "camera_top_0088.jpg"
+                },
+                {
+                    "step_description": "place the bread roll on the table",
+                    "start_frame": "camera_top_0094.jpg",
+                    "end_frame": "camera_top_0110.jpg"
+                },
+                {
+                    "step_description": "move away from the bread roll",
+                    "start_frame": "camera_top_0116.jpg",
+                    "end_frame": "camera_top_0159.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1016_161137/data",
+        "response": {
+            "task_summary": "placing a bread roll into a basket",
+            "steps": [
+                {
+                    "step_description": "grab  the bread roll",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0100.jpg"
+                },
+                {
+                    "step_description": "put the bread roll on the basket",
+                    "start_frame": "camera_top_0107.jpg",
+                    "end_frame": "camera_top_0147.jpg"
+                },
+                {
+                    "step_description": "lift the bread roll",
+                    "start_frame": "camera_top_0154.jpg",
+                    "end_frame": "camera_top_0193.jpg"
+                },
+                {
+                    "step_description": "move away from  the bread roll",
+                    "start_frame": "camera_top_0160.jpg",
+                    "end_frame": "camera_top_0193.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_113959/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "grab  the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "put the bread on the basket",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0142.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0149.jpg",
+                    "end_frame": "camera_top_0216.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_103936/data",
+        "response": {
+            "task_summary": "placing bread on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0028.jpg"
+                },
+                {
+                    "step_description": "grab the bread",
+                    "start_frame": "camera_top_0035.jpg",
+                    "end_frame": "camera_top_0124.jpg"
+                },
+                {
+                    "step_description": "put the bread on the basket",
+                    "start_frame": "camera_top_0131.jpg",
+                    "end_frame": "camera_top_0145.jpg"
+                },
+                {
+                    "step_description": "move away from  the bread ",
+                    "start_frame": "camera_top_0151.jpg",
+                    "end_frame": "camera_top_0199.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_175737/data",
+        "response": {
+            "task_summary": "placing bread on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in basket，and grab it",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0099.jpg"
+                },
+                {
+                    "step_description": "put the bread from the basket on table",
+                    "start_frame": "camera_top_0104.jpg",
+                    "end_frame": "camera_top_0113.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0117.jpg",
+                    "end_frame": "camera_top_0130.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_145145/data",
+        "response": {
+            "task_summary": "taking bread out of a basket",
+            "steps": [
+                {
+                    "step_description": "move towards  the bread in the basket，and grab it",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0083.jpg"
+                },
+                {
+                    "step_description": "put the bread from the basket on the table",
+                    "start_frame": "camera_top_0087.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0109.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1018_144757/data",
+        "response": {
+            "task_summary": "taking a piece of bread out of a basket",
+            "steps": [
+                {
+                    "step_description": "reach for the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0123.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0130.jpg",
+                    "end_frame": "camera_top_0151.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0158.jpg",
+                    "end_frame": "camera_top_0198.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_143029/data",
+        "response": {
+            "task_summary": "pick up a piece of bread from a basket and place it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0016.jpg"
+                },
+                {
+                    "step_description": "grab the bread from the basket",
+                    "start_frame": "camera_top_0021.jpg",
+                    "end_frame": "camera_top_0066.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0071.jpg",
+                    "end_frame": "camera_top_0097.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0102.jpg",
+                    "end_frame": "camera_top_0147.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1023_103619/data",
+        "response": {
+            "task_summary": "taking bread out of a basket and placing it on a table",
+            "steps": [
+                {
+                    "step_description": "move towards  the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0013.jpg"
+                },
+                {
+                    "step_description": "grab the bread from the basket",
+                    "start_frame": "camera_top_0017.jpg",
+                    "end_frame": "camera_top_0057.jpg"
+                },
+                {
+                    "step_description": "put the bread on the table",
+                    "start_frame": "camera_top_0061.jpg",
+                    "end_frame": "camera_top_0073.jpg"
+                },
+                {
+                    "step_description": "move away from the bread",
+                    "start_frame": "camera_top_0077.jpg",
+                    "end_frame": "camera_top_0117.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1015_105541/data",
+        "response": {
+            "task_summary": "put the long bread in the basket",
+            "steps": [
+                {
+                    "step_description": "move towards the long bread ",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0040.jpg"
+                },
+                {
+                    "step_description": "grab the long bread ",
+                    "start_frame": "camera_top_0046.jpg",
+                    "end_frame": "camera_top_0098.jpg"
+                },
+                {
+                    "step_description": "move the long bread towards the basket",
+                    "start_frame": "camera_top_0105.jpg",
+                    "end_frame": "camera_top_0124.jpg"
+                },
+                {
+                    "step_description": "put the long bread in the basket",
+                    "start_frame": "camera_top_0131.jpg",
+                    "end_frame": "camera_top_0163.jpg"
+                },
+                {
+                    "step_description": "move away from the long bread ",
+                    "start_frame": "camera_top_0170.jpg",
+                    "end_frame": "camera_top_0189.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_151136/data",
+        "response": {
+            "task_summary": "placing a long bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the long bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0038.jpg"
+                },
+                {
+                    "step_description": "grab the long bread",
+                    "start_frame": "camera_top_0044.jpg",
+                    "end_frame": "camera_top_0087.jpg"
+                },
+                {
+                    "step_description": "move the long bread towards the basket",
+                    "start_frame": "camera_top_0093.jpg",
+                    "end_frame": "camera_top_0105.jpg"
+                },
+                {
+                    "step_description": "move away from the long bread",
+                    "start_frame": "camera_top_0112.jpg",
+                    "end_frame": "camera_top_0179.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1022_142208/data",
+        "response": {
+            "task_summary": "placing a long bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the long bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0020.jpg"
+                },
+                {
+                    "step_description": "grab the long bread",
+                    "start_frame": "camera_top_0024.jpg",
+                    "end_frame": "camera_top_0058.jpg"
+                },
+                {
+                    "step_description": "move the long bread towards the basket",
+                    "start_frame": "camera_top_0063.jpg",
+                    "end_frame": "camera_top_0072.jpg"
+                },
+                {
+                    "step_description": "put the long bread into the basket",
+                    "start_frame": "camera_top_0077.jpg",
+                    "end_frame": "camera_top_0101.jpg"
+                },
+                {
+                    "step_description": "move away from the long bread",
+                    "start_frame": "camera_top_0106.jpg",
+                    "end_frame": "camera_top_0139.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_133529/data",
+        "response": {
+            "task_summary": "placing a round bread into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the round bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0028.jpg"
+                },
+                {
+                    "step_description": "grab the round bread",
+                    "start_frame": "camera_top_0032.jpg",
+                    "end_frame": "camera_top_0056.jpg"
+                },
+                {
+                    "step_description": "move the round bread towards the basket",
+                    "start_frame": "camera_top_0060.jpg",
+                    "end_frame": "camera_top_0068.jpg"
+                },
+                {
+                    "step_description": "put the round bread into the basket",
+                    "start_frame": "camera_top_0072.jpg",
+                    "end_frame": "camera_top_0084.jpg"
+                },
+                {
+                    "step_description": "move away from the round bread",
+                    "start_frame": "camera_top_0088.jpg",
+                    "end_frame": "camera_top_0115.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_101510/data",
+        "response": {
+            "task_summary": "taking pointed bread out of a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the Pointed bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0071.jpg"
+                },
+                {
+                    "step_description": "grab the Pointed bread",
+                    "start_frame": "camera_top_0077.jpg",
+                    "end_frame": "camera_top_0130.jpg"
+                },
+                {
+                    "step_description": "move the Pointed bread towards the table",
+                    "start_frame": "camera_top_0136.jpg",
+                    "end_frame": "camera_top_0154.jpg"
+                },
+                {
+                    "step_description": "move away from the Pointed bread ",
+                    "start_frame": "camera_top_0160.jpg",
+                    "end_frame": "camera_top_0171.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1017_160350/data",
+        "response": {
+            "task_summary": "picking up a round bread from a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the round bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0032.jpg"
+                },
+                {
+                    "step_description": "grab the round bread",
+                    "start_frame": "camera_top_0038.jpg",
+                    "end_frame": "camera_top_0075.jpg"
+                },
+                {
+                    "step_description": "move the round bread towards the table",
+                    "start_frame": "camera_top_0082.jpg",
+                    "end_frame": "camera_top_0107.jpg"
+                },
+                {
+                    "step_description": "put the round bread on the table",
+                    "start_frame": "camera_top_0113.jpg",
+                    "end_frame": "camera_top_0132.jpg"
+                },
+                {
+                    "step_description": "move away from the round bread",
+                    "start_frame": "camera_top_0138.jpg",
+                    "end_frame": "camera_top_0181.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1018_181651/data",
+        "response": {
+            "task_summary": "picking up a round bread from a basket and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the round bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0078.jpg"
+                },
+                {
+                    "step_description": "grab the round bread",
+                    "start_frame": "camera_top_0084.jpg",
+                    "end_frame": "camera_top_0114.jpg"
+                },
+                {
+                    "step_description": "move the round bread towards the table",
+                    "start_frame": "camera_top_0120.jpg",
+                    "end_frame": "camera_top_0132.jpg"
+                },
+                {
+                    "step_description": "put the round bread on the table",
+                    "start_frame": "camera_top_0138.jpg",
+                    "end_frame": "camera_top_0156.jpg"
+                },
+                {
+                    "step_description": "move away from the round bread",
+                    "start_frame": "camera_top_0162.jpg",
+                    "end_frame": "camera_top_0173.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_151945/data",
+        "response": {
+            "task_summary": "placing pointed bread on a table",
+            "steps": [
+                {
+                    "step_description": "grab the pointed bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0074.jpg"
+                },
+                {
+                    "step_description": "move the pointed bread towards the table",
+                    "start_frame": "camera_top_0080.jpg",
+                    "end_frame": "camera_top_0087.jpg"
+                },
+                {
+                    "step_description": "put the pointed bread on the table",
+                    "start_frame": "camera_top_0094.jpg",
+                    "end_frame": "camera_top_0114.jpg"
+                },
+                {
+                    "step_description": "move away from the pointed bread",
+                    "start_frame": "camera_top_0120.jpg",
+                    "end_frame": "camera_top_0193.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_110310/data",
+        "response": {
+            "task_summary": "placing pointed bread on a table",
+            "steps": [
+                {
+                    "step_description": "move towards the pointed bread ",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0060.jpg"
+                },
+                {
+                    "step_description": "grab the pointed bread ",
+                    "start_frame": "camera_top_0067.jpg",
+                    "end_frame": "camera_top_0127.jpg"
+                },
+                {
+                    "step_description": "move the pointed bread towards the table",
+                    "start_frame": "camera_top_0134.jpg",
+                    "end_frame": "camera_top_0154.jpg"
+                },
+                {
+                    "step_description": "move away from the pointed bread",
+                    "start_frame": "camera_top_0160.jpg",
+                    "end_frame": "camera_top_0193.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1022_164605/data",
+        "response": {
+            "task_summary": "put the pointed bread on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the pointed bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0033.jpg"
+                },
+                {
+                    "step_description": "grab the pointed bread",
+                    "start_frame": "camera_top_0039.jpg",
+                    "end_frame": "camera_top_0126.jpg"
+                },
+                {
+                    "step_description": "move the pointed bread the table",
+                    "start_frame": "camera_top_0131.jpg",
+                    "end_frame": "camera_top_0137.jpg"
+                },
+                {
+                    "step_description": "put the pointed bread on the table",
+                    "start_frame": "camera_top_0142.jpg",
+                    "end_frame": "camera_top_0148.jpg"
+                },
+                {
+                    "step_description": "move away from the pointed bread",
+                    "start_frame": "camera_top_0153.jpg",
+                    "end_frame": "camera_top_0158.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1015_154521/data",
+        "response": {
+            "task_summary": "placing a loaf of bread into a basket",
+            "steps": [
+                {
+                    "step_description": "approach the pastry with the grippers",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0057.jpg"
+                },
+                {
+                    "step_description": "pick up the pastry using the grippers",
+                    "start_frame": "camera_top_0063.jpg",
+                    "end_frame": "camera_top_0113.jpg"
+                },
+                {
+                    "step_description": "move the pastry towards the basket",
+                    "start_frame": "camera_top_0119.jpg",
+                    "end_frame": "camera_top_0150.jpg"
+                },
+                {
+                    "step_description": "release the pastry into the basket",
+                    "start_frame": "camera_top_0157.jpg",
+                    "end_frame": "camera_top_0175.jpg"
+                },
+                {
+                    "step_description": "lift the grippers away from the basket",
+                    "start_frame": "camera_top_0181.jpg",
+                    "end_frame": "camera_top_0181.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1016_135922/data",
+        "response": {
+            "task_summary": "placing bread in a basket",
+            "steps": [
+                {
+                    "step_description": "approach the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0063.jpg"
+                },
+                {
+                    "step_description": "grip the bread with the gripper",
+                    "start_frame": "camera_top_0071.jpg",
+                    "end_frame": "camera_top_0111.jpg"
+                },
+                {
+                    "step_description": "lift the bread",
+                    "start_frame": "camera_top_0118.jpg",
+                    "end_frame": "camera_top_0142.jpg"
+                },
+                {
+                    "step_description": "move the bread to the basket",
+                    "start_frame": "camera_top_0150.jpg",
+                    "end_frame": "camera_top_0173.jpg"
+                },
+                {
+                    "step_description": "release the bread into the basket",
+                    "start_frame": "camera_top_0181.jpg",
+                    "end_frame": "camera_top_0205.jpg"
+                },
+                {
+                    "step_description": "retract the gripper",
+                    "start_frame": "camera_top_0213.jpg",
+                    "end_frame": "camera_top_0228.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1018_150707/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "approach the table with the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0012.jpg"
+                },
+                {
+                    "step_description": "move downward towards the bread",
+                    "start_frame": "camera_top_0018.jpg",
+                    "end_frame": "camera_top_0035.jpg"
+                },
+                {
+                    "step_description": "grip the bread",
+                    "start_frame": "camera_top_0041.jpg",
+                    "end_frame": "camera_top_0058.jpg"
+                },
+                {
+                    "step_description": "lift the bread from the table",
+                    "start_frame": "camera_top_0064.jpg",
+                    "end_frame": "camera_top_0081.jpg"
+                },
+                {
+                    "step_description": "position the bread over the basket",
+                    "start_frame": "camera_top_0087.jpg",
+                    "end_frame": "camera_top_0104.jpg"
+                },
+                {
+                    "step_description": "release the bread into the basket",
+                    "start_frame": "camera_top_0110.jpg",
+                    "end_frame": "camera_top_0127.jpg"
+                },
+                {
+                    "step_description": "retract from the basket",
+                    "start_frame": "camera_top_0133.jpg",
+                    "end_frame": "camera_top_0167.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_150313/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "pick up the bread near the basket with the gripper",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0039.jpg"
+                },
+                {
+                    "step_description": "lift and move the bread towards the basket",
+                    "start_frame": "camera_top_0045.jpg",
+                    "end_frame": "camera_top_0109.jpg"
+                },
+                {
+                    "step_description": "place the bread into the basket and release it",
+                    "start_frame": "camera_top_0115.jpg",
+                    "end_frame": "camera_top_0147.jpg"
+                },
+                {
+                    "step_description": "move the gripper above the basket and retract",
+                    "start_frame": "camera_top_0154.jpg",
+                    "end_frame": "camera_top_0185.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1021_174551/data",
+        "response": {
+            "task_summary": "placing a piece of bread into a basket",
+            "steps": [
+                {
+                    "step_description": "approach the bread",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0048.jpg"
+                },
+                {
+                    "step_description": "grip the piece of bread",
+                    "start_frame": "camera_top_0054.jpg",
+                    "end_frame": "camera_top_0089.jpg"
+                },
+                {
+                    "step_description": "lift the bread slightly",
+                    "start_frame": "camera_top_0095.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                },
+                {
+                    "step_description": "move the bread towards the basket",
+                    "start_frame": "camera_top_0124.jpg",
+                    "end_frame": "camera_top_0148.jpg"
+                },
+                {
+                    "step_description": "place the bread into the basket",
+                    "start_frame": "camera_top_0154.jpg",
+                    "end_frame": "camera_top_0171.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_in_basket/success_episodes/train/1023_183744/data",
+        "response": {
+            "task_summary": "placing bread into a basket",
+            "steps": [
+                {
+                    "step_description": "approach bread with gripper",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0018.jpg"
+                },
+                {
+                    "step_description": "position gripper over bread",
+                    "start_frame": "camera_top_0022.jpg",
+                    "end_frame": "camera_top_0040.jpg"
+                },
+                {
+                    "step_description": "lower gripper to grasp bread",
+                    "start_frame": "camera_top_0044.jpg",
+                    "end_frame": "camera_top_0062.jpg"
+                },
+                {
+                    "step_description": "lift bread off the surface",
+                    "start_frame": "camera_top_0066.jpg",
+                    "end_frame": "camera_top_0084.jpg"
+                },
+                {
+                    "step_description": "move bread towards basket",
+                    "start_frame": "camera_top_0088.jpg",
+                    "end_frame": "camera_top_0106.jpg"
+                },
+                {
+                    "step_description": "position bread over basket and release",
+                    "start_frame": "camera_top_0110.jpg",
+                    "end_frame": "camera_top_0127.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1015_155502/data",
+        "response": {
+            "task_summary": "moving a loaf of bread onto a table",
+            "steps": [
+                {
+                    "step_description": "pick up the loaf of bread from the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0070.jpg"
+                },
+                {
+                    "step_description": "move the loaf of bread towards the table",
+                    "start_frame": "camera_top_0077.jpg",
+                    "end_frame": "camera_top_0170.jpg"
+                },
+                {
+                    "step_description": "place the loaf of bread onto the table",
+                    "start_frame": "camera_top_0177.jpg",
+                    "end_frame": "camera_top_0223.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1016_143655/data",
+        "response": {
+            "task_summary": "placing bread into a basket on a table",
+            "steps": [
+                {
+                    "step_description": "grip the bread in the basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0045.jpg"
+                },
+                {
+                    "step_description": "lift bread out of the basket",
+                    "start_frame": "camera_top_0050.jpg",
+                    "end_frame": "camera_top_0094.jpg"
+                },
+                {
+                    "step_description": "place the bread on the table beside the basket",
+                    "start_frame": "camera_top_0099.jpg",
+                    "end_frame": "camera_top_0143.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_111918/data",
+        "response": {
+            "task_summary": "placing bread in a basket on the table",
+            "steps": [
+                {
+                    "step_description": "approach the bread on the table",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0031.jpg"
+                },
+                {
+                    "step_description": "grip the bread with the robotic clamp",
+                    "start_frame": "camera_top_0036.jpg",
+                    "end_frame": "camera_top_0072.jpg"
+                },
+                {
+                    "step_description": "lift the bread from the table",
+                    "start_frame": "camera_top_0078.jpg",
+                    "end_frame": "camera_top_0098.jpg"
+                },
+                {
+                    "step_description": "place the bread in the basket",
+                    "start_frame": "camera_top_0103.jpg",
+                    "end_frame": "camera_top_0134.jpg"
+                },
+                {
+                    "step_description": "release the grip from the bread",
+                    "start_frame": "camera_top_0139.jpg",
+                    "end_frame": "camera_top_0149.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_franka_1rgb/bread_on_table/success_episodes/train/1021_172216/data",
+        "response": {
+            "task_summary": "placing a bread roll on the table",
+            "steps": [
+                {
+                    "step_description": "approach the bread basket",
+                    "start_frame": "camera_top_0000.jpg",
+                    "end_frame": "camera_top_0035.jpg"
+                },
+                {
+                    "step_description": "grip the bread roll inside the basket",
+                    "start_frame": "camera_top_0042.jpg",
+                    "end_frame": "camera_top_0077.jpg"
+                },
+                {
+                    "step_description": "lift the bread roll from the basket",
+                    "start_frame": "camera_top_0084.jpg",
+                    "end_frame": "camera_top_0118.jpg"
+                },
+                {
+                    "step_description": "move the bread roll above the table",
+                    "start_frame": "camera_top_0125.jpg",
+                    "end_frame": "camera_top_0160.jpg"
+                },
+                {
+                    "step_description": "place the bread roll on the table",
+                    "start_frame": "camera_top_0167.jpg",
+                    "end_frame": "camera_top_0201.jpg"
+                }
+            ]
+        }
+    }
+]

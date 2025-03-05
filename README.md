@@ -91,6 +91,8 @@ Compared to Version 1.0, we further expanded the dataset, which now includes 107
 
 In version 1.2, we added 10 tasks of Upright_Cup data to Version 1.1, including 1 real-world task and 9 tasks from the digital twin environment. The goal of these 10 tasks is to flip a mug, but they involve different environmental settings, such as the range of mug placement, table textures, and mug appearances.
 
+The frame-level fine-grained language instruction annotation data has been updated. Please refer to [language_description_annotation_json](./static/language_description_annotation_json)
+
 For more HDF5 file formats, please refer to [all_robot_h5_info_v1.2.md](./static/all_robot_h5_info_v1.2.md).
 
 ### Version 1.0

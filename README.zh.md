@@ -85,6 +85,8 @@ RoboMIND数据集汇集了多种机器人平台的操作数据，包括52,926条
 
 在版本1.1的基础上，我们新增了Upright_Cup的10项任务数据，其中包括 1个来自真实世界的任务数据和9个来自数字孪生环境的任务数据。这10个任务数据的目标均为翻转马克杯，但涉及不同的环境设置，例如马克杯的摆放位置范围、桌面纹理以及马克杯外观等。
 
+更新了帧级别的细粒度语言指令标注数据，请参考[language_description_annotation_json](./static/language_description_annotation_json)
+
 对于更多不同构型的H5文件格式，请参考[all_robot_h5_info_v1.2.md](./static/all_robot_h5_info_v1.2.md).
 
 ### 版本 1.0

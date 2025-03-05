@@ -1,0 +1,2259 @@
+[
+    {
+        "id": "h5_simulation/open_and_close_01/success_episodes/train/2024_10_11-15_18_23/data",
+        "response": {
+            "task_summary": "Open the cabinet door",
+            "steps": [
+                {
+                    "step_description": "Contact cabinet door",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0110.jpg"
+                },
+                {
+                    "step_description": "Open the cabinet door",
+                    "start_frame": "camera_front_external_0115.jpg",
+                    "end_frame": "camera_front_external_0131.jpg"
+                },
+                {
+                    "step_description": "move away from cabinet door",
+                    "start_frame": "camera_front_external_0136.jpg",
+                    "end_frame": "camera_front_external_0151.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_01/success_episodes/train/2024_09_29-10_59_31/data",
+        "response": {
+            "task_summary": "pick up an apple and place it on the patterned cloth",
+            "steps": [
+                {
+                    "step_description": "move towards the apple",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0031.jpg"
+                },
+                {
+                    "step_description": "grab an apple",
+                    "start_frame": "camera_front_external_0039.jpg",
+                    "end_frame": "camera_front_external_0162.jpg"
+                },
+                {
+                    "step_description": "move apple towards the plate",
+                    "start_frame": "camera_front_external_0170.jpg",
+                    "end_frame": "camera_front_external_0200.jpg"
+                },
+                {
+                    "step_description": "put apple on the plate",
+                    "start_frame": "camera_front_external_0208.jpg",
+                    "end_frame": "camera_front_external_0223.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_02/success_episodes/train/2024_09_29-11_30_36/data",
+        "response": {
+            "task_summary": "placing colorful balls onto a plate",
+            "steps": [
+                {
+                    "step_description": "move towards the dark blue ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0182.jpg"
+                },
+                {
+                    "step_description": "grab the dark blue ball",
+                    "start_frame": "camera_front_external_0196.jpg",
+                    "end_frame": "camera_front_external_0350.jpg"
+                },
+                {
+                    "step_description": "move dark blue ball towards the table",
+                    "start_frame": "camera_front_external_0364.jpg",
+                    "end_frame": "camera_front_external_0392.jpg"
+                },
+                {
+                    "step_description": "move away from dark blue ball",
+                    "start_frame": "camera_front_external_0405.jpg",
+                    "end_frame": "camera_front_external_0405.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_05/success_episodes/train/2024_10_17-16_14_17/data",
+        "response": {
+            "task_summary": "open the drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0070.jpg"
+                },
+                {
+                    "step_description": "grab the drawer handle",
+                    "start_frame": "camera_front_external_0080.jpg",
+                    "end_frame": "camera_front_external_0149.jpg"
+                },
+                {
+                    "step_description": "open the drawer",
+                    "start_frame": "camera_front_external_0159.jpg",
+                    "end_frame": "camera_front_external_0268.jpg"
+                },
+                {
+                    "step_description": "move away from drawer handle",
+                    "start_frame": "camera_front_external_0278.jpg",
+                    "end_frame": "camera_front_external_0287.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_01/success_episodes/train/2024_09_28-11_05_47/data",
+        "response": {
+            "task_summary": "picking up a blue object and placing it on a gray plate。",
+            "steps": [
+                {
+                    "step_description": "move towards the blue object",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0028.jpg"
+                },
+                {
+                    "step_description": "grab the blue object",
+                    "start_frame": "camera_front_external_0033.jpg",
+                    "end_frame": "camera_front_external_0089.jpg"
+                },
+                {
+                    "step_description": "move the blue object towards the gray plate",
+                    "start_frame": "camera_front_external_0094.jpg",
+                    "end_frame": "camera_front_external_0122.jpg"
+                },
+                {
+                    "step_description": "move away from the blue object ",
+                    "start_frame": "camera_front_external_0126.jpg",
+                    "end_frame": "camera_front_external_0135.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_01/success_episodes/train/2024_10_08-15_24_06/data",
+        "response": {
+            "task_summary": "place the dark blue ball on the pink plate",
+            "steps": [
+                {
+                    "step_description": "move towards the dark blue ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0044.jpg"
+                },
+                {
+                    "step_description": "grab the dark blue ball",
+                    "start_frame": "camera_front_external_0048.jpg",
+                    "end_frame": "camera_front_external_0068.jpg"
+                },
+                {
+                    "step_description": "move the dark blue ball towards the pink plate",
+                    "start_frame": "camera_front_external_0072.jpg",
+                    "end_frame": "camera_front_external_0088.jpg"
+                },
+                {
+                    "step_description": "put the dark blue ball on the pink plate",
+                    "start_frame": "camera_front_external_0092.jpg",
+                    "end_frame": "camera_front_external_0115.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_02/success_episodes/train/2024_09_27-15_37_46/data",
+        "response": {
+            "task_summary": "Place the deep blue stone on the black table",
+            "steps": [
+                {
+                    "step_description": "move towards the deep blue stone",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0029.jpg"
+                },
+                {
+                    "step_description": "grab the deep blue stone",
+                    "start_frame": "camera_front_external_0034.jpg",
+                    "end_frame": "camera_front_external_0101.jpg"
+                },
+                {
+                    "step_description": "move the deep blue stone towards the black table",
+                    "start_frame": "camera_front_external_0106.jpg",
+                    "end_frame": "camera_front_external_0120.jpg"
+                },
+                {
+                    "step_description": "move away from the deep blue stone",
+                    "start_frame": "camera_front_external_0125.jpg",
+                    "end_frame": "camera_front_external_0139.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_02/success_episodes/train/2024_10_08-11_22_24/data",
+        "response": {
+            "task_summary": "Place the deep blue stone on the light blue table ",
+            "steps": [
+                {
+                    "step_description": "move towards the deep blue stone",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0019.jpg"
+                },
+                {
+                    "step_description": "grab the deep blue stone",
+                    "start_frame": "camera_front_external_0025.jpg",
+                    "end_frame": "camera_front_external_0160.jpg"
+                },
+                {
+                    "step_description": "move the deep blue stone towards the light blue table",
+                    "start_frame": "camera_front_external_0166.jpg",
+                    "end_frame": "camera_front_external_0166.jpg"
+                },
+                {
+                    "step_description": "move away from the deep blue stone towards",
+                    "start_frame": "camera_front_external_0172.jpg",
+                    "end_frame": "camera_front_external_0178.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_03/success_episodes/train/2024_10_08-14_10_54/data",
+        "response": {
+            "task_summary": "put the blue banana into the green basket",
+            "steps": [
+                {
+                    "step_description": "move towards the blue banana",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0049.jpg"
+                },
+                {
+                    "step_description": "grasp the blue banana",
+                    "start_frame": "camera_front_external_0055.jpg",
+                    "end_frame": "camera_front_external_0141.jpg"
+                },
+                {
+                    "step_description": "move the blue banana towards the green basket",
+                    "start_frame": "camera_front_external_0147.jpg",
+                    "end_frame": "camera_front_external_0165.jpg"
+                },
+                {
+                    "step_description": "move away from the blue banana",
+                    "start_frame": "camera_front_external_0171.jpg",
+                    "end_frame": "camera_front_external_0177.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_03/success_episodes/train/2024_10_09-16_12_43/data",
+        "response": {
+            "task_summary": "put the dark green avocado into the blue basket",
+            "steps": [
+                {
+                    "step_description": "move towards the dark green avocado",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0019.jpg"
+                },
+                {
+                    "step_description": "grab the dark green avocado",
+                    "start_frame": "camera_front_external_0025.jpg",
+                    "end_frame": "camera_front_external_0141.jpg"
+                },
+                {
+                    "step_description": "move the dark green avocado towards the blue basket",
+                    "start_frame": "camera_front_external_0147.jpg",
+                    "end_frame": "camera_front_external_0165.jpg"
+                },
+                {
+                    "step_description": "move away from the dark green avocado",
+                    "start_frame": "camera_front_external_0171.jpg",
+                    "end_frame": "camera_front_external_0177.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_10_10-11_22_04/data",
+        "response": {
+            "task_summary": "Place the blue orange on the light blue table",
+            "steps": [
+                {
+                    "step_description": "move towards the blue orange",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0019.jpg"
+                },
+                {
+                    "step_description": "grab the blue orange",
+                    "start_frame": "camera_front_external_0025.jpg",
+                    "end_frame": "camera_front_external_0144.jpg"
+                },
+                {
+                    "step_description": "move the blue orange towards the light blue table",
+                    "start_frame": "camera_front_external_0150.jpg",
+                    "end_frame": "camera_front_external_0169.jpg"
+                },
+                {
+                    "step_description": "put he blue orange on  the light blue table",
+                    "start_frame": "camera_front_external_0175.jpg",
+                    "end_frame": "camera_front_external_0181.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_03/success_episodes/train/2024_10_09-15_38_50/data",
+        "response": {
+            "task_summary": "picking up the apple and placing it in a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the apple",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0028.jpg"
+                },
+                {
+                    "step_description": "grab  the cup",
+                    "start_frame": "camera_front_external_0035.jpg",
+                    "end_frame": "camera_front_external_0160.jpg"
+                },
+                {
+                    "step_description": "move the apple towards the basket",
+                    "start_frame": "camera_front_external_0167.jpg",
+                    "end_frame": "camera_front_external_0195.jpg"
+                },
+                {
+                    "step_description": "move away from the apple",
+                    "start_frame": "camera_front_external_0201.jpg",
+                    "end_frame": "camera_front_external_0201.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_04/success_episodes/train/2024_10_15-15_35_32/data",
+        "response": {
+            "task_summary": "Open the drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer",
+                    "start_frame": "camera_front_external_0001.jpg",
+                    "end_frame": "camera_front_external_0077.jpg"
+                },
+                {
+                    "step_description": "grab the drawer",
+                    "start_frame": "camera_front_external_0086.jpg",
+                    "end_frame": "camera_front_external_0129.jpg"
+                },
+                {
+                    "step_description": "open the drawer",
+                    "start_frame": "camera_front_external_0137.jpg",
+                    "end_frame": "camera_front_external_0206.jpg"
+                },
+                {
+                    "step_description": "move away from the drawer",
+                    "start_frame": "camera_front_external_0214.jpg",
+                    "end_frame": "camera_front_external_0248.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_05/success_episodes/train/2024_10_17-16_20_46/data",
+        "response": {
+            "task_summary": "open the drawer",
+            "steps": [
+                {
+                    "step_description": "move towards  the drawer handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0022.jpg"
+                },
+                {
+                    "step_description": "grab the drawer handle",
+                    "start_frame": "camera_front_external_0027.jpg",
+                    "end_frame": "camera_front_external_0101.jpg"
+                },
+                {
+                    "step_description": "open the drawer",
+                    "start_frame": "camera_front_external_0107.jpg",
+                    "end_frame": "camera_front_external_0128.jpg"
+                },
+                {
+                    "step_description": "move away from the drawer",
+                    "start_frame": "camera_front_external_0133.jpg",
+                    "end_frame": "camera_front_external_0154.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_01/success_episodes/train/2024_10_10-18_42_18/data",
+        "response": {
+            "task_summary": "opening  a gripper",
+            "steps": [
+                {
+                    "step_description": "move towards the gripper",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0097.jpg"
+                },
+                {
+                    "step_description": "open the gripper",
+                    "start_frame": "camera_front_external_0102.jpg",
+                    "end_frame": "camera_front_external_0145.jpg"
+                },
+                {
+                    "step_description": "move away from  the gripper",
+                    "start_frame": "camera_front_external_0150.jpg",
+                    "end_frame": "camera_front_external_0155.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_04/success_episodes/train/2024_10_15-17_57_51/data",
+        "response": {
+            "task_summary": "opening  a drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0062.jpg"
+                },
+                {
+                    "step_description": "grab the drawer handle",
+                    "start_frame": "camera_front_external_0069.jpg",
+                    "end_frame": "camera_front_external_0103.jpg"
+                },
+                {
+                    "step_description": "open the drawer",
+                    "start_frame": "camera_front_external_0110.jpg",
+                    "end_frame": "camera_front_external_0186.jpg"
+                },
+                {
+                    "step_description": "move away from the  drawer",
+                    "start_frame": "camera_front_external_0193.jpg",
+                    "end_frame": "camera_front_external_0199.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_01/success_episodes/train/2024_09_29-18_21_33/data",
+        "response": {
+            "task_summary": "put a purple apple into a gray plate",
+            "steps": [
+                {
+                    "step_description": "move towards the  apple",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0143.jpg"
+                },
+                {
+                    "step_description": "grab the apple",
+                    "start_frame": "camera_front_external_0152.jpg",
+                    "end_frame": "camera_front_external_0224.jpg"
+                },
+                {
+                    "step_description": "move the apple towards the gray plate",
+                    "start_frame": "camera_front_external_0233.jpg",
+                    "end_frame": "camera_front_external_0251.jpg"
+                },
+                {
+                    "step_description": "put the apple on the gray plate",
+                    "start_frame": "camera_front_external_0259.jpg",
+                    "end_frame": "camera_front_external_0259.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_02/success_episodes/train/2024_09_29-14_59_01/data",
+        "response": {
+            "task_summary": "put the blue ball on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the blue ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0040.jpg"
+                },
+                {
+                    "step_description": "grab the blue ball",
+                    "start_frame": "camera_front_external_0044.jpg",
+                    "end_frame": "camera_front_external_0097.jpg"
+                },
+                {
+                    "step_description": "move the blue ball towards the table",
+                    "start_frame": "camera_front_external_0101.jpg",
+                    "end_frame": "camera_front_external_0106.jpg"
+                },
+                {
+                    "step_description": "move away from the blue ball",
+                    "start_frame": "camera_front_external_0110.jpg",
+                    "end_frame": "camera_front_external_0127.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_03/success_episodes/train/2024_10_09-15_40_24/data",
+        "response": {
+            "task_summary": "picking up a purple ball and placing it in a white basket",
+            "steps": [
+                {
+                    "step_description": "move towards the purple ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0084.jpg"
+                },
+                {
+                    "step_description": "grab the purple ball",
+                    "start_frame": "camera_front_external_0092.jpg",
+                    "end_frame": "camera_front_external_0217.jpg"
+                },
+                {
+                    "step_description": "move the purple ball towards the white basket",
+                    "start_frame": "camera_front_external_0225.jpg",
+                    "end_frame": "camera_front_external_0233.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_front_external_0241.jpg",
+                    "end_frame": "camera_front_external_0241.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_03/success_episodes/train/2024_10_10-17_07_51/data",
+        "response": {
+            "task_summary": "picking up a blue stress ball and placing it into a white basket",
+            "steps": [
+                {
+                    "step_description": "move towards the blue stress ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0054.jpg"
+                },
+                {
+                    "step_description": "grab the blue stress ball",
+                    "start_frame": "camera_front_external_0059.jpg",
+                    "end_frame": "camera_front_external_0113.jpg"
+                },
+                {
+                    "step_description": "move the blue stress ball towards the white basket",
+                    "start_frame": "camera_front_external_0118.jpg",
+                    "end_frame": "camera_front_external_0145.jpg"
+                },
+                {
+                    "step_description": "move away from the blue stress ball ",
+                    "start_frame": "camera_front_external_0150.jpg",
+                    "end_frame": "camera_front_external_0155.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_10_09-16_45_12/data",
+        "response": {
+            "task_summary": "pick up an avocado and place it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the avocado",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0044.jpg"
+                },
+                {
+                    "step_description": "grasp the avocado",
+                    "start_frame": "camera_front_external_0051.jpg",
+                    "end_frame": "camera_front_external_0153.jpg"
+                },
+                {
+                    "step_description": "move  the avocado towards the table",
+                    "start_frame": "camera_front_external_0161.jpg",
+                    "end_frame": "camera_front_external_0204.jpg"
+                },
+                {
+                    "step_description": "move away from the avocado ",
+                    "start_frame": "camera_front_external_0211.jpg",
+                    "end_frame": "camera_front_external_0211.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_01/success_episodes/train/2024_10_11-14_12_06/data",
+        "response": {
+            "task_summary": "opening a drawer",
+            "steps": [
+                {
+                    "step_description": "move towards  drawer",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0057.jpg"
+                },
+                {
+                    "step_description": "open the drawer",
+                    "start_frame": "camera_front_external_0061.jpg",
+                    "end_frame": "camera_front_external_0117.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_03/success_episodes/train/2024_10_11-18_21_04/data",
+        "response": {
+            "task_summary": "open a drawer",
+            "steps": [
+                {
+                    "step_description": "move towards  drawer handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0015.jpg"
+                },
+                {
+                    "step_description": "grab the drawer handle",
+                    "start_frame": "camera_front_external_0020.jpg",
+                    "end_frame": "camera_front_external_0115.jpg"
+                },
+                {
+                    "step_description": "open the drawer",
+                    "start_frame": "camera_front_external_0120.jpg",
+                    "end_frame": "camera_front_external_0145.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_03/success_episodes/train/2024_10_12-11_16_19/data",
+        "response": {
+            "task_summary": "opening  a drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0044.jpg"
+                },
+                {
+                    "step_description": "grab the drawer handle",
+                    "start_frame": "camera_front_external_0050.jpg",
+                    "end_frame": "camera_front_external_0066.jpg"
+                },
+                {
+                    "step_description": "opening the drawer",
+                    "start_frame": "camera_front_external_0072.jpg",
+                    "end_frame": "camera_front_external_0159.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_03/success_episodes/train/2024_10_12-10_48_15/data",
+        "response": {
+            "task_summary": "open the blue drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the blue drawer",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0062.jpg"
+                },
+                {
+                    "step_description": "grab the blue drawer",
+                    "start_frame": "camera_front_external_0068.jpg",
+                    "end_frame": "camera_front_external_0093.jpg"
+                },
+                {
+                    "step_description": "open the blue drawer",
+                    "start_frame": "camera_front_external_0099.jpg",
+                    "end_frame": "camera_front_external_0179.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_05/success_episodes/train/2024_10_15-14_52_31/data",
+        "response": {
+            "task_summary": "open the drawer",
+            "steps": [
+                {
+                    "step_description": "grab the drawer handle",
+                    "start_frame": "camera_front_external_0001.jpg",
+                    "end_frame": "camera_front_external_0154.jpg"
+                },
+                {
+                    "step_description": "open the drawer",
+                    "start_frame": "camera_front_external_0163.jpg",
+                    "end_frame": "camera_front_external_0231.jpg"
+                },
+                {
+                    "step_description": "move away from the drawer handle",
+                    "start_frame": "camera_front_external_0240.jpg",
+                    "end_frame": "camera_front_external_0248.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_09_29-17_49_12/data",
+        "response": {
+            "task_summary": "Take the apples out of the basket",
+            "steps": [
+                {
+                    "step_description": "move towards the apples in the basket",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0034.jpg"
+                },
+                {
+                    "step_description": "grab the towards",
+                    "start_frame": "camera_front_external_0040.jpg",
+                    "end_frame": "camera_front_external_0125.jpg"
+                },
+                {
+                    "step_description": "move away from the basket",
+                    "start_frame": "camera_front_external_0131.jpg",
+                    "end_frame": "camera_front_external_0164.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_09_27-16_27_55/data",
+        "response": {
+            "task_summary": "pick out a blue object from the basket and place it on the table",
+            "steps": [
+                {
+                    "step_description": "pick up the cucumber from the basket",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0130.jpg"
+                },
+                {
+                    "step_description": "put  the cucumber on the table                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ",
+                    "start_frame": "camera_front_external_0135.jpg",
+                    "end_frame": "camera_front_external_0156.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_04/success_episodes/train/2024_10_14-15_43_42/data",
+        "response": {
+            "task_summary": "opening and closing a drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0025.jpg"
+                },
+                {
+                    "step_description": "grasp the handle",
+                    "start_frame": "camera_front_external_0031.jpg",
+                    "end_frame": "camera_front_external_0103.jpg"
+                },
+                {
+                    "step_description": "pull the drawer open",
+                    "start_frame": "camera_front_external_0109.jpg",
+                    "end_frame": "camera_front_external_0169.jpg"
+                },
+                {
+                    "step_description": "release the handle and move away",
+                    "start_frame": "camera_front_external_0175.jpg",
+                    "end_frame": "camera_front_external_0175.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_04/success_episodes/train/2024_10_14-16_18_14/data",
+        "response": {
+            "task_summary": "opening and closing a box",
+            "steps": [
+                {
+                    "step_description": "move towards the box handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0045.jpg"
+                },
+                {
+                    "step_description": "reach for the box handle",
+                    "start_frame": "camera_front_external_0054.jpg",
+                    "end_frame": "camera_front_external_0151.jpg"
+                },
+                {
+                    "step_description": "open the box",
+                    "start_frame": "camera_front_external_0160.jpg",
+                    "end_frame": "camera_front_external_0249.jpg"
+                },
+                {
+                    "step_description": "move away from the  box handle",
+                    "start_frame": "camera_front_external_0257.jpg",
+                    "end_frame": "camera_front_external_0257.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_03/success_episodes/train/2024_10_11-15_20_38/data",
+        "response": {
+            "task_summary": "opening a drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0010.jpg"
+                },
+                {
+                    "step_description": "grab the handle of the drawer",
+                    "start_frame": "camera_front_external_0015.jpg",
+                    "end_frame": "camera_front_external_0080.jpg"
+                },
+                {
+                    "step_description": "open this drawer",
+                    "start_frame": "camera_front_external_0085.jpg",
+                    "end_frame": "camera_front_external_0113.jpg"
+                },
+                {
+                    "step_description": "move the handle away from the drawer",
+                    "start_frame": "camera_front_external_0118.jpg",
+                    "end_frame": "camera_front_external_0136.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_04/success_episodes/train/2024_10_14-14_35_27/data",
+        "response": {
+            "task_summary": "open this drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0020.jpg"
+                },
+                {
+                    "step_description": "grab the handle of the drawer",
+                    "start_frame": "camera_front_external_0027.jpg",
+                    "end_frame": "camera_front_external_0094.jpg"
+                },
+                {
+                    "step_description": "open this drawer",
+                    "start_frame": "camera_front_external_0100.jpg",
+                    "end_frame": "camera_front_external_0187.jpg"
+                },
+                {
+                    "step_description": "move the handle away from the drawer",
+                    "start_frame": "camera_front_external_0193.jpg",
+                    "end_frame": "camera_front_external_0193.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_04/success_episodes/train/2024_10_17-11_34_24/data",
+        "response": {
+            "task_summary": "open this drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0041.jpg"
+                },
+                {
+                    "step_description": "grab the handle of the drawer",
+                    "start_frame": "camera_front_external_0049.jpg",
+                    "end_frame": "camera_front_external_0113.jpg"
+                },
+                {
+                    "step_description": "open this drawer",
+                    "start_frame": "camera_front_external_0122.jpg",
+                    "end_frame": "camera_front_external_0218.jpg"
+                },
+                {
+                    "step_description": "move the handle away from the drawer",
+                    "start_frame": "camera_front_external_0226.jpg",
+                    "end_frame": "camera_front_external_0234.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_05/success_episodes/train/2024_10_17-11_29_21/data",
+        "response": {
+            "task_summary": "open this drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0078.jpg"
+                },
+                {
+                    "step_description": "grab the handle of the drawer",
+                    "start_frame": "camera_front_external_0085.jpg",
+                    "end_frame": "camera_front_external_0124.jpg"
+                },
+                {
+                    "step_description": "open this drawer",
+                    "start_frame": "camera_front_external_0132.jpg",
+                    "end_frame": "camera_front_external_0186.jpg"
+                },
+                {
+                    "step_description": "move the handle away from the drawer",
+                    "start_frame": "camera_front_external_0194.jpg",
+                    "end_frame": "camera_front_external_0224.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_01/success_episodes/train/2024_09_27-09_59_38/data",
+        "response": {
+            "task_summary": "moving a plum from the table to a plate",
+            "steps": [
+                {
+                    "step_description": "move towards the plum",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0010.jpg"
+                },
+                {
+                    "step_description": "grasp the plum",
+                    "start_frame": "camera_front_external_0015.jpg",
+                    "end_frame": "camera_front_external_0090.jpg"
+                },
+                {
+                    "step_description": "move the plums towards the plate",
+                    "start_frame": "camera_front_external_0095.jpg",
+                    "end_frame": "camera_front_external_0120.jpg"
+                },
+                {
+                    "step_description": "put the plums on the plate",
+                    "start_frame": "camera_front_external_0125.jpg",
+                    "end_frame": "camera_front_external_0144.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_01/success_episodes/train/2024_10_08-10_32_11/data",
+        "response": {
+            "task_summary": "place the green ball on the gray plate",
+            "steps": [
+                {
+                    "step_description": "move towards the green ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0014.jpg"
+                },
+                {
+                    "step_description": "grab the green ball",
+                    "start_frame": "camera_front_external_0019.jpg",
+                    "end_frame": "camera_front_external_0092.jpg"
+                },
+                {
+                    "step_description": "move the green ball towards the gray plate",
+                    "start_frame": "camera_front_external_0097.jpg",
+                    "end_frame": "camera_front_external_0120.jpg"
+                },
+                {
+                    "step_description": "place the green ball on the gray plate",
+                    "start_frame": "camera_front_external_0120.jpg",
+                    "end_frame": "camera_front_external_0129.jpg"
+                },
+                {
+                    "step_description": "move away from above the green ball",
+                    "start_frame": "camera_front_external_0133.jpg",
+                    "end_frame": "camera_front_external_0133.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_01/success_episodes/train/2024_10_09-11_20_39/data",
+        "response": {
+            "task_summary": "moving an avocado to a plate",
+            "steps": [
+                {
+                    "step_description": "move towards the avocado",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0014.jpg"
+                },
+                {
+                    "step_description": "grasp the avocado",
+                    "start_frame": "camera_front_external_0021.jpg",
+                    "end_frame": "camera_front_external_0151.jpg"
+                },
+                {
+                    "step_description": "move the avocado to the plate",
+                    "start_frame": "camera_front_external_0158.jpg",
+                    "end_frame": "camera_front_external_0193.jpg"
+                },
+                {
+                    "step_description": "put the avocado on the plate",
+                    "start_frame": "camera_front_external_0199.jpg",
+                    "end_frame": "camera_front_external_0199.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_02/success_episodes/train/2024_09_29-14_39_52/data",
+        "response": {
+            "task_summary": "picking a green object from a plate and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the green object",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0024.jpg"
+                },
+                {
+                    "step_description": "grab the green object",
+                    "start_frame": "camera_front_external_0029.jpg",
+                    "end_frame": "camera_front_external_0086.jpg"
+                },
+                {
+                    "step_description": "move the green object towards the table",
+                    "start_frame": "camera_front_external_0091.jpg",
+                    "end_frame": "camera_front_external_0115.jpg"
+                },
+                {
+                    "step_description": "place the green object on the table",
+                    "start_frame": "camera_front_external_0119.jpg",
+                    "end_frame": "camera_front_external_0138.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_02/success_episodes/train/2024_10_08-14_00_42/data",
+        "response": {
+            "task_summary": "move the bananas on the plate onto the table",
+            "steps": [
+                {
+                    "step_description": "move towards bananas",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0063.jpg"
+                },
+                {
+                    "step_description": "grab the banana",
+                    "start_frame": "camera_front_external_0071.jpg",
+                    "end_frame": "camera_front_external_0188.jpg"
+                },
+                {
+                    "step_description": "move the banana onto the table",
+                    "start_frame": "camera_front_external_0195.jpg",
+                    "end_frame": "camera_front_external_0211.jpg"
+                },
+                {
+                    "step_description": "place the banana on the table",
+                    "start_frame": "camera_front_external_0219.jpg",
+                    "end_frame": "camera_front_external_0219.jpg"
+                },
+                {
+                    "step_description": "move away from above the banana",
+                    "start_frame": "camera_front_external_0226.jpg",
+                    "end_frame": "camera_front_external_0226.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_03/success_episodes/train/2024_10_08-14_22_28/data",
+        "response": {
+            "task_summary": "place the blue-green objects on the table into the orange yellow basket",
+            "steps": [
+                {
+                    "step_description": "move towards blue-green objects",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0016.jpg"
+                },
+                {
+                    "step_description": "grab the blue-green object",
+                    "start_frame": "camera_front_external_0023.jpg",
+                    "end_frame": "camera_front_external_0183.jpg"
+                },
+                {
+                    "step_description": "move the blue-green object towards the orange yellow basket",
+                    "start_frame": "camera_front_external_0190.jpg",
+                    "end_frame": "camera_front_external_0205.jpg"
+                },
+                {
+                    "step_description": "place the blue-green object in the orange yellow basket",
+                    "start_frame": "camera_front_external_0213.jpg",
+                    "end_frame": "camera_front_external_0220.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_09_28-17_08_15/data",
+        "response": {
+            "task_summary": "place the objects in the basket on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the objects in the basket",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0037.jpg"
+                },
+                {
+                    "step_description": "grab this object",
+                    "start_frame": "camera_front_external_0043.jpg",
+                    "end_frame": "camera_front_external_0115.jpg"
+                },
+                {
+                    "step_description": "move the object onto the table",
+                    "start_frame": "camera_front_external_0121.jpg",
+                    "end_frame": "camera_front_external_0157.jpg"
+                },
+                {
+                    "step_description": "place the object on the table",
+                    "start_frame": "camera_front_external_0163.jpg",
+                    "end_frame": "camera_front_external_0175.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_10_09-17_39_34/data",
+        "response": {
+            "task_summary": "place the objects in the basket on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the objects in the basket",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0024.jpg"
+                },
+                {
+                    "step_description": "grab this object\n",
+                    "start_frame": "camera_front_external_0030.jpg",
+                    "end_frame": "camera_front_external_0129.jpg"
+                },
+                {
+                    "step_description": "move the object onto the table",
+                    "start_frame": "camera_front_external_0135.jpg",
+                    "end_frame": "camera_front_external_0158.jpg"
+                },
+                {
+                    "step_description": "place the object on the table",
+                    "start_frame": "camera_front_external_0164.jpg",
+                    "end_frame": "camera_front_external_0169.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_03/success_episodes/train/2024_10_09-16_30_32/data",
+        "response": {
+            "task_summary": "picking up a blue stress ball and placing it into an orange basket",
+            "steps": [
+                {
+                    "step_description": "move towards the blue stress ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0000.jpg"
+                },
+                {
+                    "step_description": "grab the blue stress ball",
+                    "start_frame": "camera_front_external_0006.jpg",
+                    "end_frame": "camera_front_external_0081.jpg"
+                },
+                {
+                    "step_description": "move the blue stress ball towards the orange basket",
+                    "start_frame": "camera_front_external_0087.jpg",
+                    "end_frame": "camera_front_external_0119.jpg"
+                },
+                {
+                    "step_description": "place the blue stress ball into the orange basket",
+                    "start_frame": "camera_front_external_0124.jpg",
+                    "end_frame": "camera_front_external_0151.jpg"
+                },
+                {
+                    "step_description": "move away from the blue stress ball",
+                    "start_frame": "camera_front_external_0156.jpg",
+                    "end_frame": "camera_front_external_0156.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_03/success_episodes/train/2024_10_10-17_39_38/data",
+        "response": {
+            "task_summary": "picking up a blue cloth and placing it in an orange basket",
+            "steps": [
+                {
+                    "step_description": "reach for the blue cloth",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0011.jpg"
+                },
+                {
+                    "step_description": "grasp the blue cloth",
+                    "start_frame": "camera_front_external_0022.jpg",
+                    "end_frame": "camera_front_external_0204.jpg"
+                },
+                {
+                    "step_description": "move the cloth towards the basket",
+                    "start_frame": "camera_front_external_0215.jpg",
+                    "end_frame": "camera_front_external_0215.jpg"
+                },
+                {
+                    "step_description": "place the cloth inside the basket",
+                    "start_frame": "camera_front_external_0226.jpg",
+                    "end_frame": "camera_front_external_0301.jpg"
+                },
+                {
+                    "step_description": "move away from the cloth",
+                    "start_frame": "camera_front_external_0311.jpg",
+                    "end_frame": "camera_front_external_0311.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_10_09-17_06_25/data",
+        "response": {
+            "task_summary": "picking up a ball from a bowl and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "reach for the blue ball inside the bowl",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0005.jpg"
+                },
+                {
+                    "step_description": "grab the blue ball",
+                    "start_frame": "camera_front_external_0010.jpg",
+                    "end_frame": "camera_front_external_0101.jpg"
+                },
+                {
+                    "step_description": "move the ball towards the table",
+                    "start_frame": "camera_front_external_0106.jpg",
+                    "end_frame": "camera_front_external_0129.jpg"
+                },
+                {
+                    "step_description": "move away from the ball towards",
+                    "start_frame": "camera_front_external_0133.jpg",
+                    "end_frame": "camera_front_external_0133.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_10_10-11_52_16/data",
+        "response": {
+            "task_summary": "pick an avocado from a basket and place it on the table",
+            "steps": [
+                {
+                    "step_description": "reach for the avocado in the basket",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0007.jpg"
+                },
+                {
+                    "step_description": "grab the avocado",
+                    "start_frame": "camera_front_external_0013.jpg",
+                    "end_frame": "camera_front_external_0149.jpg"
+                },
+                {
+                    "step_description": "move the avocado towards the table",
+                    "start_frame": "camera_front_external_0155.jpg",
+                    "end_frame": "camera_front_external_0168.jpg"
+                },
+                {
+                    "step_description": "place the avocado on the table",
+                    "start_frame": "camera_front_external_0175.jpg",
+                    "end_frame": "camera_front_external_0181.jpg"
+                },
+                {
+                    "step_description": "move away from the avocado",
+                    "start_frame": "camera_front_external_0187.jpg",
+                    "end_frame": "camera_front_external_0187.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_04/success_episodes/train/2024_10_17-14_22_10/data",
+        "response": {
+            "task_summary": "opening a drawer",
+            "steps": [
+                {
+                    "step_description": "move towards the drawer handle",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0071.jpg"
+                },
+                {
+                    "step_description": "grab the drawer handle",
+                    "start_frame": "camera_front_external_0083.jpg",
+                    "end_frame": "camera_front_external_0142.jpg"
+                },
+                {
+                    "step_description": "open the drawer",
+                    "start_frame": "camera_front_external_0154.jpg",
+                    "end_frame": "camera_front_external_0307.jpg"
+                },
+                {
+                    "step_description": "move away from the drawer handle",
+                    "start_frame": "camera_front_external_0319.jpg",
+                    "end_frame": "camera_front_external_0342.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_01/success_episodes/train/2024_09_27-17_07_47/data",
+        "response": {
+            "task_summary": "picking up a green ball and placing it on a round plate",
+            "steps": [
+                {
+                    "step_description": "move towards the green ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0027.jpg"
+                },
+                {
+                    "step_description": "grab the green ball",
+                    "start_frame": "camera_front_external_0030.jpg",
+                    "end_frame": "camera_front_external_0066.jpg"
+                },
+                {
+                    "step_description": "move the green ball towards the round plate",
+                    "start_frame": "camera_front_external_0069.jpg",
+                    "end_frame": "camera_front_external_0082.jpg"
+                },
+                {
+                    "step_description": "put the green ball on the round plate",
+                    "start_frame": "camera_front_external_0086.jpg",
+                    "end_frame": "camera_front_external_0089.jpg"
+                },
+                {
+                    "step_description": "move away from the green ball ",
+                    "start_frame": "camera_front_external_0092.jpg",
+                    "end_frame": "camera_front_external_0095.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_01/success_episodes/train/2024_10_08-10_57_53/data",
+        "response": {
+            "task_summary": "Put the black egg on the round plate",
+            "steps": [
+                {
+                    "step_description": "move towards the black egg",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0038.jpg"
+                },
+                {
+                    "step_description": "grab the black egg",
+                    "start_frame": "camera_front_external_0044.jpg",
+                    "end_frame": "camera_front_external_0060.jpg"
+                },
+                {
+                    "step_description": "move the black egg towards the round plate ",
+                    "start_frame": "camera_front_external_0065.jpg",
+                    "end_frame": "camera_front_external_0147.jpg"
+                },
+                {
+                    "step_description": "move away from the black egg",
+                    "start_frame": "camera_front_external_0152.jpg",
+                    "end_frame": "camera_front_external_0157.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_02/success_episodes/train/2024_09_27-10_44_37/data",
+        "response": {
+            "task_summary": "picking up a cucumber and placing it on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the cucumber",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0020.jpg"
+                },
+                {
+                    "step_description": "grab the cucumber",
+                    "start_frame": "camera_front_external_0025.jpg",
+                    "end_frame": "camera_front_external_0104.jpg"
+                },
+                {
+                    "step_description": "move the cucumber towards the table",
+                    "start_frame": "camera_front_external_0109.jpg",
+                    "end_frame": "camera_front_external_0129.jpg"
+                },
+                {
+                    "step_description": "put the cucumber on the table",
+                    "start_frame": "camera_front_external_0134.jpg",
+                    "end_frame": "camera_front_external_0143.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_02/success_episodes/train/2024_10_08-11_38_44/data",
+        "response": {
+            "task_summary": "Put the blue boll on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the blue boll",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0028.jpg"
+                },
+                {
+                    "step_description": "grab the blue boll",
+                    "start_frame": "camera_front_external_0034.jpg",
+                    "end_frame": "camera_front_external_0170.jpg"
+                },
+                {
+                    "step_description": "move the blue boll towards the table",
+                    "start_frame": "camera_front_external_0177.jpg",
+                    "end_frame": "camera_front_external_0191.jpg"
+                },
+                {
+                    "step_description": "move away from the blue boll",
+                    "start_frame": "camera_front_external_0197.jpg",
+                    "end_frame": "camera_front_external_0197.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_02/success_episodes/train/2024_10_10-15_16_14/data",
+        "response": {
+            "task_summary": "picking and placing a blue ball on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the blue ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0038.jpg"
+                },
+                {
+                    "step_description": "grab the blue ball",
+                    "start_frame": "camera_front_external_0042.jpg",
+                    "end_frame": "camera_front_external_0073.jpg"
+                },
+                {
+                    "step_description": " move the blue ball towards the table",
+                    "start_frame": "camera_front_external_0076.jpg",
+                    "end_frame": "camera_front_external_0090.jpg"
+                },
+                {
+                    "step_description": "move away from the blue ball ",
+                    "start_frame": "camera_front_external_0094.jpg",
+                    "end_frame": "camera_front_external_0100.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_01/success_episodes/train/2024_10_11-14_38_22/data",
+        "response": {
+            "task_summary": "open the oven door",
+            "steps": [
+                {
+                    "step_description": "move towards the oven door",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0069.jpg"
+                },
+                {
+                    "step_description": "grab the oven door handle",
+                    "start_frame": "camera_front_external_0073.jpg",
+                    "end_frame": "camera_front_external_0089.jpg"
+                },
+                {
+                    "step_description": "open the oven door",
+                    "start_frame": "camera_front_external_0093.jpg",
+                    "end_frame": "camera_front_external_0101.jpg"
+                },
+                {
+                    "step_description": "move away from the oven door",
+                    "start_frame": "camera_front_external_0105.jpg",
+                    "end_frame": "camera_front_external_0117.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_04/success_episodes/train/2024_10_14-16_01_31/data",
+        "response": {
+            "task_summary": "open the blue drawer",
+            "steps": [
+                {
+                    "step_description": "move towards drawer",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0029.jpg"
+                },
+                {
+                    "step_description": "grab the drawer door handle",
+                    "start_frame": "camera_front_external_0033.jpg",
+                    "end_frame": "camera_front_external_0045.jpg"
+                },
+                {
+                    "step_description": "open the drawer",
+                    "start_frame": "camera_front_external_0049.jpg",
+                    "end_frame": "camera_front_external_0084.jpg"
+                },
+                {
+                    "step_description": "move away from the drawer door handle",
+                    "start_frame": "camera_front_external_0087.jpg",
+                    "end_frame": "camera_front_external_0093.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_01/success_episodes/train/2024_10_12-13_37_45/data",
+        "response": {
+            "task_summary": "Open the cabinet door",
+            "steps": [
+                {
+                    "step_description": "Contact cabinet door",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0109.jpg"
+                },
+                {
+                    "step_description": "Open the cabinet door",
+                    "start_frame": "camera_front_external_0114.jpg",
+                    "end_frame": "camera_front_external_0119.jpg"
+                },
+                {
+                    "step_description": "move away from cabinet door",
+                    "start_frame": "camera_front_external_0123.jpg",
+                    "end_frame": "camera_front_external_0137.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/open_and_close_01/success_episodes/train/2024_10_11-14_08_36/data",
+        "response": {
+            "task_summary": "Open the cabinet door",
+            "steps": [
+                {
+                    "step_description": "move towards the cabinet door",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0042.jpg"
+                },
+                {
+                    "step_description": "contact the cabinet door",
+                    "start_frame": "camera_front_external_0045.jpg",
+                    "end_frame": "camera_front_external_0064.jpg"
+                },
+                {
+                    "step_description": "open the cabinet door",
+                    "start_frame": "camera_front_external_0064.jpg",
+                    "end_frame": "camera_front_external_0080.jpg"
+                },
+                {
+                    "step_description": "move away from the cabinet door",
+                    "start_frame": "camera_front_external_0083.jpg",
+                    "end_frame": "camera_front_external_0092.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_03/success_episodes/train/2024_10_10-13_32_13/data",
+        "response": {
+            "task_summary": "picking the blueberries into a basket",
+            "steps": [
+                {
+                    "step_description": "move towards the blueberry",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0034.jpg"
+                },
+                {
+                    "step_description": "grab the blueberry",
+                    "start_frame": "camera_front_external_0039.jpg",
+                    "end_frame": "camera_front_external_0133.jpg"
+                },
+                {
+                    "step_description": "move the blueberry towards the basket",
+                    "start_frame": "camera_front_external_0138.jpg",
+                    "end_frame": "camera_front_external_0160.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_09_28-17_45_27/data",
+        "response": {
+            "task_summary": "Hold the blue ball above the cup",
+            "steps": [
+                {
+                    "step_description": "move towards the blue ball",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0034.jpg"
+                },
+                {
+                    "step_description": "grab the blue ball",
+                    "start_frame": "camera_front_external_0040.jpg",
+                    "end_frame": "camera_front_external_0124.jpg"
+                },
+                {
+                    "step_description": "move the blue ball towards above the cup",
+                    "start_frame": "camera_front_external_0130.jpg",
+                    "end_frame": "camera_front_external_0141.jpg"
+                },
+                {
+                    "step_description": "none",
+                    "start_frame": "camera_front_external_0147.jpg",
+                    "end_frame": "camera_front_external_0163.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-16_24_24/data",
+        "response": {
+            "task_summary": "Put the yellow building blocks on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow building blocks",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0012.jpg"
+                },
+                {
+                    "step_description": "grab  the yellow building blocks",
+                    "start_frame": "camera_front_external_0016.jpg",
+                    "end_frame": "camera_front_external_0073.jpg"
+                },
+                {
+                    "step_description": "move the yellow building blocks towards the table",
+                    "start_frame": "camera_front_external_0077.jpg",
+                    "end_frame": "camera_front_external_0081.jpg"
+                },
+                {
+                    "step_description": "put the yellow building block on the table",
+                    "start_frame": "camera_front_external_0085.jpg",
+                    "end_frame": "camera_front_external_0092.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow building blocks",
+                    "start_frame": "camera_front_external_0096.jpg",
+                    "end_frame": "camera_front_external_0111.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_21-14_20_21/data",
+        "response": {
+            "task_summary": "pick up a yellow block and place it on top of a pink block",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0045.jpg"
+                },
+                {
+                    "step_description": "grab the yellow block",
+                    "start_frame": "camera_front_external_0052.jpg",
+                    "end_frame": "camera_front_external_0122.jpg"
+                },
+                {
+                    "step_description": "move towards the yellow block",
+                    "start_frame": "camera_front_external_0128.jpg",
+                    "end_frame": "camera_front_external_0154.jpg"
+                },
+                {
+                    "step_description": "put the yellow block on the pink block",
+                    "start_frame": "camera_front_external_0160.jpg",
+                    "end_frame": "camera_front_external_0166.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow block ",
+                    "start_frame": "camera_front_external_0173.jpg",
+                    "end_frame": "camera_front_external_0185.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_21-14_38_41/data",
+        "response": {
+            "task_summary": "picking up a yellow cube and placing it on top of a pink cube",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow cube",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0020.jpg"
+                },
+                {
+                    "step_description": "grab the yellow cube",
+                    "start_frame": "camera_front_external_0025.jpg",
+                    "end_frame": "camera_front_external_0089.jpg"
+                },
+                {
+                    "step_description": "move the yellow cube towards the pink cube",
+                    "start_frame": "camera_front_external_0094.jpg",
+                    "end_frame": "camera_front_external_0108.jpg"
+                },
+                {
+                    "step_description": "put the yellow cube on the pink cube",
+                    "start_frame": "camera_front_external_0113.jpg",
+                    "end_frame": "camera_front_external_0128.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow cube",
+                    "start_frame": "camera_front_external_0133.jpg",
+                    "end_frame": "camera_front_external_0142.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_21-15_03_51/data",
+        "response": {
+            "task_summary": "picking and placing a cube",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow cube",
+                    "start_frame": "camera_front_external_0001.jpg",
+                    "end_frame": "camera_front_external_0025.jpg"
+                },
+                {
+                    "step_description": "grab the yellow cube",
+                    "start_frame": "camera_front_external_0029.jpg",
+                    "end_frame": "camera_front_external_0082.jpg"
+                },
+                {
+                    "step_description": "move the yellow cube towards the purple cube",
+                    "start_frame": "camera_front_external_0086.jpg",
+                    "end_frame": "camera_front_external_0098.jpg"
+                },
+                {
+                    "step_description": "put the yellow cube on the purple cube",
+                    "start_frame": "camera_front_external_0102.jpg",
+                    "end_frame": "camera_front_external_0106.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow cube",
+                    "start_frame": "camera_front_external_0110.jpg",
+                    "end_frame": "camera_front_external_0118.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-17_41_47/data",
+        "response": {
+            "task_summary": "picking up a block and placing it in a new location",
+            "steps": [
+                {
+                    "step_description": "move towards the  yellow block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0042.jpg"
+                },
+                {
+                    "step_description": "grab the yellow block",
+                    "start_frame": "camera_front_external_0047.jpg",
+                    "end_frame": "camera_front_external_0108.jpg"
+                },
+                {
+                    "step_description": "move the yellow block towards black table",
+                    "start_frame": "camera_front_external_0114.jpg",
+                    "end_frame": "camera_front_external_0134.jpg"
+                },
+                {
+                    "step_description": "put the block on black table",
+                    "start_frame": "camera_front_external_0139.jpg",
+                    "end_frame": "camera_front_external_0139.jpg"
+                },
+                {
+                    "step_description": "move away from the block down",
+                    "start_frame": "camera_front_external_0144.jpg",
+                    "end_frame": "camera_front_external_0149.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_04/success_episodes/train/2024_10_10-14_25_54/data",
+        "response": {
+            "task_summary": "picking a ball from a basket and placing it into another container",
+            "steps": [
+                {
+                    "step_description": "move towards the ball ",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0030.jpg"
+                },
+                {
+                    "step_description": "grab the ball ",
+                    "start_frame": "camera_front_external_0036.jpg",
+                    "end_frame": "camera_front_external_0150.jpg"
+                },
+                {
+                    "step_description": "move ball towards the table ",
+                    "start_frame": "camera_front_external_0156.jpg",
+                    "end_frame": "camera_front_external_0168.jpg"
+                },
+                {
+                    "step_description": "put ball on the table",
+                    "start_frame": "camera_front_external_0173.jpg",
+                    "end_frame": "camera_front_external_0173.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_18-11_51_36/data",
+        "response": {
+            "task_summary": "pick up a yellow block and place it on top of a pink block",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0025.jpg"
+                },
+                {
+                    "step_description": "grasp the yellow block",
+                    "start_frame": "camera_front_external_0033.jpg",
+                    "end_frame": "camera_front_external_0124.jpg"
+                },
+                {
+                    "step_description": "move yellow block towards the pink block",
+                    "start_frame": "camera_front_external_0132.jpg",
+                    "end_frame": "camera_front_external_0173.jpg"
+                },
+                {
+                    "step_description": "put yellow block on the pink block",
+                    "start_frame": "camera_front_external_0181.jpg",
+                    "end_frame": "camera_front_external_0222.jpg"
+                },
+                {
+                    "step_description": "move away from yellow block",
+                    "start_frame": "camera_front_external_0230.jpg",
+                    "end_frame": "camera_front_external_0238.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-17_08_46/data",
+        "response": {
+            "task_summary": "picking up a block and placing it in the table",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0023.jpg"
+                },
+                {
+                    "step_description": "grab the yellow block",
+                    "start_frame": "camera_front_external_0028.jpg",
+                    "end_frame": "camera_front_external_0097.jpg"
+                },
+                {
+                    "step_description": "move yellow block towards the table",
+                    "start_frame": "camera_front_external_0101.jpg",
+                    "end_frame": "camera_front_external_0115.jpg"
+                },
+                {
+                    "step_description": "put yellow block on the table",
+                    "start_frame": "camera_front_external_0120.jpg",
+                    "end_frame": "camera_front_external_0129.jpg"
+                },
+                {
+                    "step_description": "move away from yellow block",
+                    "start_frame": "camera_front_external_0133.jpg",
+                    "end_frame": "camera_front_external_0133.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_18-10_42_13/data",
+        "response": {
+            "task_summary": "place the yellow blocks on top of the pink blocks",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow building blocks",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0040.jpg"
+                },
+                {
+                    "step_description": "grab the yellow building blocks",
+                    "start_frame": "camera_front_external_0049.jpg",
+                    "end_frame": "camera_front_external_0166.jpg"
+                },
+                {
+                    "step_description": "move the yellow blocks towards the pink blocks",
+                    "start_frame": "camera_front_external_0176.jpg",
+                    "end_frame": "camera_front_external_0215.jpg"
+                },
+                {
+                    "step_description": "place yellow blocks on top of pink blocks",
+                    "start_frame": "camera_front_external_0225.jpg",
+                    "end_frame": "camera_front_external_0264.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow building blocks",
+                    "start_frame": "camera_front_external_0274.jpg",
+                    "end_frame": "camera_front_external_0283.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_18-10_43_46/data",
+        "response": {
+            "task_summary": "Put the yellow block on the pink block",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0081.jpg"
+                },
+                {
+                    "step_description": "grab the yellow block",
+                    "start_frame": "camera_front_external_0095.jpg",
+                    "end_frame": "camera_front_external_0269.jpg"
+                },
+                {
+                    "step_description": "move the yellow block towards the pink block",
+                    "start_frame": "camera_front_external_0283.jpg",
+                    "end_frame": "camera_front_external_0296.jpg"
+                },
+                {
+                    "step_description": "put the yellow block on the pink block",
+                    "start_frame": "camera_front_external_0310.jpg",
+                    "end_frame": "camera_front_external_0377.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow block",
+                    "start_frame": "camera_front_external_0390.jpg",
+                    "end_frame": "camera_front_external_0390.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_18-11_16_09/data",
+        "response": {
+            "task_summary": "pick up a green block and place it on a pink block",
+            "steps": [
+                {
+                    "step_description": "move towards the green block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0029.jpg"
+                },
+                {
+                    "step_description": "grab the green block",
+                    "start_frame": "camera_front_external_0038.jpg",
+                    "end_frame": "camera_front_external_0141.jpg"
+                },
+                {
+                    "step_description": "move the green  block towards the pink block",
+                    "start_frame": "camera_front_external_0150.jpg",
+                    "end_frame": "camera_front_external_0206.jpg"
+                },
+                {
+                    "step_description": "put the green  block on the pink block",
+                    "start_frame": "camera_front_external_0215.jpg",
+                    "end_frame": "camera_front_external_0243.jpg"
+                },
+                {
+                    "step_description": "move away from the green  block",
+                    "start_frame": "camera_front_external_0253.jpg",
+                    "end_frame": "camera_front_external_0271.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_18-13_05_48/data",
+        "response": {
+            "task_summary": "pick and place a yellow cube onto a pink cube",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow cube",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0073.jpg"
+                },
+                {
+                    "step_description": "grab the yellow cube",
+                    "start_frame": "camera_front_external_0085.jpg",
+                    "end_frame": "camera_front_external_0265.jpg"
+                },
+                {
+                    "step_description": "move the yellow cube  towards the pink cube",
+                    "start_frame": "camera_front_external_0277.jpg",
+                    "end_frame": "camera_front_external_0313.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow cube ",
+                    "start_frame": "camera_front_external_0325.jpg",
+                    "end_frame": "camera_front_external_0349.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_18-15_08_51/data",
+        "response": {
+            "task_summary": "place the yellow blocks on top of the pink blocks",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow building blocks",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0015.jpg"
+                },
+                {
+                    "step_description": "grab the yellow building blocks",
+                    "start_frame": "camera_front_external_0020.jpg",
+                    "end_frame": "camera_front_external_0075.jpg"
+                },
+                {
+                    "step_description": "move the yellow blocks towards the pink blocks",
+                    "start_frame": "camera_front_external_0080.jpg",
+                    "end_frame": "camera_front_external_0100.jpg"
+                },
+                {
+                    "step_description": "place yellow blocks on top of pink blocks",
+                    "start_frame": "camera_front_external_0105.jpg",
+                    "end_frame": "camera_front_external_0125.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow building blocks",
+                    "start_frame": "camera_front_external_0130.jpg",
+                    "end_frame": "camera_front_external_0145.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_05/success_episodes/train/2024_10_18-18_02_38/data",
+        "response": {
+            "task_summary": "Place the yellow block on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0006.jpg"
+                },
+                {
+                    "step_description": "pick up the yellow block",
+                    "start_frame": "camera_front_external_0012.jpg",
+                    "end_frame": "camera_front_external_0107.jpg"
+                },
+                {
+                    "step_description": "move the yellow block to a new location",
+                    "start_frame": "camera_front_external_0113.jpg",
+                    "end_frame": "camera_front_external_0124.jpg"
+                },
+                {
+                    "step_description": "place the yellow block down",
+                    "start_frame": "camera_front_external_0130.jpg",
+                    "end_frame": "camera_front_external_0135.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow block ",
+                    "start_frame": "camera_front_external_0141.jpg",
+                    "end_frame": "camera_front_external_0163.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-14_21_59/data",
+        "response": {
+            "task_summary": "pick up a green block and place it on the other side of the table",
+            "steps": [
+                {
+                    "step_description": "move towards the green block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0047.jpg"
+                },
+                {
+                    "step_description": "grab the green block",
+                    "start_frame": "camera_front_external_0052.jpg",
+                    "end_frame": "camera_front_external_0103.jpg"
+                },
+                {
+                    "step_description": "move the green block   towards the table ",
+                    "start_frame": "camera_front_external_0108.jpg",
+                    "end_frame": "camera_front_external_0122.jpg"
+                },
+                {
+                    "step_description": "move away from the green block",
+                    "start_frame": "camera_front_external_0126.jpg",
+                    "end_frame": "camera_front_external_0135.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-17_22_40/data",
+        "response": {
+            "task_summary": "place the yellow cube on the white table",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow cube",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0022.jpg"
+                },
+                {
+                    "step_description": "grasp the yellow cube",
+                    "start_frame": "camera_front_external_0027.jpg",
+                    "end_frame": "camera_front_external_0113.jpg"
+                },
+                {
+                    "step_description": "move the yellow cube towards the white table",
+                    "start_frame": "camera_front_external_0119.jpg",
+                    "end_frame": "camera_front_external_0146.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow cube",
+                    "start_frame": "camera_front_external_0151.jpg",
+                    "end_frame": "camera_front_external_0156.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-16_21_48/data",
+        "response": {
+            "task_summary": "Place the yellow block on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0023.jpg"
+                },
+                {
+                    "step_description": "grasp the yellow block",
+                    "start_frame": "camera_front_external_0031.jpg",
+                    "end_frame": "camera_front_external_0169.jpg"
+                },
+                {
+                    "step_description": "move the yellow block to the table",
+                    "start_frame": "camera_front_external_0177.jpg",
+                    "end_frame": "camera_front_external_0192.jpg"
+                },
+                {
+                    "step_description": "put the yellow block on the table",
+                    "start_frame": "camera_front_external_0200.jpg",
+                    "end_frame": "camera_front_external_0207.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow block",
+                    "start_frame": "camera_front_external_0215.jpg",
+                    "end_frame": "camera_front_external_0222.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-18_39_35/data",
+        "response": {
+            "task_summary": "Place the yellow block on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow block",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0024.jpg"
+                },
+                {
+                    "step_description": "grasp the yellow block",
+                    "start_frame": "camera_front_external_0028.jpg",
+                    "end_frame": "camera_front_external_0103.jpg"
+                },
+                {
+                    "step_description": "move the yellow block towards the table\n",
+                    "start_frame": "camera_front_external_0108.jpg",
+                    "end_frame": "camera_front_external_0117.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow block",
+                    "start_frame": "camera_front_external_0122.jpg",
+                    "end_frame": "camera_front_external_0135.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-16_06_13/data",
+        "response": {
+            "task_summary": "place the yellow building blocks above the pink ones on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow building blocks",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0008.jpg"
+                },
+                {
+                    "step_description": "grab the yellow building blocks",
+                    "start_frame": "camera_front_external_0012.jpg",
+                    "end_frame": "camera_front_external_0067.jpg"
+                },
+                {
+                    "step_description": "move the yellow building blocks towards the table",
+                    "start_frame": "camera_front_external_0071.jpg",
+                    "end_frame": "camera_front_external_0085.jpg"
+                },
+                {
+                    "step_description": "place the yellow building blocks on the table",
+                    "start_frame": "camera_front_external_0089.jpg",
+                    "end_frame": "camera_front_external_0093.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow building blocks",
+                    "start_frame": "camera_front_external_0096.jpg",
+                    "end_frame": "camera_front_external_0107.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-17_50_20/data",
+        "response": {
+            "task_summary": "place the yellow building blocks above the pink ones on the table",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow building blocks",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0026.jpg"
+                },
+                {
+                    "step_description": "grab the yellow building blocks",
+                    "start_frame": "camera_front_external_0035.jpg",
+                    "end_frame": "camera_front_external_0198.jpg"
+                },
+                {
+                    "step_description": "move the yellow building blocks towards the table",
+                    "start_frame": "camera_front_external_0207.jpg",
+                    "end_frame": "camera_front_external_0215.jpg"
+                },
+                {
+                    "step_description": "place the yellow building blocks on the table",
+                    "start_frame": "camera_front_external_0224.jpg",
+                    "end_frame": "camera_front_external_0241.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow building blocks",
+                    "start_frame": "camera_front_external_0249.jpg",
+                    "end_frame": "camera_front_external_0249.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "id": "h5_simulation/pick_and_place_06/success_episodes/train/2024_10_21-16_25_09/data",
+        "response": {
+            "task_summary": "pick up yellow blocks and place on a black surface",
+            "steps": [
+                {
+                    "step_description": "move towards the yellow blocks",
+                    "start_frame": "camera_front_external_0000.jpg",
+                    "end_frame": "camera_front_external_0027.jpg"
+                },
+                {
+                    "step_description": "grab the yellow blocks",
+                    "start_frame": "camera_front_external_0031.jpg",
+                    "end_frame": "camera_front_external_0064.jpg"
+                },
+                {
+                    "step_description": "move the yellow blocks towards the black surface",
+                    "start_frame": "camera_front_external_0068.jpg",
+                    "end_frame": "camera_front_external_0076.jpg"
+                },
+                {
+                    "step_description": "put the yellow blocks on the black surface",
+                    "start_frame": "camera_front_external_0079.jpg",
+                    "end_frame": "camera_front_external_0094.jpg"
+                },
+                {
+                    "step_description": "move away from the yellow blocks",
+                    "start_frame": "camera_front_external_0098.jpg",
+                    "end_frame": "camera_front_external_0109.jpg"
+                }
+            ]
+        }
+    }
+]
