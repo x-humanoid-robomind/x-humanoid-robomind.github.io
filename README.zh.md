@@ -4,6 +4,7 @@
 [![Project Page](https://img.shields.io/badge/Project%20Page-RoboMIND-blue.svg)](https://x-humanoid-robomind.github.io/)
 [![arXiv](https://badgen.net/badge/icon/arXiv?icon=awesome&label&color=red&style=flat-square)](https://arxiv.org/abs/2412.13877)
 [![Dataset](https://img.shields.io/badge/Dataset-Flopsera-000000.svg)](http://open.flopsera.com/flopsera-open/data-details/RoboMIND)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-RoboMIND-000000.svg)](https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND)
 
 [English](./README.md) | 中文
 ## 💾 数据分布 💾
