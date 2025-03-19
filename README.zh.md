@@ -78,6 +78,9 @@ RoboMIND数据集汇集了多种机器人平台的操作数据，包括52,926条
 
 我们为每个任务提供了对应的语言指令，见[RoboMIND_instr.csv](./static/RoboMIND_v1_2_instr.csv)。
 
+## 数据集内参
+请参考此文件 [RoboMIND intrinsics](./static/RoboMIND_intrinsics.md)
+
 ## 📖 版本更新 📖
 
 ### 版本 1.1 & 1.2
