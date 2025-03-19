@@ -83,6 +83,9 @@ Please refer to [Quick_Start.ipynb](./static/quick_start.ipynb).
 
 We provide a simple Franka sample trajectory along with the code for reading the dataset [read_h5.py](./static/read_h5.py) and [pick_apple_into_drawer_h5.zip](https://drive.google.com/file/d/1EC26fwhftw-9h_HJ5ohqxf4kcEJe_ZzH/view?usp=sharing).
 
+## RoboMIND intrinsics
+See this file  [RoboMIND intrinsics](./static/RoboMIND_intrinsics.md).
+
 ## 📖 Version Update 📖
 
 ### Version 1.1 & 1.2
