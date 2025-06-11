@@ -24,7 +24,7 @@ if np.max(depth_image) > 100:
 #### Note
 > The h5 format is identical to that of the AgileX 3RGB described in [all_robot_h5_info.md](./static/all_robot_h5_info.md).
 
-end_effector (7d): [x, y, z, quaternions (x,y,z,w)]
+end_effector (7d): [x, y, z, r, p, y, gripper]
 
 joint_position (7d): [base link, ..., end_effector link, gripper]
 

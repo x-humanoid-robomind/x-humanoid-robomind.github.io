@@ -21,7 +21,7 @@ if np.max(depth_image) > 100:
 
 ## AgileX 3RGB
 
-end_effector (7d): [x, y, z, quaternions (x,y,z,w)]
+end_effector (7d): [x, y, z, r, p, y, gripper]
 
 joint_position (7d): [base link, ..., end_effector link, gripper]
 

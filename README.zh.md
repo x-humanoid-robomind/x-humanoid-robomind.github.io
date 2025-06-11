@@ -63,6 +63,8 @@ RoboMIND数据集汇集了多种机器人平台的操作数据，包括52,926条
 
 请参考 [all_robot_h5_info.md](./static/all_robot_h5_info.md)。
 
+仿真数据中，相机和机械臂采集频率约为1 ：4。
+
 由于设备维修，在h5_franka_3rgb文件夹中，有675条轨迹只记录了左摄像头和右摄像头的图像数据。
 
 具体数据路径请参考 [franka_3rgb_2cam_paths.md](./static/franka_3rgb_2cam_paths.md)。
@@ -71,8 +73,22 @@ RoboMIND数据集汇集了多种机器人平台的操作数据，包括52,926条
 
 请参考 [Quick_Start.ipynb](./static/quick_start.ipynb)。
 
+请注意：
+1. 对于h5_franka_3rgb, h5_franka_1rgb, h5_ur_1rgb, h5_franka_fr3_dual，图像存储通道顺序为RGB。
+2. 对于其他机器构型，图像存储通道顺序为BGR。
 
-我们提供了一个简单 franka sample轨迹以及数据集读取的代码 [read_h5.py](./static/read_h5.py) 与 [pick_apple_into_drawer_h5.zip](https://drive.google.com/file/d/1EC26fwhftw-9h_HJ5ohqxf4kcEJe_ZzH/view?usp=sharing)。
+
+```python
+if sensor_type == 'rgb_images':
+    if img.shape[-1] == 3:  # Check if image has 3 channels
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    # The image data of these embodiments are recorded in RGB
+    if cur_embodiments in ['h5_franka_3rgb', 'h5_franka_1rgb', 'h5_ur_1rgb', 'h5_franka_fr3_dual']:
+        img = img
+    # The image data of other embodiments are recorded in BGR
+    else:
+        img = img[:, :, ::-1]
+```
 
 ## 任务语言指令
 
