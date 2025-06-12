@@ -63,31 +63,29 @@ RoboMIND数据集汇集了多种机器人平台的操作数据，包括52,926条
 
 请参考 [all_robot_h5_info.md](./static/all_robot_h5_info.md)。
 
-仿真数据中，相机和机械臂采集频率约为1 ：4。
-
 由于设备维修，在h5_franka_3rgb文件夹中，有675条轨迹只记录了左摄像头和右摄像头的图像数据。
 
 具体数据路径请参考 [franka_3rgb_2cam_paths.md](./static/franka_3rgb_2cam_paths.md)。
+
+仿真数据中，相机和机械臂采集频率约为1 ：4。此外，Simulation Franka中深度图数据暂不可用。
 
 ## 📊 数据使用 📊
 
 请参考 [Quick_Start.ipynb](./static/quick_start.ipynb)。
 
 请注意：
-1. 对于h5_franka_3rgb, h5_franka_1rgb, h5_ur_1rgb, h5_franka_fr3_dual，图像存储通道顺序为RGB。
-2. 对于其他机器构型，图像存储通道顺序为BGR。
+1. 对于h5_franka_3rgb, h5_franka_1rgb, h5_ur_1rgb, h5_franka_fr3_dual，图像存储通道顺序为BGR。
+2. 对于其他机器构型，图像存储通道顺序为RGB。
 
 
 ```python
 if sensor_type == 'rgb_images':
-    if img.shape[-1] == 3:  # Check if image has 3 channels
-        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    # The image data of these embodiments are recorded in RGB
+    # These embodiments image data are recorded in BGR
     if cur_embodiments in ['h5_franka_3rgb', 'h5_franka_1rgb', 'h5_ur_1rgb', 'h5_franka_fr3_dual']:
-        img = img
-    # The image data of other embodiments are recorded in BGR
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    # Other embodiments image data are recorded in RGB  
     else:
-        img = img[:, :, ::-1]
+        img = img
 ```
 
 ## 任务语言指令

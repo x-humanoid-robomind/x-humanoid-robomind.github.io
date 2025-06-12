@@ -69,11 +69,11 @@ Below is a partial directory structure example showing two training trajectories
 
 Please refer to [all_robot_h5_info.md](./static/all_robot_h5_info.md).
 
-In the simulation data, the acquisition frequency of the camera and the robotic arm is approximately 1:4.
-
 Due to equipment maintenance, 675 trajectories in the h5_franka_3rgb folder only contain image data from the left and right cameras. 
 
 For the specific data paths, please refer to [franka_3rgb_2cam_paths.md](./static/franka_3rgb_2cam_paths.md).
+
+In the simulation data, the acquisition frequency of the camera and the robotic arm is approximately 1:4. Additionally, the depth image is not available temporarily.
 
 ## 🧰 Task Language Instructions 🧰 
 
@@ -85,19 +85,17 @@ Please refer to [Quick_Start.ipynb](./static/quick_start.ipynb).
 
 Please note:
 
-1. For h5_franka_3rgb, h5_franka_1rgb, h5_ur_1rgb, and h5_franka_fr3_dual, the image channel order is RGB.
-2. For all other robotic embodiments, the image channel order is BGR.
+1. For h5_franka_3rgb, h5_franka_1rgb, h5_ur_1rgb, and h5_franka_fr3_dual, the image channel order is BGR.
+2. For all other robotic embodiments, the image channel order is RGB.
 
 ```python
 if sensor_type == 'rgb_images':
-    if img.shape[-1] == 3:  # Check if image has 3 channels
-        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    # The image data of these embodiments are recorded in RGB
+    # These embodiments image data are recorded in BGR
     if cur_embodiments in ['h5_franka_3rgb', 'h5_franka_1rgb', 'h5_ur_1rgb', 'h5_franka_fr3_dual']:
-        img = img
-    # The image data of other embodiments are recorded in BGR
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    # Other embodiments image data are recorded in RGB  
     else:
-        img = img[:, :, ::-1]
+        img = img
 ```
 
 ## RoboMIND intrinsics
