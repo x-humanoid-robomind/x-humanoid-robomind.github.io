@@ -1,4 +1,5 @@
 # [RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation](https://x-humanoid-robomind.github.io/)
+Accepted by [Robotics: Science and Systems (RSS) 2025](https://roboticsconference.org/program/papers/152/).
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Project Page](https://img.shields.io/badge/Project%20Page-RoboMIND-blue.svg)](https://x-humanoid-robomind.github.io/)
@@ -7,6 +8,7 @@
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-RoboMIND-000000.svg)](https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND)
 
 English | [中文](./README.zh.md)
+
 ## 💾 Overview of RoboMIND 💾
 <img src="./static/images/piechart_new.png" border=0 width=100%>
 
