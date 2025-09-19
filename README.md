@@ -123,11 +123,13 @@ The initial version of RoboMIND contains 55K trajectories, and 279 tasks, and in
 If you find RoboMIND helpful in your research, please consider citing:
 
 ```
-@article{wu2024robomind,
-  title={Robomind: Benchmark on multi-embodiment intelligence normative data for robot manipulation},
-  author={Wu, Kun and Hou, Chengkai and Liu, Jiaming and Che, Zhengping and Ju, Xiaozhu and Yang, Zhuqin and Li, Meng and Zhao, Yinuo and Xu, Zhiyuan and Yang, Guang and others},
-  journal={arXiv preprint arXiv:2412.13877},
-  year={2024}
+@inproceedings{wu2025robomind,
+              title={Robomind: Benchmark on multi-embodiment intelligence normative data for robot manipulation},
+              author={Wu, Kun and Hou, Chengkai and Liu, Jiaming and Che, Zhengping and Ju, Xiaozhu and Yang, Zhuqin and Li, Meng and Zhao, Yinuo and Xu, Zhiyuan and Yang, Guang and others},
+              booktitle={Robotics: Science and Systems (RSS) 2025}, 
+              year={2025},
+              publisher={Robotics: Science and Systems Foundation}, 
+              url={https://www.roboticsproceedings.org/rss21/p152.pdf} 
 }
 ```
 ## Reference Document ##
