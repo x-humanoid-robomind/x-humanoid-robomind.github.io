@@ -10,12 +10,10 @@ English | [中文](./README.zh.md)
 
 Accepted by [Robotics: Science and Systems (RSS) 2025](https://roboticsconference.org/program/papers/152/)
 
-> **📢 ANNOUNCEMENT | RoboMIND V2.0 Release**
-> 
-> We're excited to announce the release of **RoboMIND V2.0**! 
-> 
-> **🔗 [Access the complete RoboMIND V2.0 collection on ModelScope](https://modelscope.cn/collections/X-Humanoid/RoboMIND20)**
+# 📢 ANNOUNCEMENT | RoboMIND V2.0 Release
+We're excited to announce the release of **RoboMIND V2.0**!     
 
+🔗 [Access the complete RoboMIND V2.0 collection on ModelScope](https://modelscope.cn/collections/X-Humanoid/RoboMIND20)
 ## 💾 Overview of RoboMIND 💾
 <img src="./static/images/piechart_new.png" border=0 width=100%>
 
